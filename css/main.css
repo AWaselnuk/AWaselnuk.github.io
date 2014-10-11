@@ -346,9 +346,6 @@ table {
 /* ==========================================================================
    GRID
    ========================================================================== */
-body {
-  background: pink !important; }
-
 /* ==========================================================================
    TYPE
 
@@ -361,7 +358,10 @@ body {
   font-family: georgia, serif; }
 
 .sans-serif {
-  font-family: Avenir, "Avenir Next", Helvetica, Arial, sans-serif; }
+  font-family: "proxima-nova", Avenir, "Avenir Next", Helvetica, Arial, sans-serif; }
+
+html {
+  font-family: "proxima-nova", Avenir, "Avenir Next", Helvetica, Arial, sans-serif; }
 
 /* Headers
    ========================================================================== */
@@ -382,6 +382,9 @@ body {
 
 .h6 {
   font-size: 12px; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600; }
 
 /* Copy
    ========================================================================== */
@@ -438,7 +441,5 @@ body {
 /* ==========================================================================
    SITE STYLES
    ========================================================================== */
-/**
- * Add your site styles here. Break things out to additional partials if you'd like
- * and add them in import.scss
- */
+body {
+  background: pink !important; }

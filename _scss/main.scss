@@ -1,9 +1,11 @@
 // Include all partials you want compiled to nkd.css. You don't need to include the _ (underscore). Hooray.
 
 @import "variables";
+@import "mixins";
 @import "queries";
 @import "normalize";
 
 @import "grid";
 @import "type";
 @import "styles";
+

@@ -7,14 +7,20 @@
 
    ========================================================================== */
 
-.serif      { font-family: georgia, serif; }
-.sans-serif {
-  font-family:
-    Avenir, "Avenir Next",
-    Helvetica,
-    Arial,
-    sans-serif;
+$sans-serif: "proxima-nova", Avenir, "Avenir Next", Helvetica, Arial, sans-serif;
+$serif: georgia, serif;
+
+.serif {
+  font-family: $serif;
 }
+.sans-serif {
+  font-family: $sans-serif;
+}
+
+html {
+  font-family: $sans-serif;
+}
+
 
 /* Headers
    ========================================================================== */
@@ -26,6 +32,9 @@
 .h5 { font-size: $font-size-5; }
 .h6 { font-size: $font-size-6; }
 
+h1, h2, h3, h4, h5, h6{
+  font-weight: 600;
+}
 
 /* Copy
    ========================================================================== */
