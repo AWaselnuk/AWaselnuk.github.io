@@ -1,0 +1,50 @@
+// Styles specific to home page
+
+// Magazine layout for home page
+.layout-mag-left{
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: $lHeight;
+  width: 50%;
+  height: 100%;
+  background: pink;
+  box-sizing: border-box;
+}
+
+.layout-mag-right{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: 0;
+  padding: $lHeight;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+
+.layout-home{
+  h2 {
+    margin-top: 0;
+  }
+  .title{
+    font-size: $fs-2;
+    line-height: 1;
+    margin-bottom: 0;
+  }
+  .intro{
+    margin-top: $lHeight * 2;
+  }
+  .read-all {
+    float: right;
+    a {
+      padding: 0.5em 0.75em;
+      background: $gray;
+      line-height: 30px;
+      color: #fff;
+      font-size: $fs-6;
+      text-decoration: none;
+    }
+  }
+}

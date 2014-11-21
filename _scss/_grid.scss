@@ -1,5 +1,21 @@
-/* ==========================================================================
-   GRID
-   ========================================================================== */
+// LAYOUT AND GRID
+$gutter: $lHeight / 2;
+
+.row{
+  margin-left: -$gutter;
+  margin-right: -$gutter;
+}
+
+.col-50{
+  display: block;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  width: 50%;
+  padding-left: $gutter;
+  padding-right: $gutter;
+}
+
+
 
 
