@@ -6,14 +6,21 @@ $gutter: $lHeight / 2;
   margin-right: -$gutter;
 }
 
-.col-50{
-  display: block;
-  float: left;
+// All Columns
+.col-50 {
   position: relative;
   min-height: 1px;
-  width: 50%;
   padding-left: $gutter;
   padding-right: $gutter;
+  @media (min-width: $screen-md) {
+    float: left;
+  }
+}
+
+.col-50 {
+  @media (min-width: $screen-md) {
+    width: 50%;
+  }
 }
 
 

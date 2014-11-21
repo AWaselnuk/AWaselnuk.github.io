@@ -2,33 +2,37 @@
 
 // Magazine layout for home page
 .layout-mag-left{
-  position: fixed;
-  top: 0;
-  left: 0;
-  margin: 0;
   padding: $lHeight;
-  width: 50%;
-  height: 100%;
   background: url(../img/homepage.jpg) no-repeat center center fixed;
   background-size: cover;
-  box-sizing: border-box;
-  color: darken(#0A6371, 10%);
+  @media (min-width: $screen-md){
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 50%;
+    height: 100%;
+    color: darken(#0A6371, 10%);
+  }
 }
 
 .layout-mag-right{
-  position: absolute;
-  top: 0;
-  left: 50%;
-  margin: 0;
   padding: $lHeight;
-  width: 50%;
-  box-sizing: border-box;
+  @media (min-width: $screen-md){
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin: 0;
+    width: 50%;
+  }
 }
 
 
 .layout-home{
   h2 {
-    margin-top: 0;
+    @media (min-width: $screen-md) {
+      margin-top: 0;
+    }
   }
   .title{
     font-size: $fs-2;
@@ -41,7 +45,7 @@
   .read-all {
     float: right;
     a {
-      padding: 0.5em 0.75em;
+      padding: 0.25em 0.5em;
       background: $gray;
       line-height: 30px;
       color: #fff;

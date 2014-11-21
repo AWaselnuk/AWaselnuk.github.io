@@ -23,9 +23,13 @@
 /* Large Breakpoint */
 $LARGE-min-width: 64em;
 
+$screen-lg: 64em;
+
 /* Medium Breakpoint */
 $MEDIUM-max-width: 64;
 $MEDIUM-min-width: 32em;
+
+$screen-md: 800px;
 
 
 /* Type Scale - I always need a type-scale
@@ -54,5 +58,6 @@ $lHeight: $font-size-4 * 1.6;
    ========================================================================== */
 
 $black: #444;
+$light-gray: lighten($black, 60%);
 $gray: #BBBBBB;
 $dark-gray: #868686;
