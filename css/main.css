@@ -420,6 +420,12 @@ h1, h2, h3, h4, h5, h6 {
 .copy {
   font-size: 20px; }
 
+hr {
+  border: none;
+  border-top: 1px solid #BBBBBB;
+  margin-top: 32px;
+  margin-bottom: 32px; }
+
 /* Casing
    ========================================================================== */
 .caps-lock {
@@ -489,6 +495,9 @@ h1, h2, h3, h4, h5, h6 {
   -moz-box-sizing: border-box;
        box-sizing: border-box; }
 
+img {
+  max-width: 100%; }
+
 .layout-mag-left {
   position: fixed;
   top: 0;
@@ -497,9 +506,11 @@ h1, h2, h3, h4, h5, h6 {
   padding: 32px;
   width: 50%;
   height: 100%;
-  background: pink;
+  background: url(../img/homepage.jpg) no-repeat center center fixed;
+  background-size: cover;
   -moz-box-sizing: border-box;
-       box-sizing: border-box; }
+       box-sizing: border-box;
+  color: #063a42; }
 
 .layout-mag-right {
   position: absolute;

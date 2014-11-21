@@ -9,8 +9,10 @@
   padding: $lHeight;
   width: 50%;
   height: 100%;
-  background: pink;
+  background: url(../img/homepage.jpg) no-repeat center center fixed;
+  background-size: cover;
   box-sizing: border-box;
+  color: darken(#0A6371, 10%);
 }
 
 .layout-mag-right{

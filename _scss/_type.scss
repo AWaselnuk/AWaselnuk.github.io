@@ -43,7 +43,12 @@ h1, h2, h3, h4, h5, h6{
 .intro {  font-size: $font-size-3; }
 .copy {   font-size: $font-size-4; }
 
-
+hr {
+  border: none;
+  border-top: 1px solid $gray;
+  margin-top: $lHeight;
+  margin-bottom: $lHeight;
+}
 
 /* Casing
    ========================================================================== */
