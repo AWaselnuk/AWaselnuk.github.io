@@ -2,3 +2,8 @@ name: Adam Waselnuk - Front End Developer
 markdown: redcarpet
 highlighter: pygments # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
+collections:
+  projects:
+    output: true
+  experiments:
+    output: true
