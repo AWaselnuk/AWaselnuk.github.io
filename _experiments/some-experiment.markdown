@@ -4,7 +4,7 @@ title:  "Sample Experiment Page"
 date:   2014-04-20 09:11:03
 ---
 
-It's an experment ...
+It's an experiment ...
 
 {% highlight ruby %}
 def print_hi(name)

@@ -2,20 +2,20 @@
 <html>
   {% include head.html %}
 
-  <body>
+  <body class="layout-default">
 
-    <div class="header">
-      <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-      <a class="extra" href="/">home</a>
+    <div class="container">
+      <div class="header">
+        <h1 class="title"><a class="random-color" href="/">Adam Waselnuk</a></h1>
+        <div class="subtitle random-color">Front End Developer</div>
+      </div>
+
+      <main>
+        {{ content }}
+      </main>
+
+      {% include footer.html %}
     </div>
-
-    <nav></nav>
-
-    <main>
-      {{ content }}
-    </main>
-
-    {% include footer.html %}
 
     <!-- Scripts -->
     <script src="/js/main.js"></script>

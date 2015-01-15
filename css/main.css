@@ -358,6 +358,10 @@ table {
 .clearfix {
   display: inline-block; }
 
+.container {
+  margin: 0 auto;
+  max-width: 36rem; }
+
 .row {
   margin-left: -16px;
   margin-right: -16px; }
@@ -442,7 +446,11 @@ hr {
    ========================================================================== */
 .title {
   letter-spacing: 3px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-bottom: 0; }
+  .title a {
+    text-decoration: none;
+    color: #444; }
 
 .subtitle {
   letter-spacing: 3px;
@@ -531,8 +539,7 @@ img {
     margin-top: 0; } }
 .layout-home .title {
   font-size: 48px;
-  line-height: 1;
-  margin-bottom: 0; }
+  line-height: 1; }
 .layout-home .intro {
   margin-top: 64px; }
 .layout-home .read-all {
@@ -544,4 +551,7 @@ img {
     color: #fff;
     font-size: 12px;
     text-decoration: none; }
+
+.layout-default .title a {
+  color: #444; }
 

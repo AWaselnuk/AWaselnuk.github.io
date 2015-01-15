@@ -61,9 +61,14 @@ hr {
 /* Tracking
    ========================================================================== */
 
-.title      {
+.title {
   letter-spacing:3px;
   text-transform:uppercase;
+  margin-bottom: 0;
+  a {
+    text-decoration: none;
+    color: $black;
+  }
 }
 
 .subtitle {

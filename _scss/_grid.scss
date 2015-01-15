@@ -1,6 +1,11 @@
 // LAYOUT AND GRID
 $gutter: $lHeight / 2;
 
+.container {
+  margin: 0 auto;
+  max-width: 36rem;
+}
+
 .row{
   margin-left: -$gutter;
   margin-right: -$gutter;
