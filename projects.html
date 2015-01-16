@@ -1,0 +1,36 @@
+---
+layout: home
+title: Adam Waselnuk - Front End Developer
+---
+
+<div class="masthead layout-mag-left">
+  <h1 class="title">Projects</h1>
+  <div class="intro">
+    Projects are my favourite thing!
+  </div>
+</div>
+
+<div class="layout-mag-right">
+  <main>
+    <!-- All Projects -->
+    <h2>Projects</h2>
+    <ul class="projects list-reset">
+      {% for project in site.projects %}
+        <li class="project">
+          <a href="{{ project.url }}">
+            <img class="project-cover" src="{{ project.cover }}" alt="{{ project.title }}">
+            <h3 class="project-title">{{ project.title }}</h3>
+          </a>
+          <p><a href="{{ project.live }}">{{ project.live }}</a> | {{ project.date | date_to_string }}</p>
+          <p class="project-excerpt">{{ project.excerpt }} <a class="read-more" href="{{ project.url }}">read more ...</a></p>
+        </li>
+      {% endfor %}
+    </ul>
+    <hr>
+    <strong>More projects coming soon!</strong>
+  </main>
+
+  {% include footer.html %}
+
+</div>
+
