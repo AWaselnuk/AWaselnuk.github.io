@@ -1,0 +1,8 @@
+<h3>Further Reading</h3>
+<ul class="further-reading list-reset">
+  {% for article in page.readings %}
+    <li>
+      <a href="{{ article.url }}">{{ article.title }}</a>
+    </li>
+  {% endfor %}
+</ul>

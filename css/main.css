@@ -511,6 +511,9 @@ hr {
 img {
   max-width: 100%; }
 
+footer {
+  margin-bottom: 25.6px; }
+
 .layout-mag-left {
   padding: 25.6px;
   background: url(../img/homepage.jpg) no-repeat center center fixed;
