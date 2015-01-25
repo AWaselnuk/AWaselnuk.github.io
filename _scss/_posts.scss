@@ -4,6 +4,14 @@
 
 }
 
+.date {
+  margin-top: -1em;
+  color: $gray;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
 .layout-default {
   .title {
     a {

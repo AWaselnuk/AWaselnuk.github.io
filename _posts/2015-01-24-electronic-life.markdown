@@ -20,6 +20,7 @@ Electronic Life is a javascript exercise from the incredible book [Eloquent Java
 
 Here is a short sample of some code from the exercise.
 
+<div>
 {% highlight javascript linenos %}
 //// Critter Class
 var directions = {
@@ -46,6 +47,7 @@ BouncingCritter.prototype.act = function(view) {
   return { type: "move", direction: this.direction };
 };
 {% endhighlight %}
+</div>
 
 There is quite a bit missing from this snippet but hopefully you can get a feel for the style of the code.
 Responsibilities are organized into "classes" (which are simply javascript functions with capitalized names).

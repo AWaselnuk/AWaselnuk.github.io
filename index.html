@@ -18,15 +18,19 @@ title: Adam Waselnuk - Front End Developer
     <div class="row">
       <!-- Featured Project -->
       <div class="col-50">
-        <h2>Featured Project</h2>
-        <img src="http://38.media.tumblr.com/c1d54d06da841f3c943783e95c45073b/tumblr_nao0z4k3zO1qzw1qyo1_500.gif" alt="placeholder">
+        <h2>Projects</h2>
+        {% for project in site.projects limit:1 %}
+        <a href="{{ project.url }}"><img src="{{ project.cover }}" alt="{{ project.title }}"></a>
+        {% endfor %}
         <div class="read-all"><a href="/projects.html">all projects &raquo;</a></div>
       </div>
 
       <!-- Freshest Experiment -->
       <div class="col-50">
-        <h2>An Experiment</h2>
-        <img src="http://38.media.tumblr.com/a7c1fb8071e4f9dfa12a9a40b90879c2/tumblr_n85aner12e1qzw1qyo1_500.gif" alt="placeholder">
+        <h2>Experiments</h2>
+        {% for post in site.categories.experiments limit:1 %}
+        <a href="{{ post.url }}"><img src="{{ post.cover }}" alt="{{ post.title }}"></a>
+        {% endfor %}
         <div class="read-all"><a href="/experiments.html">all experiments &raquo;</a></div>
       </div>
     </div><!-- .row -->
