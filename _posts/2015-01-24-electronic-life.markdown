@@ -2,8 +2,10 @@
 layout: post
 title:  "Experiment: Electronic Life"
 date:   2015-01-24 13:31:00
-categories: experiments javascript
-github: "//awaselnuk.github.io/electronic-life/"
+categories: experiments
+tags: experiments javascript
+live: "//awaselnuk.github.io/electronic-life/"
+github: "//github.com/AWaselnuk/electronic-life"
 cover: "http://38.media.tumblr.com/a7c1fb8071e4f9dfa12a9a40b90879c2/tumblr_n85aner12e1qzw1qyo1_500.gif"
 readings:
   - title: Eloquent JavaScript
@@ -11,7 +13,6 @@ readings:
   - title: FloraJS - Simulate Natural Systems With JavaScript
     url: "//github.com/vinceallenvince/FloraJS"
 ---
-<!-- TODO: View on github link -->
 
 This isn't what you might call an experiment in the usual sense. The code does not explore any cutting edge web technology. What it does do is demonstrate rock solid object oriented javascript.
 
@@ -48,9 +49,9 @@ BouncingCritter.prototype.act = function(view) {
 
 There is quite a bit missing from this snippet but hopefully you can get a feel for the style of the code.
 Responsibilities are organized into "classes" (which are simply javascript functions with capitalized names).
-When an object is needed it is invoked with the *new* keyword, as in `new Vector(0, -1)`.
+When an object is needed it is invoked with the **new** keyword, as in <code>new Vector(0, -1)</code>.
 
-The BouncingCritter class is defined and given one property: `direction`. To add behaviour a function is attached to the prototype.
+The BouncingCritter class is defined and given one property: <code>direction</code>. To add behaviour a function is attached to the prototype.
 For a much better explanation of why things are done this way [check out the exercise in full](http://eloquentjavascript.net/07_elife.html).
 
 The silly bouncing critters simply look for a random empty space nearby using `view.find()`. If they can't find one they head south. They aren't terribly smart.
@@ -62,4 +63,6 @@ I highly recommend the book and this exercise for anyone trying to get their hea
 This exercise sparked my interest in exploring natural simulations in the browser. It turns out I'm not the only one interested in this. I found an incredibly fun looking library that provides tools for doing this easily. It's called [FloraJS](https://github.com/vinceallenvince/FloraJS). If Electronic Life seems fun, just wait until you see what FloraJS can do!
 
 {% include further_reading.html %}
+
+{% include external_links.html %}
 

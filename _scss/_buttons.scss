@@ -1,0 +1,22 @@
+.btn {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  background-color: $gray;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.9em;
+  font-weight: 600;
+  &:hover {
+    cursor: pointer;
+    background-color: darken($gray, 10%);
+    transform: scale(1.02);
+  }
+  &.btn-primary {
+    background-color: teal;
+    &:hover {
+      background-color: darken(teal, 10%);
+    }
+  }
+}

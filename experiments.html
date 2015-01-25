@@ -1,0 +1,36 @@
+---
+layout: home
+title: Adam Waselnuk - Front End Developer
+---
+
+<div class="masthead layout-mag-left">
+  <h1 class="title">Experiments</h1>
+  <div class="intro">
+    Exploring new web technology.
+  </div>
+</div>
+
+<div class="layout-mag-right">
+  <main>
+    <!-- Blog posts in the Experiments category -->
+    <h2>Experiments</h2>
+    <ul class="posts list-reset">
+      {% for post in site.categories.experiments %}
+        <li class="post">
+          <a href="{{ post.url }}">
+            <img class="post-cover" src="{{ post.cover }}" alt="{{ post.title }}">
+            <h3 class="post-title">{{ post.title }}</h3>
+          </a>
+          <p class="date">{{ post.date | date_to_string }}</p>
+          <p class="post-excerpt">{{ post.excerpt }} <a class="read-more" href="{{ post.url }}">read more ...</a></p>
+        </li>
+      {% endfor %}
+    </ul>
+    <hr>
+    <strong>More experiments coming soon!</strong>
+  </main>
+
+  {% include footer.html %}
+
+</div>
+

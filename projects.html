@@ -21,7 +21,7 @@ title: Adam Waselnuk - Front End Developer
             <img class="project-cover" src="{{ project.cover }}" alt="{{ project.title }}">
             <h3 class="project-title">{{ project.title }}</h3>
           </a>
-          <p><a href="{{ project.live }}">{{ project.live }}</a> | {{ project.date | date_to_string }}</p>
+          <p><a href="{{ project.live }}">{{ project.live }}</a> | <span class="date">{{ project.date | date_to_string }}</span></p>
           <p class="project-excerpt">{{ project.excerpt }} <a class="read-more" href="{{ project.url }}">read more ...</a></p>
         </li>
       {% endfor %}
