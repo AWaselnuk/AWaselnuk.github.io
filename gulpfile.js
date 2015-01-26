@@ -1,12 +1,17 @@
 var gulp        = require('gulp');
 var browserSync = require('browser-sync');
 var sass        = require('gulp-sass');
+var coffee      = require('gulp-coffee');
 var prefix      = require('gulp-autoprefixer');
 var cp          = require('child_process');
 
 var messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
 };
+
+function logError (error) {
+    console.error(error);
+}
 
 /**
  * Build the Jekyll Site
@@ -50,12 +55,21 @@ gulp.task('sass', function () {
         .pipe(gulp.dest('css'));
 });
 
+// Compile coffeescript
+gulp.task('coffee', function () {
+    return gulp.src('_coffee/main.coffee')
+        .pipe(coffee().on('error', logError))
+        .pipe(gulp.dest('js'))
+});
+
 /**
  * Watch scss files for changes & recompile
+ * Watch coffee files for changes & recompile
  * Watch html/md files, run jekyll & reload BrowserSync
  */
 gulp.task('watch', function () {
     gulp.watch('_scss/*.scss', ['sass']);
+    gulp.watch('_coffee/*.coffee', ['coffee']);
     gulp.watch(['index.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
 });
 
