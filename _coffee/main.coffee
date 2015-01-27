@@ -19,10 +19,24 @@ selectRandomColor = () ->
   styles =
     "
       .random-color {
-        color: #{randomColor};
+        color: #{randomColor} !important;
       }
       .btn.random-color {
-        background-color: #{randomColor};
+        background-color: #{randomColor} !important;
+      }
+      a {
+        color: #{randomColor} !important;
+      }
+      a:hover {
+        color: #{randomColor} !important;
+      }
+      a.btn,
+      a.btn-primary,
+      a.btn:hover,
+      a.btn-primary:hover,
+      .read-all a,
+      .read-all a:hover {
+        color: #fff !important;
       }
     "
   styleElement = document.createElement('style')
