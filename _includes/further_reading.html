@@ -2,7 +2,7 @@
 <ul class="further-reading list-reset">
   {% for article in page.readings %}
     <li>
-      <a href="{{ article.url }}">{{ article.title }}</a>
+      <a href="{{ article.url }}">{{ article.title }}</a> by {{ article.author }}
     </li>
   {% endfor %}
 </ul>

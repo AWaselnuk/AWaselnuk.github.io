@@ -9,9 +9,11 @@ github: "//github.com/AWaselnuk/electronic-life"
 cover: "http://38.media.tumblr.com/a7c1fb8071e4f9dfa12a9a40b90879c2/tumblr_n85aner12e1qzw1qyo1_500.gif"
 readings:
   - title: Eloquent JavaScript
+    author: Marijn Haverbeke
     url: "//eloquentjavascript.net/07_elife.html"
   - title: FloraJS - Simulate Natural Systems With JavaScript
-    url: "//github.com/vinceallenvince/FloraJS"
+    author: Vince Allen
+    url: "//florajs.com/"
 ---
 
 This isn't what you might call an experiment in the usual sense. The code does not explore any cutting edge web technology. What it does do is demonstrate rock solid object oriented javascript.
