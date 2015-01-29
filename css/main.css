@@ -364,16 +364,19 @@ table {
 
 .row {
   margin-left: -12.8px;
-  margin-right: -12.8px; }
+  margin-right: -12.8px;
+  margin-bottom: 25.6px; }
 
 .col-50 {
   position: relative;
   min-height: 1px;
   padding-left: 12.8px;
-  padding-right: 12.8px; }
+  padding-right: 12.8px;
+  margin-bottom: 51.2px; }
   @media (min-width: 800px) {
     .col-50 {
-      float: left; } }
+      float: left;
+      margin-bottom: 0; } }
 
 @media (min-width: 800px) {
   .col-50 {
@@ -604,6 +607,22 @@ footer {
 
 .layout-default .title a {
   color: #444; }
+
+.post {
+  margin-bottom: 51.2px; }
+  .post:last-of-type {
+    margin-bottom: 0; }
+
+.cover-image-square {
+  display: inline-block;
+  width: 100%;
+  height: 40vw;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+  @media (min-width: 800px) {
+    .cover-image-square {
+      height: 20vw; } }
 
 /* Solarized Dark
 

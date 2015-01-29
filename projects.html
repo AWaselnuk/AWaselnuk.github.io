@@ -18,7 +18,7 @@ title: Adam Waselnuk - Front End Developer
       {% for project in site.projects %}
         <li class="project">
           <a href="{{ project.url }}">
-            <img class="project-cover" src="{{ project.cover }}" alt="{{ project.title }}">
+            <img class="project-cover" src="img/posts/{{ project.cover }}" alt="{{ project.title }}">
             <h3 class="project-title">{{ project.title }}</h3>
           </a>
           <p class="date">{{ project.date | date_to_string }}</p>

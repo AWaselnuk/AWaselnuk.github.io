@@ -4,7 +4,7 @@ title:  "10 things I learned in my transition from web designer to developer"
 date:   2015-01-28 18:00:00
 categories: miscellaneous
 tags: oodesign design programming ruby
-cover: "img/console.gif"
+cover: "console.gif"
 readings:
   - title: Practical Object Oriented Design in Ruby
     author: Sandi Metz

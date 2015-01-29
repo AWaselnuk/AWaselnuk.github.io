@@ -6,7 +6,7 @@ categories: experiments
 tags: experiments javascript
 live: "//awaselnuk.github.io/electronic-life/"
 github: "//github.com/AWaselnuk/electronic-life"
-cover: "http://38.media.tumblr.com/a7c1fb8071e4f9dfa12a9a40b90879c2/tumblr_n85aner12e1qzw1qyo1_500.gif"
+cover: "electronic-life.png"
 readings:
   - title: Eloquent JavaScript
     author: Marijn Haverbeke

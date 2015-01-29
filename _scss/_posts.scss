@@ -21,4 +21,20 @@
 }
 
 .post {
+  margin-bottom: $lHeight * 2;
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.cover-image-square {
+  display: inline-block;
+  width: 100%;
+  height: 40vw;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  @media (min-width: $screen-md) {
+    height: 20vw;
+  }
 }

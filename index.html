@@ -18,25 +18,24 @@ title: Adam Waselnuk - Front End Developer
     <div class="row">
       <!-- Featured Project -->
       <div class="col-50">
-        <h2>Projects</h2>
         {% for project in site.projects limit:1 %}
-        <a href="{{ project.url }}"><img src="{{ project.cover }}" alt="{{ project.title }}"></a>
+        <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+        <div class="cover-mask"><a href="{{ project.url }}"><img src="img/posts/mobile/{{ project.cover }}" alt="{{ project.title }}"></a></div>
         {% endfor %}
         <div class="read-all"><a href="/projects.html">all projects &raquo;</a></div>
       </div>
 
       <!-- Freshest Experiment -->
       <div class="col-50">
-        <h2>Experiments</h2>
         {% for post in site.categories.experiments limit:1 %}
-        <a href="{{ post.url }}"><img src="{{ post.cover }}" alt="{{ post.title }}"></a>
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <div class="cover-mask"><a href="{{ post.url }}"><img src="img/posts/mobile/{{ post.cover }}" alt="{{ post.title }}"></a></div>
         {% endfor %}
         <div class="read-all"><a href="/experiments.html">all experiments &raquo;</a></div>
       </div>
     </div><!-- .row -->
 
     <div class="clearfix">
-      <br><br>
       <!-- Latest Blog Posts -->
       <h2>Latest Blog Posts</h2>
       <ul class="posts list-reset">
