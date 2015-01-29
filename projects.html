@@ -11,18 +11,24 @@ title: Adam Waselnuk - Front End Developer
 </div>
 
 <div class="layout-mag-right">
-  <a href="/">&#8592; Back Home</a>
+  <nav class="nav-small"><a href="/">&#8592; Back Home</a></nav>
   <main>
     <!-- All Projects -->
     <ul class="projects list-reset">
       {% for project in site.projects %}
         <li class="project">
-          <a href="{{ project.url }}">
-            <img class="project-cover" src="img/posts/{{ project.cover }}" alt="{{ project.title }}">
-            <h3 class="project-title">{{ project.title }}</h3>
-          </a>
-          <p class="date">{{ project.date | date_to_string }}</p>
-          <p class="project-excerpt">{{ project.excerpt }} <a class="read-more" href="{{ project.url }}">read more ...</a></p>
+          <div class="media clearfix">
+            <div class="media-left">
+              <a href="{{ project.url }}">
+                <img class="project-cover" src="img/posts/mobile/{{ project.cover }}" alt="{{ project.title }}">
+              </a>
+            </div>
+          <div class="media-right">
+            <a href="{{ project.url }}"><h3 class="project-title">{{ project.title }}</h3></a>
+            <p class="date">{{ project.date | date_to_string }}</p>
+            <p class="project-excerpt">{{ project.excerpt }} <a class="read-more" href="{{ project.url }}">read more ...</a></p>
+          </div>
+          </div>
         </li>
       {% endfor %}
     </ul>

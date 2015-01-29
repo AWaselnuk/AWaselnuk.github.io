@@ -8,3 +8,5 @@ date: 2015-01-02 09:00:00
 ---
 
 It's a project ...
+
+{% include external_links.html %}

@@ -555,6 +555,9 @@ img {
 footer {
   margin-bottom: 25.6px; }
 
+.nav-small {
+  margin-bottom: 25.6px; }
+
 .layout-mag-left {
   padding: 25.6px;
   background: url(../img/homepage.jpg) no-repeat center center fixed;
@@ -623,6 +626,10 @@ footer {
   @media (min-width: 800px) {
     .cover-image-square {
       height: 20vw; } }
+
+@media (min-width: 600px) {
+  .media .media-left {
+    max-width: 60%; } }
 
 /* Solarized Dark
 
