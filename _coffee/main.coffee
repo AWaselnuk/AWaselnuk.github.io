@@ -11,24 +11,32 @@ ready = (fn) ->
 getRandomInt = (min, max) ->
   Math.floor(Math.random() * (max - min)) + min
 
-# Random Color generator
-selectRandomColor = () ->
-  colors = ['#00C2AF', '#F13CAB']
-  randomColor = colors[getRandomInt(0, colors.length)]
+# A collection of themes with a cover image and color
+themes = [
+  {image: 'homepage.jpg', color: '#00C2AF'},
+  {image: 'homepage.jpg', color: '#F13CAB'}
+]
 
+# Sets the theme image on the page
+setThemeImage = (image) ->
+  # TODO : Write this
+  true
+
+# Sets the theme color on the page
+setThemeColor = (color) ->
   styles =
     "
       .random-color {
-        color: #{randomColor} !important;
+        color: #{color} !important;
       }
       .btn.random-color {
-        background-color: #{randomColor} !important;
+        background-color: #{color} !important;
       }
       a {
-        color: #{randomColor} !important;
+        color: #{color} !important;
       }
       a:hover {
-        color: #{randomColor} !important;
+        color: #{color} !important;
       }
       a.btn,
       a.btn-primary,
@@ -43,9 +51,21 @@ selectRandomColor = () ->
   styleElement.innerHTML = styles
   document.getElementsByTagName('head')[0].appendChild(styleElement)
 
+# Returns the value from local storage or saves the passed in value.
+# This is because I want the same theme to persist across a session
+lockToSession = (key, value) ->
+  # TODO: Write this
+  value
+
+# Choose a theme with a cover image and color
+selectRandomTheme = (themes) ->
+  randomTheme = themes[getRandomInt(0, themes.length)]
+  setThemeImage(lockToSession('themeImage', randomTheme.image))
+  setThemeColor(lockToSession('themeColor', randomTheme.color))
+
 # Initialization
 init = () ->
-  selectRandomColor()
+  selectRandomTheme(themes)
 
 # Run scripts on DOM ready
 ready(init)
