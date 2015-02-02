@@ -363,20 +363,30 @@ table {
   max-width: 36rem; }
 
 .row {
-  margin-left: -12.8px;
-  margin-right: -12.8px;
   margin-bottom: 25.6px; }
+  @media (min-width: 800px) {
+    .row {
+      margin-left: -12.8px;
+      margin-right: -12.8px; } }
+
+.padded {
+  padding-right: 12.8px;
+  padding-left: 12.8px; }
+
+main {
+  padding-left: 12.8px;
+  padding-right: 12.8px; }
 
 .col-50 {
   position: relative;
   min-height: 1px;
-  padding-left: 12.8px;
-  padding-right: 12.8px;
   margin-bottom: 51.2px; }
   @media (min-width: 800px) {
     .col-50 {
       float: left;
-      margin-bottom: 0; } }
+      margin-bottom: 0;
+      padding-left: 12.8px;
+      padding-right: 12.8px; } }
 
 @media (min-width: 800px) {
   .col-50 {
@@ -404,7 +414,10 @@ html {
 /* Headers
    ========================================================================== */
 .h1 {
-  font-size: 64px; }
+  font-size: 32px; }
+  @media (min-width: 600px) {
+    .h1 {
+      font-size: 64px; } }
 
 .h2 {
   font-size: 48px; }
@@ -427,7 +440,10 @@ h1, h2, h3, h4, h5, h6 {
 /* Copy
    ========================================================================== */
 .intro {
-  font-size: 32px; }
+  font-size: 20px; }
+  @media (min-width: 600px) {
+    .intro {
+      font-size: 32px; } }
 
 .copy {
   font-size: 20px; }
@@ -573,7 +589,7 @@ footer {
       color: #063a42; } }
 
 .layout-mag-right {
-  padding: 25.6px; }
+  padding: 25.6px 0; }
   @media (min-width: 800px) {
     .layout-mag-right {
       position: absolute;
@@ -586,8 +602,10 @@ footer {
   .layout-home h2 {
     margin-top: 0; } }
 .layout-home .title {
-  font-size: 48px;
   line-height: 1; }
+  @media (min-width: 600px) {
+    .layout-home .title {
+      font-size: 48px; } }
 .layout-home .intro {
   margin-top: 51.2px;
   line-height: 1.2; }

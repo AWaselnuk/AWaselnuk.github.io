@@ -6,22 +6,34 @@ $gutter: $lHeight / 2;
   max-width: 36rem;
 }
 
-.row{
-  margin-left: -$gutter;
-  margin-right: -$gutter;
+.row {
   margin-bottom: $lHeight;
+  @media (min-width: $screen-md){
+    margin-left: -$gutter;
+    margin-right: -$gutter;
+  }
+}
+
+.padded {
+  padding-right: $gutter;
+  padding-left: $gutter;
+}
+
+main {
+  padding-left: $gutter;
+  padding-right: $gutter;
 }
 
 // All Columns
 .col-50 {
   position: relative;
   min-height: 1px;
-  padding-left: $gutter;
-  padding-right: $gutter;
   margin-bottom: $lHeight * 2;
   @media (min-width: $screen-md) {
     float: left;
     margin-bottom: 0;
+    padding-left: $gutter;
+    padding-right: $gutter;
   }
 }
 
