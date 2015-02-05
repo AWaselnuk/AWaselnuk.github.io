@@ -50,3 +50,10 @@
     }
   }
 }
+
+.cover-mask {
+  margin-bottom: $lHeight;
+  @media(min-width: $screen-md) {
+    margin-bottom: 0;
+  }
+}

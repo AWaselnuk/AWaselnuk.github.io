@@ -15,14 +15,14 @@ title: Adam Waselnuk - Front End Developer
 <div class="layout-mag-right">
   <main>
 
-    <div class="row">
+    <div class="row clearfix">
       <!-- Featured Project -->
       <div class="col-50">
         {% for project in site.projects limit:1 %}
         <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
         <div class="cover-mask"><a href="{{ project.url }}"><img src="img/posts/mobile/{{ project.cover }}" alt="{{ project.title }}"></a></div>
         {% endfor %}
-        <div class="read-all"><a href="/projects.html">all projects &raquo;</a></div>
+        <div class="read-all"><a href="/projects.html">view all projects &raquo;</a></div>
       </div>
 
       <!-- Freshest Experiment -->
@@ -31,7 +31,7 @@ title: Adam Waselnuk - Front End Developer
         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
         <div class="cover-mask"><a href="{{ post.url }}"><img src="img/posts/mobile/{{ post.cover }}" alt="{{ post.title }}"></a></div>
         {% endfor %}
-        <div class="read-all"><a href="/experiments.html">all experiments &raquo;</a></div>
+        <div class="read-all"><a href="/experiments.html">view all experiments &raquo;</a></div>
       </div>
     </div><!-- .row -->
 
@@ -48,7 +48,8 @@ title: Adam Waselnuk - Front End Developer
         </li>
         {% endfor %}
       </ul>
-      <div class="read-all"><a href="/posts.html">all blog posts &raquo;</a></div>
+      <br>
+      <div class="read-all"><a href="/posts.html">view all blog posts &raquo;</a></div>
     </div>
   </main>
 

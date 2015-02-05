@@ -44,15 +44,18 @@
     margin-top: $lHeight * 2;
     line-height: 1.2;
   }
-  .read-all {
-    float: right;
-    a {
+  .read-all a {
+    padding: 0.75em 1em;
+    background: $gray;
+    text-decoration: none;
+    @media(min-width: $screen-md) {
+      display: inline-block;
       padding: 0.25em 0.5em;
-      background: $gray;
+
       line-height: 30px;
       color: #fff;
       font-size: $fs-6;
-      text-decoration: none;
+
     }
   }
 }
