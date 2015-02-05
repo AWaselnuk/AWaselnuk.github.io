@@ -1,5 +1,8 @@
 'use strict'
 
+# Console Easter Egg
+console.log '%c Welcome fellow DOM traveler! ', 'background: #002B36; color: #2AA198;'
+
 # DOM Ready
 ready = (fn) ->
   if document.readyState != 'loading'

@@ -2,6 +2,8 @@
   'use strict';
   var appendStyles, getRandomInt, init, lockToSession, ready, selectRandomTheme, setThemeColor, setThemeImage, setTitleColor, themes;
 
+  console.log('%c Welcome fellow DOM traveler! ', 'background: #002B36; color: #2AA198;');
+
   ready = function(fn) {
     if (document.readyState !== 'loading') {
       return fn();
