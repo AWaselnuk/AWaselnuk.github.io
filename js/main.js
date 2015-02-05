@@ -1,6 +1,6 @@
 (function() {
   'use strict';
-  var getRandomInt, init, ready, selectRandomTheme, setThemeColor, setThemeImage, themes;
+  var getRandomInt, init, lockToSession, ready, selectRandomTheme, setThemeColor, setThemeImage, themes;
 
   ready = function(fn) {
     if (document.readyState !== 'loading') {
@@ -36,11 +36,21 @@
     return document.getElementsByTagName('head')[0].appendChild(styleElement);
   };
 
+  lockToSession = function(key, value) {
+    var inSession;
+    inSession = sessionStorage.getItem(key);
+    if (inSession) {
+      return inSession;
+    }
+    sessionStorage.setItem(key, value);
+    return value;
+  };
+
   selectRandomTheme = function(themes) {
     var randomTheme;
     randomTheme = themes[getRandomInt(0, themes.length)];
-    setThemeImage(randomTheme.image);
-    return setThemeColor(randomTheme.color);
+    setThemeImage(lockToSession('themeImage', randomTheme.image));
+    return setThemeColor(lockToSession('themeColor', randomTheme.color));
   };
 
   init = function() {

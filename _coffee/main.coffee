@@ -51,10 +51,12 @@ setThemeColor = (color) ->
   styleElement.innerHTML = styles
   document.getElementsByTagName('head')[0].appendChild(styleElement)
 
-# Returns the value from local storage or saves the passed in value.
+# Returns the value from local storage or saves the passed in value then returns it.
 # This is because I want the same theme to persist across a session
 lockToSession = (key, value) ->
-  # TODO: Write this
+  inSession = sessionStorage.getItem key
+  return inSession if inSession
+  sessionStorage.setItem key, value
   value
 
 # Choose a theme with a cover image and color
