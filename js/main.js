@@ -1,6 +1,6 @@
 (function() {
   'use strict';
-  var getRandomInt, init, lockToSession, ready, selectRandomTheme, setThemeColor, setThemeImage, themes;
+  var appendStyles, getRandomInt, init, lockToSession, ready, selectRandomTheme, setThemeColor, setThemeImage, setTitleColor, themes;
 
   ready = function(fn) {
     if (document.readyState !== 'loading') {
@@ -17,10 +17,12 @@
   themes = [
     {
       image: 'homepage.jpg',
-      color: '#00C2AF'
+      color: '#00C2AF',
+      titleColor: '#174044'
     }, {
       image: 'homepage.jpg',
-      color: '#F13CAB'
+      color: '#00C2AF',
+      titleColor: '#174044'
     }
   ];
 
@@ -28,12 +30,23 @@
     return true;
   };
 
-  setThemeColor = function(color) {
-    var styleElement, styles;
-    styles = ".random-color { color: " + color + " !important; } .btn.random-color { background-color: " + color + " !important; } a { color: " + color + " !important; } a:hover { color: " + color + " !important; } a.btn, a.btn-primary, a.btn:hover, a.btn-primary:hover, .read-all a, .read-all a:hover { color: #fff !important; }";
+  appendStyles = function(styles) {
+    var styleElement;
     styleElement = document.createElement('style');
     styleElement.innerHTML = styles;
     return document.getElementsByTagName('head')[0].appendChild(styleElement);
+  };
+
+  setThemeColor = function(color) {
+    var styles;
+    styles = ".random-color { color: " + color + " !important; } .btn.random-color { background-color: " + color + " !important; } a { color: " + color + " !important; } a:hover { color: " + color + " !important; } a.btn, a.btn-primary, a.btn:hover, a.btn-primary:hover, .read-all a, .read-all a:hover { color: #fff !important; }";
+    return appendStyles(styles);
+  };
+
+  setTitleColor = function(color) {
+    var styles;
+    styles = ".masthead .title, .masthead .subtitle, .masthead .intro { color: " + color + " }";
+    return appendStyles(styles);
   };
 
   lockToSession = function(key, value) {
@@ -50,7 +63,8 @@
     var randomTheme;
     randomTheme = themes[getRandomInt(0, themes.length)];
     setThemeImage(lockToSession('themeImage', randomTheme.image));
-    return setThemeColor(lockToSession('themeColor', randomTheme.color));
+    setThemeColor(lockToSession('themeColor', randomTheme.color));
+    return setTitleColor(lockToSession('themeTitleColor', randomTheme.titleColor));
   };
 
   init = function() {

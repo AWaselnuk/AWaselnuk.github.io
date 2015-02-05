@@ -13,14 +13,20 @@ getRandomInt = (min, max) ->
 
 # A collection of themes with a cover image and color
 themes = [
-  {image: 'homepage.jpg', color: '#00C2AF'},
-  {image: 'homepage.jpg', color: '#F13CAB'}
+  {image: 'homepage.jpg', color: '#00C2AF', titleColor: '#174044'},
+  {image: 'homepage.jpg', color: '#00C2AF', titleColor: '#174044'}
 ]
 
 # Sets the theme image on the page
 setThemeImage = (image) ->
   # TODO : Write this
   true
+
+# Add styles to the DOM
+appendStyles = (styles) ->
+  styleElement = document.createElement('style')
+  styleElement.innerHTML = styles
+  document.getElementsByTagName('head')[0].appendChild(styleElement)
 
 # Sets the theme color on the page
 setThemeColor = (color) ->
@@ -47,9 +53,18 @@ setThemeColor = (color) ->
         color: #fff !important;
       }
     "
-  styleElement = document.createElement('style')
-  styleElement.innerHTML = styles
-  document.getElementsByTagName('head')[0].appendChild(styleElement)
+  appendStyles(styles)
+
+setTitleColor = (color) ->
+  styles =
+    "
+      .masthead .title,
+      .masthead .subtitle,
+      .masthead .intro {
+        color: #{color}
+      }
+    "
+  appendStyles(styles)
 
 # Returns the value from local storage or saves the passed in value then returns it.
 # This is because I want the same theme to persist across a session
@@ -64,6 +79,7 @@ selectRandomTheme = (themes) ->
   randomTheme = themes[getRandomInt(0, themes.length)]
   setThemeImage(lockToSession('themeImage', randomTheme.image))
   setThemeColor(lockToSession('themeColor', randomTheme.color))
+  setTitleColor(lockToSession('themeTitleColor', randomTheme.titleColor))
 
 # Initialization
 init = () ->
