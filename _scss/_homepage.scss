@@ -3,7 +3,10 @@
 // Magazine layout for home page
 .layout-mag-left{
   padding: $lHeight;
-  background: url(../img/homepage.jpg) no-repeat center center fixed;
+  background-color: #444;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   @media (min-width: $screen-md){
     position: fixed;
@@ -33,6 +36,11 @@
     @media (min-width: $screen-md) {
       margin-top: 0;
     }
+  }
+  .title,
+  .subtitle,
+  .intro {
+    color: #fff;
   }
   .title{
     line-height: 1;
