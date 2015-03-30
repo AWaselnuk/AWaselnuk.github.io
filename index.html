@@ -18,7 +18,8 @@ title: Adam Waselnuk - Front End Developer
     <div class="row clearfix">
       <!-- Featured Project -->
       <div class="col-50">
-        {% for project in site.projects limit:1 %}
+        {% assign projects = site.projects | sort: 'date' | reverse %}
+        {% for project in projects limit:1 %}
         <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
         <div class="cover-mask"><a href="{{ project.url }}"><img src="img/posts/mobile/{{ project.cover }}" alt="{{ project.title }}"></a></div>
         {% endfor %}

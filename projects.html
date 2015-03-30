@@ -15,7 +15,8 @@ title: Adam Waselnuk - Front End Developer
   <main>
     <!-- All Projects -->
     <ul class="projects list-reset">
-      {% for project in site.projects %}
+      {% assign projects = site.projects | sort: 'date' | reverse %}
+      {% for project in projects %}
         <li class="project">
           <div class="media clearfix">
             <div class="media-left">
