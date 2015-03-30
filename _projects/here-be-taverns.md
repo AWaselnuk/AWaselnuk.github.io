@@ -38,9 +38,7 @@ Of course, it wasn't all smooth sailing and I learned a lot along the way. Read 
 
 In recent times, the boom of tech startups have popularized the idea of early validation. The basic idea is that when you are creating a product, you shouldn't assume you know everything your customers are going to want. Instead, you should trim the fat, focus very narrowly on your core offering, and launch something as soon as possible. Once your product has launched, you can start iterating based on real feedback or data rather than guessing.
 
-At the start of Here Be Taverns I thought to myself "I'm just going to build something quickly. This is only a side project for fun; I should get it out there soon!". Oh how naive I was. You would think that something as silly as a fantasy content generator would take very little time to create. It didn't. It took me a long time and here's why:
-
-**Refactoring.**
+At the start of Here Be Taverns I thought to myself "I'm just going to build something quickly. This is only a side project for fun; I should get it out there soon!". Oh how naive I was. You would think that something as silly as a fantasy content generator would take very little time to create. It didn't. It took me a long time and here's why: **Refactoring.**
 
 Each month I would come back to the project having learned a ton on the job. I would see code I had written and be repulsed by it, and so I would refactor. This was a great learning technique but a terrible product building technique. The launch of Here Be Taverns was severly delayed by my unwillingness to work with my own code.
 
@@ -52,6 +50,7 @@ The key lesson here is to launch earlier and think about refactoring as a long t
 
 The whole point of Here Be Taverns is to generate random content. The way I approached this was to separate my rails models into as many components as possible. For example, to generate a random tavern name I have a table for adjectives and nouns. To create even more variations I occassionaly add in name's of characters from my name tables and append suffixes. Here is some code from a support model that generates a tavern name:
 
+<div>
 {% highlight ruby linenos %}
 def initialize(attributes = {})
   @mood = attributes[:mood]
@@ -66,6 +65,7 @@ def initialize(attributes = {})
   @character_name = attributes[:character_name][/(\S+)/, 1] if roll == 4
 end
 {% endhighlight %}
+</div>
 
 #### Pulling Random Rows
 
@@ -73,12 +73,14 @@ Selecting a row randomly from the database turned out to have an interesting sol
 
 A better way to approach this results in two database queries but both queries are very fast and don't become any slower no matter how large the dataset grows. Essentially ask for the number of items in the table (databases are optimised to give you this value) and then query for one item at a random offset that is within the appropriate range. Here is how I did that:
 
+<div>
 {% highlight ruby linenos %}
-// From noun.rb
+# From noun.rb
 def self.random
   offset(rand(count)).first
 end
 {% endhighlight %}
+</div>
 
 ### Adding Content
 
@@ -86,6 +88,7 @@ It turns out that creating content for something like this is very time consumin
 
 Although there are many gems that achieve this very quickly (ActiveAdmin comes to mind), I wanted something even quicker. I did not want to invest the time to build an administrative interface at all, so I decided to instead build a simple mechanism for importing data from an existing tool. What I ended up with was a group of rake tasks that import data from CSV files. For Here Be Taverns, my wife and I added content to spreadsheets in Google Docs and then I was able to import that data when we were finished. Here is some example code:
 
+<div>
 {% highlight ruby linenos %}
 task :create_quirks => :environment do
   # name sex
@@ -96,6 +99,7 @@ task :create_quirks => :environment do
   puts "Created Quirks."
 end
 {% endhighlight %}
+</div>
 
 I am very unhappy with how this turned out.
 
@@ -110,9 +114,11 @@ To be honest I don't think that using this gem was the way to go here. It has ad
 Tagging is a good way to categorize user generated content and make it searchable. But in my case I simply want to mark things that I control with a property that may have one or more values. There is already a way to assign multiple values to a property in Postgres: arrays.
 I have setup a whole bunch of extra maintenance and infrastructure for myself when I could have simply done something like this:
 
+<div>
 {% highlight ruby linenos %}
 Adjective.where("mood IN (?)", moods)
 {% endhighlight %}
+</div>
 
 Dang.
 
