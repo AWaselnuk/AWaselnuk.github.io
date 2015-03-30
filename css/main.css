@@ -632,9 +632,9 @@ footer {
 .layout-default .title a {
   color: #444; }
 
-.post {
+.post, .project {
   margin-bottom: 51.2px; }
-  .post:last-of-type {
+  .post:last-of-type, .project:last-of-type {
     margin-bottom: 0; }
 
 .cover-image-square {
