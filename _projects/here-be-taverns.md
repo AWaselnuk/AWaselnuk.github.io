@@ -95,7 +95,7 @@ task :create_quirks => :environment do
   end
   puts "Created Quirks."
 end
-{% end %}
+{% endhighlight %}
 
 I am very unhappy with how this turned out.
 
