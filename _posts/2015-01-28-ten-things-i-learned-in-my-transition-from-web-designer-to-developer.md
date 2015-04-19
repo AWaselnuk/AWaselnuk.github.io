@@ -8,10 +8,10 @@ cover: "console.gif"
 readings:
   - title: Practical Object Oriented Design in Ruby
     author: Sandi Metz
-    url: "//www.poodr.com/"
+    url: "//www.amazon.ca/gp/product/0321721330/ref=as_li_tf_tl?ie=UTF8&camp=15121&creative=330641&creativeASIN=0321721330&linkCode=as2&tag=adamwase-20"
   - title: Code Complete
     author: Steve McConnell
-    url: "//www.amazon.ca/Code-Complete-Edition-Steve-McConnell/dp/0735619670"
+    url: "http://www.amazon.ca/gp/product/0735619670/ref=as_li_tf_tl?ie=UTF8&camp=15121&creative=330641&creativeASIN=0735619670&linkCode=as2&tag=adamwase-20"
 ---
 
 I started my career in the web industry as a web designer. I was totally in love with HTML and CSS and could write some really basic JavaScript. I spent most of my time thinking about the visual design of a webpage.
