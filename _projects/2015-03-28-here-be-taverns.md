@@ -51,7 +51,7 @@ The key lesson here is to launch earlier and think about refactoring as a long t
 The whole point of Here Be Taverns is to generate random content. The way I approached this was to separate my rails models into as many components as possible. For example, to generate a random tavern name I have a table for adjectives and nouns. To create even more variations I occassionaly add in name's of characters from my name tables and append suffixes. Here is some code from a support model that generates a tavern name:
 
 <div>
-{% highlight ruby linenos %}
+{% highlight ruby %}
 def initialize(attributes = {})
   @mood = attributes[:mood]
 
@@ -74,7 +74,7 @@ Selecting a row randomly from the database turned out to have an interesting sol
 A better way to approach this results in two database queries but both queries are very fast and don't become any slower no matter how large the dataset grows. Essentially ask for the number of items in the table (databases are optimised to give you this value) and then query for one item at a random offset that is within the appropriate range. Here is how I did that:
 
 <div>
-{% highlight ruby linenos %}
+{% highlight ruby %}
 # From noun.rb
 def self.random
   offset(rand(count)).first
@@ -89,7 +89,7 @@ It turns out that creating content for something like this is very time consumin
 Although there are many gems that achieve this very quickly (ActiveAdmin comes to mind), I wanted something even quicker. I did not want to invest the time to build an administrative interface at all, so I decided to instead build a simple mechanism for importing data from an existing tool. What I ended up with was a group of rake tasks that import data from CSV files. For Here Be Taverns, my wife and I added content to spreadsheets in Google Docs and then I was able to import that data when we were finished. Here is some example code:
 
 <div>
-{% highlight ruby linenos %}
+{% highlight ruby %}
 task :create_quirks => :environment do
   # name sex
   CharQuirk.destroy_all
@@ -115,7 +115,7 @@ Tagging is a good way to categorize user generated content and make it searchabl
 I have setup a whole bunch of extra maintenance and infrastructure for myself when I could have simply done something like this:
 
 <div>
-{% highlight ruby linenos %}
+{% highlight ruby %}
 Adjective.where("mood IN (?)", moods)
 {% endhighlight %}
 </div>

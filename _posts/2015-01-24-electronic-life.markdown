@@ -23,7 +23,7 @@ Electronic Life is a javascript exercise from the incredible book [Eloquent Java
 Here is a short sample of some code from the exercise.
 
 <div>
-{% highlight javascript linenos %}
+{% highlight javascript %}
 //// Critter Class
 var directions = {
   "n":  new Vector( 0, -1),

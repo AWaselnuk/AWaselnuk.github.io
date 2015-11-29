@@ -60,7 +60,7 @@ Interfaces are my favourite thing! When you write a new class or method or dohic
 This is an Object Oriented way of thinking. To sum it up: who cares what a thing is? All that matters is what can that thing respond to. Ruby does this amazingly well:
 
 <div>
-{% highlight ruby linenos %}
+{% highlight ruby %}
 
 'adam'.nil?
 # => false

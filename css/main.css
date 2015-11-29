@@ -957,3 +957,12 @@ green     #859900  operators, other keywords
   color: #2aa198; }
 
 /* Literal.Number.Integer.Long */
+.highlight {
+  padding: 12.8px;
+  font-size: 15px; }
+  @media (min-width: 660px) {
+    .highlight {
+      margin-left: -51.2px;
+      margin-right: -51.2px; } }
+  .highlight pre {
+    margin: 0; }
