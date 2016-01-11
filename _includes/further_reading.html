@@ -1,8 +1,14 @@
 <h3>Further Reading</h3>
 <ul class="further-reading list-reset">
   {% for article in page.readings %}
+    {% if article.author %}
+      {% assign by_author = 'by ' | append: article.author %}
+    {% else %}
+      {% assign by_author = '' %}
+    {% endif %}
+
     <li>
-      <a href="{{ article.url }}">{{ article.title }}</a> by {{ article.author }}
+      <a href="{{ article.url }}">{{ article.title }}</a> {{ by_author }}
     </li>
   {% endfor %}
 </ul>
