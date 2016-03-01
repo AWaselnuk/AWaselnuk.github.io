@@ -1,7 +1,7 @@
 {
-  "name": "browser-sync-jekyll",
-  "version": "0.0.0",
-  "description": "A starter project including full setup for Jekyll, GulpJS, SASS & BrowserSync",
+  "name": "awaselnuk",
+  "version": "0.1.0",
+  "description": "Adam Waselnuk's jekyll blog.",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,11 +9,14 @@
   "author": "Shane Osbourne",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^1.3.7",
-    "gulp": "^3.8.8",
-    "gulp-autoprefixer": "1.0.0",
-    "gulp-coffee": "^2.2.0",
-    "gulp-sass": "^0.7.3"
+  },
+  "scripts": {
+    "build": "npm run build:coffee && npm run build:sass && npm run build:jekyll",
+    "build:jekyll": "jekyll build",
+    "build:sass": "npm run sass && npm run autoprefix",
+    "build:coffee": "coffee -c -o js/ _coffee/",
+    "sass": "sass _scss/main.scss css/main.scss",
+    "autoprefix": "echo 'WARNING: autoprefixer not configured'"
   },
   "repository": {
     "type": "git",
