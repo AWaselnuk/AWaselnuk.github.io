@@ -1,6 +1,6 @@
 name: Adam Waselnuk - Front End Developer
 url: http://www.adamwaselnuk.com
-highlighter: pygments # or rouge or null
+highlighter: rouge
 exclude: ["node_modules", "package.json"]
 collections:
   projects:
