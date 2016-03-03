@@ -3,19 +3,19 @@
   "version": "0.1.0",
   "description": "Adam Waselnuk's jekyll blog.",
   "scripts": {
-    "default": "npm run build && npm run server",
+    "default": "npm run build:assets && npm run server",
     "build": "npm run build:coffee && npm run build:sass && npm run build:jekyll",
+    "build:assets": "npm run build:coffee && npm run build:sass",
     "build:jekyll": "jekyll build",
     "build:sass": "npm run sass && npm run autoprefix",
     "build:coffee": "coffee -c -o js/ _coffee/",
     "sass": "sass _scss/main.scss css/main.css",
     "autoprefix": "echo 'WARNING: autoprefixer not configured'",
-    "server": "http-server _site/"
+    "server": "jekyll serve"
   },
   "author": "Adam Waselnuk",
   "license": "ISC",
   "devDependencies": {
-    "http-server": "^0.9.0"
   },
   "repository": {
     "type": "git",
