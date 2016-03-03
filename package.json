@@ -2,7 +2,6 @@
   "name": "awaselnuk",
   "version": "0.1.0",
   "description": "Adam Waselnuk's jekyll blog.",
-  "main": "gulpfile.js",
   "scripts": {
     "default": "npm run build && npm run server",
     "build": "npm run build:coffee && npm run build:sass && npm run build:jekyll",
@@ -13,23 +12,21 @@
     "autoprefix": "echo 'WARNING: autoprefixer not configured'",
     "server": "http-server _site/"
   },
-  "author": "Shane Osbourne",
+  "author": "Adam Waselnuk",
   "license": "ISC",
   "devDependencies": {
     "http-server": "^0.9.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shakyShane/jekyll-gulp-sass-browser-sync.git"
+    "url": "https://github.com/AWaselnuk/AWaselnuk.github.io"
   },
   "keywords": [
     "jekyll",
-    "gulp",
-    "sass",
-    "browsersync"
+    "sass"
   ],
   "bugs": {
-    "url": "https://github.com/shakyShane/jekyll-gulp-sass-browser-sync/issues"
+    "url": "https://github.com/AWaselnuk/AWaselnuk.github.io/issues"
   },
-  "homepage": "https://github.com/shakyShane/jekyll-gulp-sass-browser-sync"
+  "homepage": "http://www.adamwaselnuk.com"
 }
