@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6{
 .intro {
   font-size: $fs-4;
   @media (min-width: $screen-sm) {
-    font-size: $font-size-3;
+    //font-size: $font-size-3;
   }
 }
 
@@ -90,6 +90,11 @@ hr {
   text-transform:uppercase;
   font-weight: 600;
   font-size: $fs-4;
+}
+
+.inline-title {
+  font-size: $font-size-4;
+  display: inline-block;
 }
 
 .divider {

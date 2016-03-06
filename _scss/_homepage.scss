@@ -1,8 +1,45 @@
 // Styles specific to home page
 
+.masthead {
+  position: relative;
+}
+
+.project-line {
+  position: absolute;
+  left: 0;
+  bottom: 38.2%;
+}
+
+.project-block-container {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  height: 38.2%;
+}
+
+.project-block {
+  flex: 1 1 50%;
+  position: relative;
+  display: block;
+  height: 100%;
+  border-top: 1px solid $dark-gray;
+  @include background-cover;
+  text-decoration: none;
+}
+
+.project-block-title,
+.project-block-description {
+  margin: 0;
+}
+
+.project-block-content {
+  margin-top: $lHeight; 
+}
+
 // Magazine layout for home page
 .layout-mag-left{
-  padding: $lHeight;
   background-color: #444;
   background-position: center center;
   background-repeat: no-repeat;

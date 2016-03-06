@@ -14,9 +14,16 @@ $gutter: $lHeight / 2;
   }
 }
 
-.padded {
+.padded,
+.add-gutter {
   padding-right: $gutter;
   padding-left: $gutter;
+}
+
+.vertically-center {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 main {
