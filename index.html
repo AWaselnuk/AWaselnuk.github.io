@@ -22,12 +22,13 @@ title: Adam Waselnuk - Front End Web Developer
   <div class="project-block-container">
     {% assign projects = site.projects | sort: 'date' | reverse %}
     {% for project in projects limit:2 %}
-    <a href="{{ project.url }}" class="project-block" style="background-image: url('img/posts/mobile/{{project.cover}}')">
-      <div class="add-gutter project-block-content">
+    <div class="project-block">
+      <div class="project-block-image" style="background-image: url('img/posts/mobile/{{ project.cover }}')"></div>
+      <a class="add-gutter project-block-content" href="{{ project.url }}">
         <h2 class="project-block-title">{{ project.title }}</h2>
         <p class="project-block-description">{{ project.excerpt }}</p>
-      </div>
-    </a>
+      </a>
+    </div>
     {% endfor %}
   </div>
 </div>
