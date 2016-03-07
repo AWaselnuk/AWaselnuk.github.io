@@ -50,6 +50,15 @@ main {
   }
 }
 
+// Visibility
+.view-sm {
+  @media (min-width: $screen-sm) {
+    display: none !important;
+  }
+}
 
-
-
+.view-sm-up {
+  @media (max-width: $screen-sm) {
+    display: none !important;
+  }
+}

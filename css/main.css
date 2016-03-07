@@ -429,6 +429,14 @@ main {
   .col-50 {
     width: 50%; } }
 
+@media (min-width: 600px) {
+  .view-sm {
+    display: none !important; } }
+
+@media (max-width: 600px) {
+  .view-sm-up {
+    display: none !important; } }
+
 /* ==========================================================================
    TYPE
 
@@ -616,13 +624,24 @@ footer {
 .project-line {
   position: absolute;
   left: 0;
-  bottom: 38.2%; }
+  bottom: 38.2%;
+  color: #fff; }
+
+.project-block-content,
+.project-block-content:hover,
+.project-block-content:active,
+.project-block-content:visited,
+.project-line-link,
+.project-line-link:hover,
+.project-line-link:active,
+.project-line-link:visited {
+  color: #fff; }
 
 .project-block-container {
+  display: flex;
   position: absolute;
   left: 0;
   bottom: 0;
-  display: flex;
   width: 100%;
   height: 38.2%; }
 
@@ -630,8 +649,8 @@ footer {
   flex: 1 1 50%;
   position: relative;
   display: block;
-  height: 100%;
-  border-top: 1px solid #868686; }
+  border-top: 1px solid #868686;
+  height: 100%; }
 
 .project-block-image {
   background-size: cover;
@@ -660,16 +679,22 @@ footer {
   color: #fff;
   text-decoration: none;
   transition: background-color 0.2s ease-out;
-  background-color: rgba(0, 0, 0, 0.5); }
+  background-color: rgba(0, 0, 0, 0.6); }
   .project-block-content:hover {
-    background-color: rgba(0, 0, 0, 0.3); }
+    background-color: rgba(0, 0, 0, 0.5); }
 
 .layout-mag-left {
+  padding-top: 25.6px;
+  padding-bottom: 25.6px;
   background-color: #444;
-  background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover; }
+  background-image: url("../img/space-station.jpg"); }
+  @media (min-width: 600px) {
+    .layout-mag-left {
+      min-height: 600px;
+      padding-bottom: 0;
+      background-size: 100%; } }
   @media (min-width: 800px) {
     .layout-mag-left {
       position: fixed;
@@ -678,7 +703,8 @@ footer {
       margin: 0;
       width: 50%;
       height: 100%;
-      color: #063a42; } }
+      color: #063a42;
+      background-size: auto; } }
 
 .layout-mag-right {
   padding: 25.6px 0; }
@@ -690,21 +716,25 @@ footer {
       margin: 0;
       width: 50%; } }
 
+.masthead-title,
+.masthead-subtitle,
+.masthead-intro {
+  color: #fff; }
+
+.masthead-title {
+  margin: 0;
+  line-height: 1; }
+  @media (min-width: 600px) {
+    .masthead-title {
+      font-size: 48px; } }
+
+.masthead-intro {
+  margin-top: 51.2px;
+  line-height: 1.2; }
+
 @media (min-width: 800px) {
   .layout-home h2 {
     margin-top: 0; } }
-.layout-home .title,
-.layout-home .subtitle,
-.layout-home .intro {
-  color: #fff; }
-.layout-home .title {
-  line-height: 1; }
-  @media (min-width: 600px) {
-    .layout-home .title {
-      font-size: 48px; } }
-.layout-home .intro {
-  margin-top: 51.2px;
-  line-height: 1.2; }
 .layout-home .read-all a {
   padding: 0.75em 1em;
   background: #BBBBBB;

@@ -23,8 +23,6 @@
 /* Large Breakpoint */
 $LARGE-min-width: 64em;
 
-$screen-lg: 64em;
-
 /* Medium Breakpoint */
 $MEDIUM-max-width: 64;
 $MEDIUM-min-width: 32em;
@@ -32,7 +30,7 @@ $MEDIUM-min-width: 32em;
 $screen-xs: 340px;
 $screen-sm: 600px;
 $screen-md: 800px;
-
+$screen-lg: 1000px;
 
 /* Type Scale - I always need a type-scale
    ========================================================================== */

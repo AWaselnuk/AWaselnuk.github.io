@@ -8,13 +8,25 @@
   position: absolute;
   left: 0;
   bottom: 38.2%;
+  color: $white;
+}
+
+.project-block-content,
+.project-block-content:hover,
+.project-block-content:active,
+.project-block-content:visited,
+.project-line-link,
+.project-line-link:hover,
+.project-line-link:active,
+.project-line-link:visited {
+  color: $white;
 }
 
 .project-block-container {
+  display: flex;
   position: absolute;
   left: 0;
   bottom: 0;
-  display: flex;
   width: 100%;
   height: 38.2%;
 }
@@ -23,8 +35,8 @@
   flex: 1 1 50%;
   position: relative;
   display: block;
-  height: 100%;
   border-top: 1px solid $dark-gray;
+  height: 100%;
 }
 
 .project-block-image {
@@ -54,20 +66,28 @@
   color: $white;
   text-decoration: none;
   transition: background-color 0.2s ease-out;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
 
   &:hover {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
   }
 }
 
 // Magazine layout for home page
 .layout-mag-left{
+  padding-top: $lHeight;
+  padding-bottom: $lHeight;
   background-color: #444;
-  background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-image: url('../img/space-station.jpg');
+
+  @media (min-width: $screen-sm) {
+    min-height: 600px;
+    padding-bottom: 0; 
+    background-size: 100%;
+  }
+
   @media (min-width: $screen-md){
     position: fixed;
     top: 0;
@@ -76,6 +96,7 @@
     width: 50%;
     height: 100%;
     color: darken(#0A6371, 10%);
+    background-size: auto;
   }
 }
 
@@ -90,27 +111,30 @@
   }
 }
 
+.masthead-title,
+.masthead-subtitle,
+.masthead-intro {
+  color: $white;
+}
+
+.masthead-title{
+  margin: 0;
+  line-height: 1;
+  @media (min-width: $screen-sm) {
+    font-size: $fs-2;
+  }
+}
+
+.masthead-intro{
+  margin-top: $lHeight * 2;
+  line-height: 1.2;
+}
 
 .layout-home{
   h2 {
     @media (min-width: $screen-md) {
       margin-top: 0;
     }
-  }
-  .title,
-  .subtitle,
-  .intro {
-    color: #fff;
-  }
-  .title{
-    line-height: 1;
-    @media (min-width: $screen-sm) {
-      font-size: $fs-2;
-    }
-  }
-  .intro{
-    margin-top: $lHeight * 2;
-    line-height: 1.2;
   }
   .read-all a {
     padding: 0.75em 1em;
