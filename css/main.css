@@ -649,7 +649,6 @@ footer {
   flex: 1 1 50%;
   position: relative;
   display: block;
-  border-top: 1px solid #868686;
   height: 100%; }
 
 .project-block-image {

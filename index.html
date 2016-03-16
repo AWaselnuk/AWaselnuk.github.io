@@ -35,8 +35,9 @@ title: Adam Waselnuk - Front End Web Developer
 
 <div class="layout-mag-right">
   <main>
+
     <!-- Latest Projects Mobile -->
-    <div class="view-sm">
+    <section class="section view-sm">
       <h2>Latest Projects</h2>
       <ul class="posts list-reset">
         {% assign projects = site.projects | sort: 'date' | reverse %}
@@ -49,24 +50,31 @@ title: Adam Waselnuk - Front End Web Developer
         </li>
         {% endfor %}
       </ul>
-      <br>
-      <div class="read-all"><a href="/projects.html">view all projects &raquo;</a></div>
-    </div>
+
+      <hr>
+      <a href="/projects.html">view all projects &raquo;</a>
+      <hr>
+    </section>
 
     <!-- Latest Blog Posts -->
-    <h2>Latest Blog Posts</h2>
-    <ul class="posts list-reset">
-      {% for post in site.posts %}
-      <li class="post">
-        <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-        <p class="date">{{ post.date | date_to_string }}</p>
-        <p class="post-excerpt">{{ post.excerpt }}</p>
-        <p><a class="read-more" href="{{ post.url }}">read more ...</a></p>
-      </li>
-      {% endfor %}
-    </ul>
-    <br>
-    <div class="read-all"><a href="/posts.html">view all blog posts &raquo;</a></div>
+    <section class="section">
+      <h2>Latest Blog Posts</h2>
+      <ul class="posts list-reset">
+        {% for post in site.posts %}
+        <li class="post">
+          <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+          <p class="date">{{ post.date | date_to_string }}</p>
+          <p class="post-excerpt">{{ post.excerpt }}</p>
+          <p><a class="read-more" href="{{ post.url }}">read more ...</a></p>
+        </li>
+        {% endfor %}
+      </ul>
+
+      <hr>
+      <a href="/posts.html">view all blog posts &raquo;</a>
+      <hr>
+    <section>
+
   </main>
 
   {% include footer.html %}
