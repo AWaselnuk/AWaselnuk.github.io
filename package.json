@@ -6,13 +6,13 @@
     "default": "npm run build:assets && npm run server & npm run watch:sass",
     "build": "npm run build:coffee && npm run build:sass && npm run build:jekyll",
     "build:assets": "npm run build:coffee && npm run build:sass",
-    "build:jekyll": "jekyll build",
+    "build:jekyll": "bundle exec jekyll build --drafts",
     "build:sass": "npm run sass && npm run autoprefix",
     "build:coffee": "coffee -c -o js/ _coffee/",
     "sass": "sass _scss/main.scss css/main.css",
     "watch:sass": "sass --watch _scss/main.scss:css/main.css",
     "autoprefix": "echo 'WARNING: autoprefixer not configured'",
-    "server": "jekyll serve"
+    "server": "bundle exec jekyll serve --drafts"
   },
   "author": "Adam Waselnuk",
   "license": "ISC",

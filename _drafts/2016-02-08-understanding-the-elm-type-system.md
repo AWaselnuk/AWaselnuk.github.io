@@ -29,7 +29,7 @@ To clarify, one goal of a **type system** is to prevent any kind of error relate
 These errors at compile time provide a high level of **type safety** which you can refer to as **strong typing**. Because Elm has **strong, static type system**, virtually all type errors are caught by the compiler before the program is ever run in a browser. This is why Elm can boast that it has "no runtime exceptions".
 
 <figure>
-  ![The Elm compiler highlighting a type error](/img/posts/elm-compiler-type-error.png)
+  <img alt="The Elm compiler highlighting a type error" src="/img/posts/elm-compiler-type-error.png">
   <figcaption>The Elm compiler highlighting a type error</figcaption>
 </figure>
 
