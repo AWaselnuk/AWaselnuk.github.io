@@ -110,6 +110,14 @@
   }
 }
 
+.layout-mag-alt-image {
+  background-image: url('../img/space-tree.jpg');
+  @media (min-width: $screen-sm) {
+    min-height: 0;
+    padding-bottom: $lHeight;
+  }
+}
+
 .masthead-title,
 .masthead-subtitle,
 .masthead-intro {

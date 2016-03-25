@@ -16,7 +16,7 @@ readings:
 
 The Elm programming language offer the best of functional programming in the browser. Elm was my introduction to using a static, strong type system. Adjusting to using types wasn’t easy at first but, as I continue to explore Elm, I find that my programming style is changing for the better.
 
-I want to share a quick synopsis of the Elm type system, and clarify the syntax for anyone who is getting started with Elm. I will link to several resources that helped me along the way and talk about how I think using this type system has improved my programming style.
+I want to share a quick synopsis of the Elm type system, andas=dadads clarify the syntax for anyone who is getting started with Elm. I will link to several resources that helped me along the way and talk about how I think using this type system has improved my programming style.
 
 ## Embrace static typing
 

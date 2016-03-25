@@ -1,9 +1,16 @@
-.clearfix:after {
-     visibility: hidden;
-     display: block;
-     font-size: 0;
-     content: " ";
-     clear: both;
-     height: 0;
-     }
-.clearfix { display: inline-block; }
+.clearfix::after {
+  clear: both;
+  content: ' ';
+  display: block;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+ }
+
+.clearfix {
+  display: inline-block;
+}
+
+.lowlight {
+  color: $white;
+}

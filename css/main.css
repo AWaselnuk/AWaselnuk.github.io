@@ -378,16 +378,19 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-.clearfix:after {
-  visibility: hidden;
+.clearfix::after {
+  clear: both;
+  content: ' ';
   display: block;
   font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0; }
+  height: 0;
+  visibility: hidden; }
 
 .clearfix {
   display: inline-block; }
+
+.lowlight {
+  color: #fff; }
 
 .container {
   margin: 0 auto;
@@ -507,18 +510,16 @@ hr {
 /* Tracking
    ========================================================================== */
 .title {
-  letter-spacing: 3px;
-  text-transform: uppercase;
   margin-bottom: 0; }
   .title a {
     text-decoration: none;
     color: #444; }
 
 .subtitle {
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 20px; }
+  font-weight: 600; }
+  @media (min-width: 600px) {
+    .subtitle {
+      font-size: 32px; } }
 
 .inline-title {
   font-size: 20px;
@@ -714,6 +715,13 @@ footer {
       left: 50%;
       margin: 0;
       width: 50%; } }
+
+.layout-mag-alt-image {
+  background-image: url("../img/space-tree.jpg"); }
+  @media (min-width: 600px) {
+    .layout-mag-alt-image {
+      min-height: 0;
+      padding-bottom: 25.6px; } }
 
 .masthead-title,
 .masthead-subtitle,

@@ -76,8 +76,6 @@ hr {
    ========================================================================== */
 
 .title {
-  letter-spacing:3px;
-  text-transform:uppercase;
   margin-bottom: 0;
   a {
     text-decoration: none;
@@ -86,10 +84,11 @@ hr {
 }
 
 .subtitle {
-  letter-spacing:3px;
-  text-transform:uppercase;
   font-weight: 600;
-  font-size: $fs-4;
+
+  @media(min-width: $screen-sm) {
+    font-size: $fs-3;
+  }
 }
 
 .inline-title {
