@@ -47,5 +47,65 @@ Let's break this down. `:` can be read as "has type". `->` can be read as "retur
 
 `greeting` is a function that accepts a `String` and returns a `String`.
 
+Basically an `->` indicates a function. Here is another example:
 
+<div>
+{% highlight haskell %}
+connectWords : String -> String -> String
+connectWords firstWord secondWord =
+  firstWord ++ secondWord
+{% endhighlight %}
+</div>
 
+The type annotation for `connectWords` is telling us that `connectWords` is a function that accepts two strings and returns a string. If we look at the function we see that it indeed takes two parameters, `firstWord` and `secondWord` and concatenates them. Here is an example of a more complicated type annotation:
+
+<div>
+{% highlight haskell %}
+map : (a -> b) -> List a -> List b
+{% endhighlight %}
+</div>
+
+There are two things that stand out in this example; the use of parentheses, and the values `a` and `b`. The parentheses work the same way they work in math. In other words they provide an order of operations for the compiler. In this example, what that means is that `(a -> b)` can be thought of as a complete function which accepts a value of type `a` and returns a value of type `b`. With that grouping we can read this type annotation as:
+
+`map` is a function that accepts a function and a `List` and returns a `List`
+
+`a` and `b` are what's known as "type variables". They are placeholders for any type. So in this example, a function that accepts a value of type `a` really means a function that accepts a value of *any* type. The important thing is that type `a` stays the same and type `b` stays the same. Here are some possiblities for the `map` function:
+
+<div>
+{% highlight haskell %}
+-- accept a function which accepts an Int and returns a String
+-- and a List of Integers and return a List of Strings
+map : (Int -> String) -> List Int -> List String
+
+-- accept a function which accepts a String and returns a Bool
+-- and a List of Strings and return a List of Booleans
+map : (Int -> Bool) -> List Int -> List Bool
+{% endhighlight %}
+</div>
+
+Here is an example that would violate the type annotation, or the "contract", for the `map` function:
+
+<div>
+{% highlight haskell %}
+-- map : (a -> b) -> List a -> List b
+map : (Int -> String) -> List Int -> List Int
+{% endhighlight %}
+</div>
+
+This situation would never happen because the type variable `b` is not matching. If `map` received a function that accepted Integers and returned Strings as its first argument, we have a guarantee that it will always return a List of Strings.
+
+Tip: Look at type annotations in the [Elm docs](http://package.elm-lang.org/packages/elm-lang/core) as you learn. At first they will seem strange but you will quickly develop a feel for them and before long you will find yourself looking at the type annotations and not even looking at the details of the function!
+
+## Understand Partial Function Application
+
+A big gotcha for me was understanding the `->` syntax. How can a function that accepts two arguments possibly have a type annotation like this?
+
+<div>
+{% highlight haskell %}
+connectWords : String -> String -> String
+{% endhighlight %}
+</div>
+
+The key to understanding is to realize that every function is Elm is *partially applied* by default. You may sometimes hear this idea referred to as *currying*. The two concepts are closely related but not exactly the same thing.
+
+Partial application means that you can pass any number of arguments on the left side of an arrow and receive the right side of the arrow. So if I have a type annotation of `a -> b -> c`, I can pass `a` into the function and it will return a function `b -> c`. Or I can pass `a` and `b` into the function and it will return the value `c`. 
