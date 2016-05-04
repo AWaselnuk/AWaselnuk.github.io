@@ -61,3 +61,5 @@ restrictLevel level =
 </div>
 
 <small>\*Note that at the time of this writing, I was using Elm core v3.0.0</small>
+
+{% include further_reading.html %}
