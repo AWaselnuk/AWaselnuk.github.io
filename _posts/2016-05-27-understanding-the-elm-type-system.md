@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Understanding the Elm type system"
-date: 2016-05-05 07:00:00
+date: 2016-05-27 07:00:00
 categories: elm
 tags:
   - functional programming
