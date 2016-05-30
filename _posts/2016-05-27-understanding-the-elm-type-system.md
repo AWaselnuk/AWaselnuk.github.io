@@ -9,9 +9,9 @@ tags:
   - types
   - static types
 readings:
-  - title: "Model the Problem"
-    author: "Elm docs"
-    url: "http://elm-lang.org/guide/model-the-problem"
+  - title: "Types chapter in the Elm guide"
+    author: "Elm lang org"
+    url: "http://guide.elm-lang.org/types/"
   - title: "Professor Frisby's Mostly Adequate Guide to Functional Programming: Chapter 4 - Currying"
     author: "Brian Lonsdorf (dr boolean)"
     url: "https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch4.html"
