@@ -91,7 +91,7 @@ map : (Int -> String) -> List Int -> List String
 -- a List of Strings
 -- returns:
 -- a List of Booleans
-map : (Int -> Bool) -> List Int -> List Bool
+map : (String -> Bool) -> List String -> List Bool
 {% endhighlight %}
 </div>
 
