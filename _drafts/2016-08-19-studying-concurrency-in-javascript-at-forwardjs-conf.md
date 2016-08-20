@@ -34,3 +34,8 @@ For most of the content, refer to the chapter called [Async & Performance](https
 The last thing to mention is CSP (communicating sequential processes). This is a concurrent programming pattern that Kyle mentioned he was very excited about. It has been around for a long time but recently he has noticed some people he admires talking about it. I have also noticed this trend emerging because, if you are like me and don't really understand it and just squint your eyes a bit, it looks like this is what Erlang/Elixir/Go/Closure are doing and the direction that the Elm programming language [has recently moved towards](http://elm-lang.org/blog/farewell-to-frp).
 
 I may not understand the nuances yet (someone is probably having a fit about me saying Erlang/Elixir is CSP), but I do know that I would be foolish to not dive deeper into these concepts.
+
+
+*Async in JS is an excellent way to think about programming for the next 10 years of how systems are going to be setup. The paradigm of asynchronous will be needed for distributed systems.*
+
+paraphrased from serverless architecture panel with Ben Sigelman and Alex Salazar
