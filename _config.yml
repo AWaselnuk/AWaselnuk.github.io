@@ -5,5 +5,3 @@ exclude: ["node_modules", "package.json"]
 collections:
   projects:
     output: true
-  experiments:
-    output: true
