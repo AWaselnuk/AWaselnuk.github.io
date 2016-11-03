@@ -4,6 +4,7 @@ title: "Project: Forefront"
 github: "//github.com/AWaselnuk/forefront"
 excerpt: An opinionated command-line tool for generating front end boilerplate and workflow.
 cover: forefront.gif
+categories: project
 date: 2015-02-01 09:00:00
 tags:
   - project
