@@ -392,6 +392,16 @@ table {
 .lowlight {
   color: #fff; }
 
+.visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0; }
+
 .container {
   margin: 0 auto;
   max-width: 36rem; }
@@ -772,7 +782,7 @@ footer {
 
 .post,
 .project {
-  margin-bottom: 51.2px; }
+  margin-bottom: 25.6px; }
   .post:last-of-type,
   .project:last-of-type {
     margin-bottom: 0; }
