@@ -497,10 +497,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Copy
    ========================================================================== */
-.intro {
-  font-size: 20px; }
+@media (min-width: 600px) {
+  .text-intro {
+    font-size: 20px; } }
 
 .copy {
+  font-size: 20px; }
+
+.text-large {
   font-size: 20px; }
 
 hr {
@@ -600,12 +604,12 @@ a {
   Figures
 *******************************************************************************/
 figcaption {
-  color: #BBBBBB; }
+  color: #AAAAAA; }
 
 .btn {
   display: inline-block;
   padding: 0.5em 0.75em;
-  background-color: #BBBBBB;
+  background-color: #AAAAAA;
   color: white;
   text-decoration: none;
   text-transform: uppercase;
@@ -616,7 +620,7 @@ figcaption {
     color: white; }
   .btn:hover {
     cursor: pointer;
-    background-color: #a2a2a2;
+    background-color: #919191;
     transform: scale(1.02); }
   .btn.btn-primary {
     background-color: teal; }
@@ -760,7 +764,7 @@ footer {
     margin-top: 0; } }
 .layout-home .read-all a {
   padding: 0.75em 1em;
-  background: #BBBBBB;
+  background: #AAAAAA;
   text-decoration: none; }
   @media (min-width: 800px) {
     .layout-home .read-all a {
@@ -772,7 +776,7 @@ footer {
 
 .date {
   margin-top: -1em;
-  color: #BBBBBB;
+  color: #AAAAAA;
   font-size: 0.9em;
   text-transform: uppercase;
   letter-spacing: 1px; }

@@ -46,15 +46,18 @@ h1, h2, h3, h4, h5, h6{
 /* Copy
    ========================================================================== */
 
-.intro {
-  font-size: $fs-4;
+.text-intro {
   @media (min-width: $screen-sm) {
-    //font-size: $font-size-3;
+    font-size: $fs-4;
   }
 }
 
 .copy {
   font-size: $font-size-4;
+}
+
+.text-large {
+  font-size: $fs-4;
 }
 
 hr {
