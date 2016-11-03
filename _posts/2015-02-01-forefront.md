@@ -1,10 +1,13 @@
 ---
-layout: project
-title: Forefront
+layout: post
+title: "Project: Forefront"
 github: "//github.com/AWaselnuk/forefront"
 excerpt: An opinionated command-line tool for generating front end boilerplate and workflow.
 cover: forefront.gif
 date: 2015-02-01 09:00:00
+tags:
+  - project
+  - build tools
 ---
 
 I have been using build tools to power up my front end workflow for a while now. I started out with [Grunt](http://gruntjs.com/) and then tried [Gulp](http://gulpjs.com/). Gulp is currently powering some automation for this very blog.

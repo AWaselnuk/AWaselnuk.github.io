@@ -3,7 +3,9 @@ layout: post
 title:  "Taking the next step: Front End Developer at Shopify"
 date:   2015-02-20 18:00:00
 categories: miscellaneous
-tags: career
+tags: 
+  - career
+  - shopify
 ---
 
 It's official: On March 9, 2015 I will be starting my new job as a front end developer at Shopify. I couldn't be more excited about it and I want to talk about why I'm so excited and why I am making this transition.
