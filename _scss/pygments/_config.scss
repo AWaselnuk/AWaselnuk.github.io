@@ -1,13 +1,16 @@
 .highlight {
   padding: $lHeight / 2;
-  font-size: $font-size-code;
+  font-size: $font-size-code-mobile;
 
   @media (min-width: $screen-sm + 60px) {
     margin-left: $lHeight * -2;
     margin-right: $lHeight * -2;
+    font-size: $font-size-code;
   }
 
   pre {
     margin: 0;
+    white-space: pre;
+    overflow-x: scroll;
   }
 }

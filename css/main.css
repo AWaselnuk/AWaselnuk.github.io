@@ -1113,12 +1113,15 @@ green     #859900  operators, other keywords
 /* Literal.Number.Integer.Long */
 .highlight {
   padding: 12.8px;
-  font-size: 15px; }
+  font-size: 13px; }
   @media (min-width: 660px) {
     .highlight {
       margin-left: -51.2px;
-      margin-right: -51.2px; } }
+      margin-right: -51.2px;
+      font-size: 15px; } }
   .highlight pre {
-    margin: 0; }
+    margin: 0;
+    white-space: pre;
+    overflow-x: scroll; }
 
 /*# sourceMappingURL=main.css.map */
