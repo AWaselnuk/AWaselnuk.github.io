@@ -2,24 +2,46 @@
 layout: post
 title: "Promiscuous pairing"
 date: 2016-11-03 07:00:00
-categories: miscellaneous
+categories: speaking
 tags:
   - conferences
   - shopify
   - speaking
---
+readings:
+  - title: "What does Pair Design look like?"
+    author: Cooper Journal
+    url: "http://www.cooper.com/journal/2015/2/what-does-pair-design-look-like"
+  - title: "Pair Research: Matching People for Collaboration,
+Learning, and Productivity"
+    author: Robert C. Miller, Haoqi Zhang, Eric Gilbert, Elizabeth Gerber
+    url: "http://groups.csail.mit.edu/uid/other-pubs/cscw14-pair-research.pdf"
+  - title: "Pair design for creative teams"
+    author: Karl Dotter
+    url: "http://www.pairdesign.co/"
+  - title: "Pairing with a design partner"
+    author: Karl Dotter
+    url: "https://medium.com/@karldotter/pairing-with-a-design-partner-7ebf761da701#.o6x7de196"
+  - title: "Some thoughts on pair programming styles"
+    author: Corey Haines
+    url: "http://articles.coreyhaines.com/posts/thoughts-on-pair-programming/"
+  - title: "The Guest: A Guide To Code Hospitality [video]"
+    author: Nadia Odunayo
+    url: "https://www.youtube.com/watch?v=hHzWG1FltaE"
+---
 
-On July 5, 2016 I had the honour of speaking on stage at Shopify’s annual UX Summit. My talk was called ‘promiscuous pairing‘ 
+On July 5, 2016 I had the honour of speaking on stage at Shopify’s annual UX Summit. My talk was called ‘promiscuous pairing’ 
 and it was about pairing across disciplines in UX. Read on for an abstract, a video recording of the talk, and a script.
 
 ## Abstract
 
 At the scale of Shopify, it makes sense to split the UX team into discrete, specialized disciplines. 
-The downside is that these disciplines - Design, FED, Research, Content - communicate less directly in their daily work. 
+The downside is that these disciplines - Design, Front End Development, Research, Content - communicate less directly in their daily work. 
 We’ll discuss how we can adopt some ‘pairing’ principles in our UX work to ship faster, ship better, and improve collaboration. 
 You’ll learn new ways to work with others, gain empathy for other disciplines, and grow your ‘T’ in the world of Shopify UX.
 
 ## Video
+
+TODO video!
 
 ## Script
 
@@ -41,8 +63,8 @@ One technique has me excited more than any book or online course ever has before
 In the engineering world it is called ‘pair programming’. This technique has proven so valuable to that 
 craft that entire companies do *all* programming time in pairs. Any work they produce is produced by a pair.
 
-We should pay attention to such a phenomenon! There is clearly something to this and if we can understand the basic ideas 
-of pairing we can leverage them across UX.
+We should pay attention to such a phenomenon! There is clearly something to this and, if we can understand the basic ideas 
+of pairing, we can leverage them across UX.
 
 I believe pairing will accelerate growth in our craft, challenge the way we think about solving problems, and connect us 
 with all of the talented people in our UX team.
@@ -109,10 +131,12 @@ When we pair, we should be aiming to produce a real, tangible thing. Here are so
 
 To get even more out of the pairing session, let’s select a thing that we are stuck on. Our partner’s perspective will likely unblock us!
 
-To clarify: pairing **is not a brainstorming session**. Going in we should have high level things figured out. We want to get straight into the weeds. 
-Pairing **is not a peer review session**. We aren’t going to our partners with a finished concept and asking for feedback.
+To clarify: pairing is not a brainstorming session. Going in we should have high level things figured out. We want to get straight into the weeds.
+ 
+Pairing is not a peer review session. We aren’t going to our partners with a finished concept and asking for feedback.
 We should not have all the answers going in. We will find the path and create the thing together.
-Pairing **is co-creation.** So let’s select a specific, shippable thing to work on.
+
+Pairing is co-creation. So let’s select a specific, shippable thing to work on.
 
 #### Know the roles
 
@@ -168,3 +192,10 @@ If we spend more time pairing with each other, regardless of discipline, we will
 we will share that understanding with others.
 
 So turn to the person sitting beside you, start nodding with determination, and ask them: “will you pair with me?”
+
+## Acknowledgements
+
+While developing this talk I consumed a ton of articles, videos, and podcasts put together by other pairing enthusiasts.
+I can’t remember every single source of inspiration but I want to credit the ones I can remember so please check out the further reading section!
+
+{%include further_reading.html %}
