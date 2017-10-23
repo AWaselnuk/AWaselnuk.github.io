@@ -16,7 +16,9 @@
   },
   "author": "Adam Waselnuk",
   "license": "ISC",
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
+    "reveal.js": "~3"
   },
   "repository": {
     "type": "git",
