@@ -8,8 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }} | Adam Waselnuk - Front End Web Developer</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="/css/reveal/reveal.css">
-    <link rel="stylesheet" href="/css/reveal/theme/white.css">
+    <link rel="stylesheet" href="/revealjs/css/reveal.css">
+    <link rel="stylesheet" href="/revealjs/css/theme/white.css">
   </head>
 
   <body>
@@ -20,9 +20,18 @@
 		</div>
 
     <!-- Scripts -->
-    <script src="/js/reveal/reveal.js"></script>
+    <script src="/revealjs/js/head.js"></script>
+    <script src="/revealjs/js/reveal.js"></script>
     <script>
-      Reveal.initialize();
+      Reveal.initialize({
+        dependencies: [
+					{ src: '/revealjs/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '/revealjs/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: '/revealjs/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: '/revealjs/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '/revealjs/plugin/notes/notes.js' }
+        ]
+       });
     </script>
     {% include google_analytics.html %}
   </body>
