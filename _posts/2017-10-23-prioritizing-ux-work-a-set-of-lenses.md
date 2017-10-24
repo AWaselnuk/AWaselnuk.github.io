@@ -42,7 +42,7 @@ tags: presentations prioritzation ux product
   </ol>
 </section>
 
-<section>
+<section data-background-color="#82589c">
   <p>You may have already used these lenses.<br>Let's talk about it.</p>
 </section>
 
@@ -61,7 +61,7 @@ tags: presentations prioritzation ux product
   <ol>
     <li>Easy to spot opportunities.</li>
     <li>We are already good at this.</li>
-    <li>Adds high polish and delight.</li>
+    <li>Adds polish and delight.</li>
   </ol>
 </section>
 
@@ -133,4 +133,30 @@ tags: presentations prioritzation ux product
   <aside class="notes" data-markdown>
     * Get the ball rolling by talking about the coding work I did recently for partner brand
   </aside>
+</section>
+
+<section>
+  <h3>The Lens of Product</h3>
+
+  <aside class="notes" data-markdown>
+    * Why did I start learning about product management?
+    * Core skills: coordinate multiple teams or people, ensure we are building something users want.
+  </aside>
+</section>
+
+<section>
+  <p>Product management is a <a href="https://blackboxofpm.com/the-black-box-of-product-management-3feb65db6ddb">byproduct of speed and scale.</a></p>
+
+  <p>Product managers are <a href="https://blackboxofpm.com/ruthless-prioritization-e4256e3520a9">particularly good at prioritization.</a></p>
+
+  <aside class="notes" data-markdown>
+    * Software companies embody speed and scale. You need good decisions quickly across multiple, complex groups.
+    * PMs learn a lot about users and turn that into product roadmaps.
+    * The Black Box of PM is a great blog that helped me figure it out
+    * Think of it as a discipline you can learn from
+  </aside>
+</section>
+
+<section>
+
 </section>
