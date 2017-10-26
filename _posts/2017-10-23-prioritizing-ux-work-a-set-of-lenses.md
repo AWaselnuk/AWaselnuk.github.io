@@ -14,7 +14,7 @@ tags: presentations prioritzation ux product
   </p>
 </section>
 
-<section data-background-image="https://www.shareicon.net/data/2015/12/15/687914_email_512x512.png" data-background-size="200px">
+<section data-background-image="/img/presentations/prioritizing-ux-work/shopify-partner-pod.jpg" data-background-color="#000000">
   Welcome to Shopify!
 
   <aside class="notes" data-markdown>
@@ -66,7 +66,8 @@ tags: presentations prioritzation ux product
 </section>
 
 <section>
-  TODO: add picture of small UI polish and link to that site that has it
+  <img width="550px" src="/img/presentations/prioritizing-ux-work/little-big-details-example.png" alt="Example UI detail from littlebigdetails.com">
+  <p><a href="littlebigdetails.com">littlebigdetails.com</a></p>
 </section>
 
 <section>
@@ -79,11 +80,24 @@ tags: presentations prioritzation ux product
 </section>
 
 <section>
-  TODO: show image of dark corners of facebook or something
+  <img src="/img/presentations/prioritizing-ux-work/facebook-crossposting-page.png" alt="Screenshot of the crossposting settings page from Facebook">
+
+  <aside class="notes" data-markdown>
+    * Some confusing text about crossposting
+    * Some pretty random spacing and a small text box (compare to how fun it is to type in news feed)
+    * No one is losing sleep over this
+  </aside>
 </section>
 
 <section>
-  TODO: link to research on user quality bar
+  <h3>Users might not really care. *</h3>
+  <p>* <a href="https://www.researchgate.net/profile/Ping_Zhang24/publication/2560629_User_Expectations_and_Rankings_of_Quality_Factors_in_Different_Web_Site_Domains/links/0c960524316506f697000000.pdf">Actually it's complicated</a></p>
+
+  <aside class="notes" data-markdown>
+    * Quality expectations change over time. Kano model is a way to think about this.
+    * Basic, performance, exciting. Don't worry about exciting until basics are done.
+    * Don't worry about exciting if you don't even know what the product should do yet.
+  </aside>
 </section>
 
 <section data-background-color="#82589c">
@@ -102,7 +116,7 @@ tags: presentations prioritzation ux product
 </section>
 
 <section>
-  TODO: Show impact vs effort matrix
+  <img src="/img/presentations/prioritizing-ux-work/impact-effort-matrix.jpg" alt="A matrix of impact vs effort">
 </section>
 
 <section>
@@ -200,8 +214,8 @@ tags: presentations prioritzation ux product
 </section>
 
 <section>
+  <img width="400px" src="/img/presentations/prioritizing-ux-work/essentialism-book.jpg" alt="Cover of the book 'Essentialism: The disciplined pursuit of less' by Greg McKeown">
   <p>Do less, but better.</p>
-  TODO: Picture of Essentialism book
 
   <aside class="notes" data-markdown>
     * I had already developed this philosophy but reading this was like a bolt of lightning.
@@ -273,8 +287,8 @@ tags: presentations prioritzation ux product
   <h3>Thank you</h3>
 </section>
 
-<section>
-  <p><a href="https://www.shopify.com/careers">https://www.shopify.com/careers</a></p>
+<section data-background-image="/img/presentations/prioritizing-ux-work/shopify-partner-pod.jpg" data-background-color="#000000">
+  <p>www.shopify.com/careers</p>
 
   <aside class="notes" data-markdown>
     * Shopify is hiring UX people of all kinds. You will be challenged to own your destiny there and learn lots about product development and the UX craft.
