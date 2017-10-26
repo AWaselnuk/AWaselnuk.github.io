@@ -97,6 +97,7 @@ tags: presentations prioritzation ux product
     * Started to ask myself: how can I do more? What lever can I apply?
     * Decided to start hiring a team.
     * This is all about looking for ways you can achieve more with the same amount of time.
+    * In my experience it often involves the "people" systems. (ie. docs, tools, teams)
   </aside>
 </section>
 
@@ -139,24 +140,144 @@ tags: presentations prioritzation ux product
   <h3>The Lens of Product</h3>
 
   <aside class="notes" data-markdown>
-    * Why did I start learning about product management?
-    * Core skills: coordinate multiple teams or people, ensure we are building something users want.
+    * I started to wonder more about this word 'product'. It seemed something was in the air.
+    * We have product managers at Shopify and that sounded relevant.
   </aside>
 </section>
 
 <section>
-  <p>Product management is a <a href="https://blackboxofpm.com/the-black-box-of-product-management-3feb65db6ddb">byproduct of speed and scale.</a></p>
-
-  <p>Product managers are <a href="https://blackboxofpm.com/ruthless-prioritization-e4256e3520a9">particularly good at prioritization.</a></p>
+  <blockquote>
+    As I’ve moved along with this I’ve noticed that learning about product management has sort of ballooned into learning about product management, business, and people in the work environment. This is fine.
+  </blockquote>
 
   <aside class="notes" data-markdown>
-    * Software companies embody speed and scale. You need good decisions quickly across multiple, complex groups.
-    * PMs learn a lot about users and turn that into product roadmaps.
-    * The Black Box of PM is a great blog that helped me figure it out
-    * Think of it as a discipline you can learn from
+    * Pulled from a google doc I wrote called "What the heck is product?"
+    * As you can tell, this turned out to be a deep topic. I learned a TON about priorities and other things.
+    * I want to share one small tool we use at Shopify
   </aside>
 </section>
 
 <section>
+  <h3>Experiment</h3>
+  <p class="fragment fade-up">You aren't sure what the right thing is. Optimize for learning.</p>
+  <h3 class="fragment fade-up">Feature</h3>
+  <p class="fragment fade-up">You are clear about the problem you are solving. Optimize for value.</p>
+  <h3 class="fragment fade-up">Infrastructure (Platform)</h3>
+  <p class="fragment fade-up">You are clear about a solution. Optimize for future possibilities.</p>
 
+  <aside class="notes" data-markdown>
+    * Also think about risk. If impact of failure is high it defaults to Infrastructure or you figure out how to mitigate.
+  </aside>
+</section>
+
+<section>
+  <h3>Pros</h3>
+  <ol>
+    <li>Lot's to learn about product management.</li>
+    <li>Experiment/Feature/Infrastructure gives your team a common language.</li>
+    <li>Group prioritization rather than individual.</li>
+  </ol>
+</section>
+
+<section>
+  <h3>Cons</h3>
+  <p>Lot's to learn about product management. It can be a full time job!</p>
+</section>
+
+<section data-background-color="#82589c">
+  <p>Have you ever worked with a product manager or read about it? What did you learn?</p>
+</section>
+
+<section>
+  <h3>The Lens of Self</h3>
+
+  <aside class="notes" data-markdown>
+    * Working through this right now
+    * Leading a team is challenging, many people want your time and attention.
+    * There is a challenge for all of us in this room - the world is full of possibilities so how do we choose?
+    * Most important prioritization tool. Also the most difficult.
+  </aside>
+</section>
+
+<section>
+  <p>Do less, but better.</p>
+  TODO: Picture of Essentialism book
+
+  <aside class="notes" data-markdown>
+    * I had already developed this philosophy but reading this was like a bolt of lightning.
+    * The idea is one I truly believe in: Do less, but better.
+  </aside>
+</section>
+
+<section>
+  <ol>
+    <li>You own your priorities. No one else.</li>
+    <li>Apply a very selective criteria for what is essential.</li>
+    <li>Make the decision that makes a thousand decisions. Set a clear goal.</li>
+  </ol>
+</section>
+
+<section>
+  <p>Improve housing conditions for families in need.</p>
+  <p><strong>Build 150 affordable, green, storm-resistant homes for families living in the Lower 9th Ward.</strong></p>
+
+  <aside class="notes" data-markdown>
+    * From Brad Pitt's "Make It Right" organization
+    * The conditions for success are very clear.
+  </aside>
+</section>
+
+<section>
+  <p>Improve my communication skills.</p>
+  <p><strong>Speak at the 2017 HamOnt UX conference and get invited back.</strong></p>
+
+  <aside class="notes" data-markdown>
+    * It's scary because you make your conditions for failure clear
+    * The power of essentialism isn't just about setting goals. It's all of the techniques that help you focus and prioritize.
+    * Taking ownership of your time, saying no gracefully, being selective.
+  </aside>
+</section>
+
+<section>
+  <h3>Pros</h3>
+  <p>It's the most important and powerful lens.</p>
+</section>
+
+<section>
+  <h3>Cons</h3>
+  <p>It's terrifying. It can lead to massive change.</p>
+</section>
+
+<section data-background-color="#82589c">
+  <p>Take a minute and write down a goal.</p>
+  <p>Exactly where do you want to be in 3 years from now?</p>
+  <p class="fragment fade-up">Too hard? Don't worry – try 1 year.</p>
+  <p class="fragment fade-up">6 months</p>
+  <p class="fragment fade-up">1 month</p>
+  <p class="fragment fade-up">1 week</p>
+  <p class="fragment fade-up">Tomorrow</p>
+</section>
+
+<section>
+  <p>It's not easy to prioritize.</p>
+  <p>But we can look at the problem through different lenses.</p>
+
+  <aside class="notes" data-markdown>
+    * I encourage you to try out all the lenses on your current challenges.
+    * I encourage you to think more deliberately about where you spend your most precious resource.
+    * Most of all, I encourage you to decide where it is you want to be and to orient yourself towards that goal. Not only your “users” but every human in the world around you will benefit from that.
+  </aside>
+</section>
+
+<section>
+  <h3>Thank you</h3>
+</section>
+
+<section>
+  <p><a href="https://www.shopify.com/careers">https://www.shopify.com/careers</a></p>
+
+  <aside class="notes" data-markdown>
+    * Shopify is hiring UX people of all kinds. You will be challenged to own your destiny there and learn lots about product development and the UX craft.
+    * TODO: mention key roles
+  </aside>
 </section>
