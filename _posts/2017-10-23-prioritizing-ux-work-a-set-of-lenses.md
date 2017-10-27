@@ -2,7 +2,7 @@
 layout: presentation
 title: "Prioritizing UX work: a set of lenses"
 categories: presentations
-tags: presentations prioritzation ux product
+tags: presentations prioritization ux product
 ---
 
 <section>
