@@ -174,9 +174,9 @@ tags: presentations prioritzation ux product
 <section>
   <h3>Experiment</h3>
   <p class="fragment fade-up">You aren't sure what the right thing is. Optimize for learning.</p>
-  <h3 class="fragment fade-up">Feature</h3>
+  <h3>Feature</h3>
   <p class="fragment fade-up">You are clear about the problem you are solving. Optimize for value.</p>
-  <h3 class="fragment fade-up">Infrastructure (Platform)</h3>
+  <h3>Infrastructure (Platform)</h3>
   <p class="fragment fade-up">You are clear about a solution. Optimize for future possibilities.</p>
 
   <aside class="notes" data-markdown>
