@@ -311,6 +311,5 @@ tags: presentations prioritization ux product
 
   <aside class="notes" data-markdown>
     * Shopify is hiring UX people of all kinds. You will be challenged to own your destiny there and learn lots about product development and the UX craft.
-    * TODO: mention key roles
   </aside>
 </section>
