@@ -29,21 +29,8 @@ tags: presentations prioritzation ux product
   <aside class="notes" data-markdown>
     * This is a hard question because time is your most precious resource.
     * Where to spend your limited time is a difficult problem to solve, but we can look at some strategies to make things easier and increase our impact.
+    * As we go through these strategies I will be asking you some questions in the hopes that we all learn from your experiences too.
   </aside>
-</section>
-
-<section>
-  <h3>4 Lenses for prioritization</h3>
-  <ol>
-    <li class="fragment fade-left">Quality</li>
-    <li class="fragment fade-left">Leverage</li>
-    <li class="fragment fade-left">Product</li>
-    <li class="fragment fade-left">Self</li>
-  </ol>
-</section>
-
-<section data-background-color="#82589c">
-  <p>You may have already used these lenses.<br>Let's talk about it.</p>
 </section>
 
 <section>
@@ -57,17 +44,32 @@ tags: presentations prioritzation ux product
 </section>
 
 <section>
+  <section>
+    <img width="900px" src="/img/presentations/prioritizing-ux-work/shopify-partner-event-page-example.png" alt="Screenshot of the Shopify Partners event page with small UI problems highlighted">
+  </section>
+
+  <section>
+    <p><a href="www.shopify.com/partners/blog/partner-events">www.shopify.com/partners/blog/partner-events</a></p>
+  </section>
+</section>
+
+<section>
+  <section>
+    <img width="800px" src="/img/presentations/prioritizing-ux-work/little-big-details-example.png" alt="Example UI detail from littlebigdetails.com">
+  </section>
+
+  <section>
+    <p><a href="littlebigdetails.com">littlebigdetails.com</a></p>
+  </section>
+</section>
+
+<section>
   <h3>Pros</h3>
   <ol>
     <li>Easy to spot opportunities.</li>
     <li>We are already good at this.</li>
     <li>Adds polish and delight.</li>
   </ol>
-</section>
-
-<section>
-  <img width="550px" src="/img/presentations/prioritizing-ux-work/little-big-details-example.png" alt="Example UI detail from littlebigdetails.com">
-  <p><a href="littlebigdetails.com">littlebigdetails.com</a></p>
 </section>
 
 <section>
@@ -100,8 +102,17 @@ tags: presentations prioritzation ux product
   </aside>
 </section>
 
-<section data-background-color="#82589c">
-  <p>Was there a time you found some rough spots in your UX and improved it? How did it turn out?</p>
+<section data-background-color="#ffc043">
+  <p>How did you decide what to work on when you first started at your current job?</p>
+</section>
+
+<section>
+  <p>Quality and polish is generally improving but …</p>
+
+  <aside class="notes" data-markdown>
+    * I was trapped by physical constraints like time
+    * I felt there must be a way to have more impact
+  </aside>
 </section>
 
 <section>
@@ -111,7 +122,7 @@ tags: presentations prioritzation ux product
     * Started to ask myself: how can I do more? What lever can I apply?
     * Decided to start hiring a team.
     * This is all about looking for ways you can achieve more with the same amount of time.
-    * In my experience it often involves the "people" systems. (ie. docs, tools, teams)
+    * In my experience it often involves the "people" systems but it doesn't have to. (ie. docs, tools, teams)
   </aside>
 </section>
 
@@ -122,7 +133,7 @@ tags: presentations prioritzation ux product
 <section>
   <h3>Pros</h3>
   <ol>
-    <li>Higher impact for less effort.</li>
+    <li>Higher impact for same amount of time.</li>
     <li>Think outside the box of your physical boundaries.</li>
     <li>Work through your team to achieve more.</li>
   </ol>
@@ -141,13 +152,16 @@ tags: presentations prioritzation ux product
   </aside>
 </section>
 
-<section data-background-color="#82589c">
-  <p>What high leverage work have you done recently?</p>
-  <p>What about low leverage work? It's okay this is a judgement-free zone.</p>
+<section data-background-color="#ffc043">
+  <p>Have you found any levers you can apply recently?</p>
 
   <aside class="notes" data-markdown>
-    * Get the ball rolling by talking about the coding work I did recently for partner brand
+    * Get the ball rolling by talking about the coding work I did recently for partner brand and how it was an anti-lever
   </aside>
+</section>
+
+<section>
+  <p>So now I have a team. What should <i>we</i> work on?</p>
 </section>
 
 <section>
@@ -155,7 +169,7 @@ tags: presentations prioritzation ux product
 
   <aside class="notes" data-markdown>
     * I started to wonder more about this word 'product'. It seemed something was in the air.
-    * We have product managers at Shopify and that sounded relevant.
+    * We have product managers at Shopify and that seemed interesting.
   </aside>
 </section>
 
@@ -180,6 +194,7 @@ tags: presentations prioritzation ux product
   <p class="fragment fade-up">You are clear about a solution. Optimize for future possibilities.</p>
 
   <aside class="notes" data-markdown>
+    * The idea is to categorize your project as a team into one of these three streams.
     * Also think about risk. If impact of failure is high it defaults to Infrastructure or you figure out how to mitigate.
   </aside>
 </section>
@@ -187,19 +202,23 @@ tags: presentations prioritzation ux product
 <section>
   <h3>Pros</h3>
   <ol>
-    <li>Lot's to learn about product management.</li>
     <li>Experiment/Feature/Infrastructure gives your team a common language.</li>
     <li>Group prioritization rather than individual.</li>
+    <li>Lot's more to learn about product management.</li>
   </ol>
 </section>
 
 <section>
   <h3>Cons</h3>
-  <p>Lot's to learn about product management. It can be a full time job!</p>
+  <p>Lot's more to learn about product management. It can be a full time job!</p>
 </section>
 
-<section data-background-color="#82589c">
+<section data-background-color="#ffc043">
   <p>Have you ever worked with a product manager or read about it? What did you learn?</p>
+</section>
+
+<section>
+  <p>The team is shipping projects and there is still lots to learn. But what do I <i>really want?</i></p>
 </section>
 
 <section>
@@ -254,7 +273,7 @@ tags: presentations prioritzation ux product
 
 <section>
   <h3>Pros</h3>
-  <p>It's the most important and powerful lens.</p>
+  <p>It's the most important and powerful lens in my opinion.</p>
 </section>
 
 <section>
@@ -262,7 +281,7 @@ tags: presentations prioritzation ux product
   <p>It's terrifying. It can lead to massive change.</p>
 </section>
 
-<section data-background-color="#82589c">
+<section data-background-color="#ffc043">
   <p>Take a minute and write down a goal.</p>
   <p>Exactly where do you want to be in 3 years from now?</p>
   <p class="fragment fade-up">Too hard? Don't worry – try 1 year.</p>
