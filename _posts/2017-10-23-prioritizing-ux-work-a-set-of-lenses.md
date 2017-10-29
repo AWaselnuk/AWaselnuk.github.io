@@ -243,21 +243,9 @@ tags: presentations prioritization ux product
 </section>
 
 <section>
-  <ol>
-    <li>You own your priorities. No one else.</li>
-    <li>Apply a very selective criteria for what is essential.</li>
-    <li>Make the decision that makes a thousand decisions. Set a clear goal.</li>
-  </ol>
-</section>
-
-<section>
-  <p>Improve housing conditions for families in need.</p>
-  <p><strong>Build 150 affordable, green, storm-resistant homes for families living in the Lower 9th Ward.</strong></p>
-
-  <aside class="notes" data-markdown>
-    * From Brad Pitt's "Make It Right" organization
-    * The conditions for success are very clear.
-  </aside>
+  <p>You own your priorities. No one else.</p>
+  <p>Apply a very selective criteria for what is essential.</p>
+  <p>Set a clear goal. Make the decision that makes a thousand decisions.</p>
 </section>
 
 <section>
