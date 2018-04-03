@@ -68,7 +68,7 @@ tags: presentations javascript oop design
 
 
 <section>
-  <pre><code>
+  <pre><code class="javascript">
     cat         // object
       .speak()  // message
   </code></pre>
@@ -123,7 +123,17 @@ tags: presentations javascript oop design
 </section>
 
 <section>
-  TODO: code a class and talk to it
+  <pre><code class="javascript">
+    class EmailForm {
+      render() { ... }
+
+      submit() { ... }
+
+      validate() { ... }
+
+      trackUserDataWithoutConsent() { ... }
+    }
+  </code></pre>
 </section>
 
 <section>
@@ -138,10 +148,31 @@ tags: presentations javascript oop design
 </section>
 
 <section>
-  TODO: code methods to illustrate
+  <pre><code class="javascript">
+    function printReport(report) {
+      // our printer can't handle emojis so we need to remove them
+      report = report.replace(/!&!(%^%^#*)/g, '');
+      console.log(report);
+    }
+  </code></pre>
+
+  <pre><code class="javascript">
+    function printReport(report) {
+      console.log(prepareForPrint(report));
+    }
+
+    function prepareForPrint(printable) {
+      const BLACKLIST = /!&!(%^%^#*)/g;
+      return printable.replace(BLACKLIST, '');
+    }
+  </code></pre>
+
+  <p><small>* note that my made up regex might not work as advertised</small></p>
 </section>
 
 <section data-background-color="#ffc043">
   TODO: link to final GH file
   <p>Consider this real world example.</p>
 </section>
+
+
