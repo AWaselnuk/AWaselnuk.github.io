@@ -175,4 +175,42 @@ tags: presentations javascript oop design
   <p>Consider this real world example.</p>
 </section>
 
+<section>
+  <h2>Dependencies</h2>
 
+  <aside class="notes" data-markdown>
+    * Not the kind you 'import'
+    * The kind that means when you change one class you have to go change another one
+  </aside>
+</section>
+
+<section>
+  <p>Recognition is your most important first step! An object has a dependency when it knows:</p>
+  <ul>
+    <li>The name of another class</li>
+    <li>The name of a message it intends to send to someone other than <code>this</code>.</li>
+    <li>Arguments that a message requires.</li>
+    <li>The order of arguments that a message requires.</li>
+  </ul>
+</section>
+
+<section>
+  <pre><code class="javascript">
+    import Turkey from './Turkey.js';
+    import Soup from './Soup.js';
+
+    class Dinner {
+      serve() {
+        Turkey.serve();
+        Soup.serve(3, true); // 3 bowls with garnish added
+      }
+    }
+  </code></pre>
+
+  <aside class="notes" data-markdown>
+    * Knows the names of Turkey and Soup
+    * Knows that they accept a message called 'serve'
+    * Knows that Soup.serve accepts a number and then a boolean
+    * Knows that Soup.serve needs the number first
+  </aside>
+</section>
