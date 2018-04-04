@@ -12,6 +12,9 @@ tags: presentations javascript oop design
     <br>
     Technical Lead at <a href="https://www.shopify.com/careers">Shopify</a>
   </p>
+  <p>
+    <a href="https://github.com/AWaselnuk/poodj">The POODJ examples repo</a>
+  </p>
 </section>
 
 <section>
@@ -190,8 +193,7 @@ tags: presentations javascript oop design
 </section>
 
 <section data-background-color="#ffc043">
-  TODO: link to final GH file
-  <p>Consider this real world example.</p>
+  <p><a href="https://github.com/AWaselnuk/poodj/tree/master/email-form">Consider this real world example.</a></p>
 
   <aside class="notes" data-markdown>
     * Make sure to tie back to SRP
@@ -329,8 +331,7 @@ tags: presentations javascript oop design
 </section>
 
 <section data-background-color="#ffc043">
-  TODO: link to final GH file
-  <p>Let's look at some real code.</p>
+  <p><a href="https://github.com/AWaselnuk/poodj/tree/master/install-card">Let's look at some real code.</a></p>
 
   <aside class="notes" data-markdown>
     * Make sure to tie back to dependencies
@@ -519,8 +520,7 @@ tags: presentations javascript oop design
 </section>
 
 <section data-background-color="#ffc043">
-  TODO: link to final GH file
-  <p>One final flight to production code</p>
+  <p><a href="https://github.com/AWaselnuk/poodj/tree/master/billing-cycle-list">One final flight to production code</a></p>
 
   <aside class="notes" data-markdown>
     * Make sure to tie back to interfaces
