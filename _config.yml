@@ -1,8 +1,8 @@
-name: Adam Waselnuk - Front End Developer
+name: Adam Waselnuk - Web Developer
 url: http://www.adamwaselnuk.com
 author: Adam Waselnuk
 description: >
-    Articles about front end web development and working in the tech industry by Adam Waselnuk.
-    I’m a front end web developer who cares deeply about interaction design, writing software, and programming literacy for everyone.
+    Articles about web development and working in the tech industry by Adam Waselnuk.
+    I’m a web developer who cares deeply about interaction design, writing software, and programming literacy for everyone.
 highlighter: rouge
 exclude: ["node_modules", "package.json"]
