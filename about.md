@@ -23,10 +23,10 @@ Here are some things I care a lot about and would love to discuss with you:
 * Magic, fantasy, and the importance of play
 
 Here are some technologies I know:
-Ruby, Ruby on Rails, JavaScript, React, HTML, CSS, Git, The internet
+Ruby, Ruby on Rails, Javascript, Typescript, React, HTML, CSS, Git, The internet
 
 Here are some technologies I have tried and enjoyed using:
 Angular, Coffeescript, React Native, Node, Elixir, Elm
 
-[Please reach out on Twitter if you want to chat!](https://twitter.com/AWaselnuk)
+[Please send me an email if you want to chat.](mailto:adam.waselnuk@gmail.com)
 
