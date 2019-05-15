@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Adam Waselnuk - About me
+title: About me
 ---
 
 [back to articles](/)
