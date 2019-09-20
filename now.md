@@ -7,15 +7,15 @@ title: Now
 
 # What I am up to right now
 
-*Last updated May, 2019*
+*Last updated September, 2019*
 
 * Working at [Shopify](https://www.shopify.com) as a Staff Developer. The current project is a marketplace that will connect our partners who provide services with our merchants.
-* Preparing for daughter number 3. She arrives in July and I'll be taking the summer off for paternity leave.
-* Learning how to use a longsword at [Ottawa Swordplay](https://ottawaswordplay.com/) based on the [Liechtenauer](https://en.wikipedia.org/wiki/Johannes_Liechtenauer) tradition.
-* Investing lots of energy into my new home which we moved into in August of last year. It is my first time owning a house and I love it!
-* Trying to form new habits focused on physical conditioning. If you have any tips, please let me know.
+* Launching a new project to catalogue fantastic beasts from myth and culture. Check out [Novus Bestiary](https://www.novusbestiary.com) and sign up for free.
+* Enjoying parental leave and getting to know our third daughter Audrey.
+* Preparing for my next rank in longsword at [Ottawa Swordplay](https://ottawaswordplay.com/) based on the [Liechtenauer](https://en.wikipedia.org/wiki/Johannes_Liechtenauer) tradition.
 * Learning how people build self-funded businesses by listening to podcasts and reading books.
-* Reading [The Brothers Karamazov](https://en.wikipedia.org/wiki/The_Brothers_Karamazov) which is my first Dostoevsky novel.
+* Reading multiple bestiaries to research my new project as well as short stories by Jorge Luis Borges.
+* Rediscovering philosophy through the excellent podcast [Philosophize This!](https://philosophizethis.org/)
 
 [Please send me an email if you want to chat.](mailto:adam.waselnuk@gmail.com)
 
