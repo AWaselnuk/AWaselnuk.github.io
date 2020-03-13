@@ -4,11 +4,10 @@
   "description": "Adam Waselnuk's jekyll blog.",
   "scripts": {
     "default": "npm run build:assets && npm run server & npm run watch:sass",
-    "build": "npm run build:coffee && npm run build:sass && npm run build:jekyll",
-    "build:assets": "npm run build:coffee && npm run build:sass",
+    "build": "npm run build:sass && npm run build:jekyll",
+    "build:assets": "npm run build:sass",
     "build:jekyll": "bundle exec jekyll build --drafts",
     "build:sass": "npm run sass && npm run autoprefix",
-    "build:coffee": "coffee -c -o js/ _coffee/",
     "clean": "npm run clean:jekyll",
     "clean:jekyll": "rm -rf _site/",
     "sass": "sass _scss/main.scss css/main.css",
