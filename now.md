@@ -7,17 +7,14 @@ title: Now
 
 # What I am up to right now
 
-*Last updated September, 2019*
+_Last updated March, 2020_
 
-* Working at [Shopify](https://www.shopify.com) as a Staff Developer. The current project is a marketplace that will connect our partners who provide services with our merchants.
-* Launching a new project to catalogue fantastic beasts from myth and culture. Check out [Novus Bestiary](https://www.novusbestiary.com) and sign up for free.
-* Enjoying parental leave and getting to know our third daughter Audrey.
-* Preparing for my next rank in longsword at [Ottawa Swordplay](https://ottawaswordplay.com/) based on the [Liechtenauer](https://en.wikipedia.org/wiki/Johannes_Liechtenauer) tradition.
-* Learning how people build self-funded businesses by listening to podcasts and reading books.
-* Reading multiple bestiaries to research my new project as well as short stories by Jorge Luis Borges.
-* Rediscovering philosophy through the excellent podcast [Philosophize This!](https://philosophizethis.org/)
+- Working at [Shopify](https://www.shopify.com) as a Development Manager. Working on a new project I can talk more about later.
+- Growing my audience for my weekly, fantasy bestiary. Check out [Novus Bestiary](https://www.novusbestiary.com) and sign up for free.
+- Practicing longsword at [Ottawa Swordplay](https://ottawaswordplay.com/) based on the [Liechtenauer](https://en.wikipedia.org/wiki/Johannes_Liechtenauer) tradition.
+- Learning how people build self-funded businesses by listening to podcasts and reading books.
+- Preparing to start building version 2 of [Here Be Taverns](http://www.herebetaverns.com)
 
 [Please send me an email if you want to chat.](mailto:adam.waselnuk@gmail.com)
 
-*Part of the [Now Page Movement](https://sivers.org/nowff) from Derek Sivers*
-
+_Part of the [Now Page Movement](https://sivers.org/nowff) from Derek Sivers_
