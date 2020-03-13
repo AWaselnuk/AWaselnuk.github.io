@@ -13,20 +13,19 @@ On the technical side of things, I specialize in front-end web development with 
 
 Here are some things I care a lot about and would love to discuss with you:
 
-* The challenges of communication and execution at large scale software companies
-* Leading teams of developers
-* Programming literacy
-* Self-directed education and homeschooling
-* Resisting the attention economy (e.g. http://humanetech.com/)
-* Software design and architecture
-* Keeping democracy intact
-* Magic, fantasy, and the importance of play
+- The challenges of communication and execution at large scale software companies
+- Leading teams of developers
+- Programming literacy
+- Self-directed education and homeschooling
+- Resisting the attention economy (e.g. http://humanetech.com/)
+- Software design and architecture
+- Keeping democracy intact
+- Magic, fantasy, and the importance of play
 
 Here are some technologies I know:
-Ruby, Ruby on Rails, Javascript, Typescript, React, HTML, CSS, Git, The internet
+Ruby, Ruby on Rails, GraphQL, Javascript, Typescript, React, HTML, CSS, Git, The internet
 
 Here are some technologies I have tried and enjoyed using:
 Angular, Coffeescript, React Native, Node, Elixir, Elm
 
 [Please send me an email if you want to chat.](mailto:adam.waselnuk@gmail.com)
-
