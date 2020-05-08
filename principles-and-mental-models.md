@@ -2,8 +2,8 @@
 layout: default
 title: Principles and Mental Models for Software Developers
 description: >
-  Principles and Mental Models for software developers who are interested in personal growth. These ideas have been accumulated
-  over the course of my career in the tech industry working at Shopify as a web developer.
+  Principles and Mental Models for software developers who are interested in personal growth. These ideas have accumulated
+  over the course of my career in the tech industry.
 ---
 
 [back to articles](/)
@@ -81,9 +81,19 @@ Put simply, it means that the total system includes computers **and humans**. To
 
 This is just a nice word to help remember.
 
-### The UI stack
+### The UI Stack
 
-Coming soon
+The UI Stack describes 5 states you must consider when designing UI for web applications. The most satisfying design will only come after all 5 states have been accounted for. This is a fantastic system to help designers communicate well with front end developers. Front end developers are often forced to consider all 5 states due to the nature of front end coding patterns.
+
+The 5 states are as follows:
+
+1. Empty state - When there are 0 results, or when a customer first sees the page.
+2. Loading state - While data is loading.
+3. Partial state - When there is only a small amount of data, for example a single table row.
+4. Error state - When something has gone wrong.
+5. Ideal state - When there is lots of data and the product's full potential is on display. This is the state you want people to see most often.
+
+Scott Hurff wrote the definitive guide to on the UI Stack in his essay ["How to fix a bad user interface"](ui-stack). All thanks to him for teaching me about this.
 
 ### Hill Chart
 
@@ -99,9 +109,9 @@ Coming soon
 
 Coming soon
 
-### My UI is ugly
+### My UI is ugly or feels awkward
 
-Coming soon
+Have you considered [the UI Stack?](#the-ui-stack)
 
 ### My project does not seem to be progressing. We keep having meetings instead of shipping anything useful.
 
@@ -116,9 +126,11 @@ I stand on the shoulders of giants. Thank you to all of my amazing teachers, whe
 3. [Writing Software keynote by DHH][writing-software-talk]
 4. [Making Good Decisions as a Product Manager by Brandon Chu][making-good-decisions]
 5. [Avid Grimm][avdi]
+6. [How to fix a bad user interface by Scott Hurff](ui-stack)
 
 [superforecasting]: https://www.penguinrandomhouse.com/books/227815/superforecasting-by-philip-e-tetlock-and-dan-gardner/
 [99-bottles]: https://www.sandimetz.com/99bottles
 [writing-software-talk]: https://www.youtube.com/watch?v=9LfmrkyP81M
 [making-good-decisions]: https://blackboxofpm.com/making-good-decisions-as-a-product-manager-c66ddacc9e2b
 [avdi]: https://avdi.codes/
+[ui-stack]: https://www.scotthurff.com/posts/why-your-user-interface-is-awkward-youre-ignoring-the-ui-stack/
