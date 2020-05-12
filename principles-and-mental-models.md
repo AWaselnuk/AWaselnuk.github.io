@@ -97,7 +97,11 @@ Scott Hurff wrote the definitive guide to on the UI Stack in his essay ["How to 
 
 ### Hill Chart
 
-Coming soon
+There are many ways you can describe the 'phase' that a project is in. I have found that the simplest way is to split it into two phases: 'Exploration' and 'Build'. When you are in the 'Exploration' phase, you are learning about the problem and brainstorming potential solutions. When you are in the 'Build' phase, you are executing.
+
+A Hill Chart is a visual tool that represents those two phases. It stays simple yet provides more information through metaphor. By describing where you stand 'on the hill', you quickly convey a lot of information about where a project stands. Exploring is difficult. When you begin, you know less than you will ever know for the rest of the project. You might have false starts. It _feels_ like you are _climbing up_ a hill. Building is more straightforward. You can see the final form of things and you gather inertia as you progress. It _feels_ like you are _running down_.
+
+The team at Basecamp developed this mental model. [You can read a thorough description of it on their blog.](hill-charts)
 
 ### Omega mess
 
@@ -127,6 +131,7 @@ I stand on the shoulders of giants. Thank you to all of my amazing teachers, whe
 4. [Making Good Decisions as a Product Manager by Brandon Chu][making-good-decisions]
 5. [Avid Grimm][avdi]
 6. [How to fix a bad user interface by Scott Hurff](ui-stack)
+7. [Hill Charts: see where projects really stand by Basecamp](hill-charts)
 
 [superforecasting]: https://www.penguinrandomhouse.com/books/227815/superforecasting-by-philip-e-tetlock-and-dan-gardner/
 [99-bottles]: https://www.sandimetz.com/99bottles
@@ -134,3 +139,4 @@ I stand on the shoulders of giants. Thank you to all of my amazing teachers, whe
 [making-good-decisions]: https://blackboxofpm.com/making-good-decisions-as-a-product-manager-c66ddacc9e2b
 [avdi]: https://avdi.codes/
 [ui-stack]: https://www.scotthurff.com/posts/why-your-user-interface-is-awkward-youre-ignoring-the-ui-stack/
+[hill-charts]: https://basecamp.com/features/hill-charts
