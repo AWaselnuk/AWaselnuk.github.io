@@ -101,11 +101,17 @@ There are many ways you can describe the 'phase' that a project is in. I have fo
 
 A Hill Chart is a visual tool that represents those two phases. It stays simple yet provides more information through metaphor. By describing where you stand 'on the hill', you quickly convey a lot of information about where a project stands. Exploring is difficult. When you begin, you know less than you will ever know for the rest of the project. You might have false starts. It _feels_ like you are _climbing up_ a hill. Building is more straightforward. You can see the final form of things and you gather inertia as you progress. It _feels_ like you are _running down_.
 
-The team at Basecamp developed this mental model. [You can read a thorough description of it on their blog.](hill-charts)
+The team at Basecamp developed this mental model. [You can read a thorough description of it on their blog.][hill-charts]
 
 ### Omega mess
 
-Coming soon
+A large codebase that has been around for a while will gather lots of messes. Many developers feel discouraged by those ugly bits of code. Their passion for clean code compels them to try to fix everything, but that's a trap. While you are 'fixing' things, many others are adding code. While you are 'fixing' things, your customers are waiting for features they need.
+
+You should stop trying to 'fix everything'. You should free yourself from worry over the _Omega Messes_. _Omega Messes_ are messes that are well encapsulated at the edges of the system. These are the embarrassing files that are only opened once every few months. These are the awkwardly written, private functions near the bottom of the file. These are the messes around old features, the ones that only 5% of your customers actually use. Ignore these _Omega Messes_ with pride and put your mind at ease. Direct your newfound energy towards work that matters.
+
+You _should_ worry about the messes that fall into the opposite category (Alpha Messes?). These are the messes in areas of the code base with high [churn](https://www.pluralsight.com/blog/tutorials/code-churn). These are the messes that sprawl across your critical user flows. Focus on fixing these.
+
+Sandi Metz taught me this concept in her talk: ['Go ahead, make a mess'.][omega-mess]
 
 ## Cookbook
 
@@ -126,15 +132,17 @@ Coming soon
 I stand on the shoulders of giants. Thank you to all of my amazing teachers, whether they know they are my teachers or not.
 
 1. [Superforecasting by Philip Tetlock and Dan Gardner][superforecasting]
-2. [99 Bottles of OOP by Sandi Metz][99-bottles]
-3. [Writing Software keynote by DHH][writing-software-talk]
-4. [Making Good Decisions as a Product Manager by Brandon Chu][making-good-decisions]
-5. [Avid Grimm][avdi]
-6. [How to fix a bad user interface by Scott Hurff](ui-stack)
-7. [Hill Charts: see where projects really stand by Basecamp](hill-charts)
+1. [99 Bottles of OOP by Sandi Metz][99-bottles]
+1. [Go ahead, make a mess by Sandi Metz][omega-mess]
+1. [Writing Software keynote by DHH][writing-software-talk]
+1. [Making Good Decisions as a Product Manager by Brandon Chu][making-good-decisions]
+1. [Avid Grimm][avdi]
+1. [How to fix a bad user interface by Scott Hurff](ui-stack)
+1. [Hill Charts: see where projects really stand by Basecamp](hill-charts)
 
 [superforecasting]: https://www.penguinrandomhouse.com/books/227815/superforecasting-by-philip-e-tetlock-and-dan-gardner/
 [99-bottles]: https://www.sandimetz.com/99bottles
+[omega-mess]: https://www.youtube.com/watch?v=mpA2F1In41w
 [writing-software-talk]: https://www.youtube.com/watch?v=9LfmrkyP81M
 [making-good-decisions]: https://blackboxofpm.com/making-good-decisions-as-a-product-manager-c66ddacc9e2b
 [avdi]: https://avdi.codes/
