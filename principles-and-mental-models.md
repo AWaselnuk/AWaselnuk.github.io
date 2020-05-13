@@ -103,7 +103,7 @@ A Hill Chart is a visual tool that represents those two phases. It stays simple 
 
 The team at Basecamp developed this mental model. [You can read a thorough description of it on their blog.][hill-charts]
 
-### Omega mess
+### Omega Mess
 
 A large codebase that has been around for a while will gather lots of messes. Many developers feel discouraged by those ugly bits of code. Their passion for clean code compels them to try to fix everything, but that's a trap. While you are 'fixing' things, many others are adding code. While you are 'fixing' things, your customers are waiting for features they need.
 
