@@ -10,7 +10,7 @@ description: >
 
 # Principles and Mental Models for Software Developers
 
-_Last updated: March 13, 2020_
+_Last updated: May 13, 2020_
 
 As my career in the tech industry has progressed, I have tried out many different systems and ideas to continously improve myself and my craft.
 Some of these tools and approaches have stayed with me and become a critical part of my success. On this page, I will be assembling my favourite ideas for quick reference. This will be a living document, updated constantly as I continue to learn, reflect, and grow.
