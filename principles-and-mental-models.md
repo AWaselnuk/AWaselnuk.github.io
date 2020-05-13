@@ -137,8 +137,8 @@ I stand on the shoulders of giants. Thank you to all of my amazing teachers, whe
 1. [Writing Software keynote by DHH][writing-software-talk]
 1. [Making Good Decisions as a Product Manager by Brandon Chu][making-good-decisions]
 1. [Avid Grimm][avdi]
-1. [How to fix a bad user interface by Scott Hurff](ui-stack)
-1. [Hill Charts: see where projects really stand by Basecamp](hill-charts)
+1. [How to fix a bad user interface by Scott Hurff][ui-stack]
+1. [Hill Charts: see where projects really stand by Basecamp][hill-charts]
 
 [superforecasting]: https://www.penguinrandomhouse.com/books/227815/superforecasting-by-philip-e-tetlock-and-dan-gardner/
 [99-bottles]: https://www.sandimetz.com/99bottles
