@@ -17,6 +17,25 @@ Some of these tools and approaches have stayed with me and become a critical par
 
 I have divided the concepts into three sections: Principles, Mental Models, and Cookbook. You can think of the [Principles](#principles) as guides for action when faced with a problem. [Mental Models](#mental-models) are simplified models of reality that work well as lenses to apply to your thinking. [The Cookbook](#cookbook) is filled with recipes you can follow to debug problems common to developers.
 
+## Table of contents
+
+- [Principles](#principles)
+  - [You are bad at predicting the future](#you-are-bad-at-predicting-the-future)
+  - [Optimize for change](#optimize-for-change)
+  - [Prefer fast decision making to perfect decisions](#prefer-fast-decision-making-to-perfect-decisions)
+  - [Writing software is like writing french poetry](#writing-software-is-like-writing-french-poetry)
+  - [YAGNI](#YAGNI)
+  - [Discover abstractions instead of designing them](#discover-distractions-instead-of-designing-them)
+- [Mental Models](#mental-models)
+  - [Pareto principle](#pareto-principle)
+  - [The Sociotechnical system](#the-sociotechnical-system)
+  - [The UI stack](#the-ui-stack)
+  - [Hill chart](#hill-chart)
+  - [Omega Mess](#omega-mess)
+- [Cookbook (WIP)](#cookbook)
+  - [My project is not progressing. We keep having meetings instead of shipping anything useful.](#my-project-is-not-progressing-we-keep-having-meetings-instead-of-shipping-anything-useful)
+  - [My UI is ugly or feels awkward.](#my-ui-is-ugly-or-feels-awkward)
+
 ## Principles
 
 ### You are bad at predicting the future
@@ -115,17 +134,13 @@ Sandi Metz taught me this concept in her talk: ['Go ahead, make a mess'.][omega-
 
 ## Cookbook
 
-### I am not discovering bugs until the code is in production.
+### My project is not progressing. We keep having meetings instead of shipping anything useful.
 
 Coming soon
 
 ### My UI is ugly or feels awkward
 
 Have you considered [the UI Stack?](#the-ui-stack)
-
-### My project does not seem to be progressing. We keep having meetings instead of shipping anything useful.
-
-Coming soon
 
 ## Just the links please
 
