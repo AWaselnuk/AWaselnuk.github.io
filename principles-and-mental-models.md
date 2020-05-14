@@ -12,7 +12,7 @@ description: >
 
 _Last updated: May 13, 2020_
 
-As my career in the tech industry has progressed, I have tried out many different systems and ideas to continously improve myself and my craft.
+As my career in the tech industry has progressed, I have tried out many different systems and ideas to continuously improve myself and my craft.
 Some of these tools and approaches have stayed with me and become a critical part of my success. On this page, I will be assembling my favourite ideas for quick reference. This will be a living document, updated constantly as I continue to learn, reflect, and grow.
 
 I have divided the concepts into three sections: Principles, Mental Models, and Cookbook. You can think of the [Principles](#principles) as guides for action when faced with a problem. [Mental Models](#mental-models) are simplified models of reality that work well as lenses to apply to your thinking. [The Cookbook](#cookbook) is filled with recipes you can follow to debug problems common to developers.
@@ -40,7 +40,7 @@ I have divided the concepts into three sections: Principles, Mental Models, and 
 
 ### You are bad at predicting the future
 
-Humans are bad at predicting the future. If you don't believe this statement, I recommend diving into the book [Superforecasting][superforecasting]. To make matters worse, software projects are complicated and usually unique. Looking at past projects to predict the success or shape of the upcoming project may fail, because each project has developers discovering things for the first time. On top of that technical challenge, you are likely working with humans, and those humans will introduce additional complexities and surprises.
+Humans are bad at predicting the future. If you don't believe this statement, I recommend diving into the book [Superforecasting][superforecasting]. To make matters worse, software projects are complicated and unique. Looking at past projects to predict the success or shape of the upcoming project may fail, because each project has developers discovering things for the first time. On top of that technical challenge, you are likely working with humans, and those humans will introduce additional complexities and surprises.
 
 I recommend lightweight planning, but I do not recommend having confidence in your predictions.
 
@@ -48,7 +48,7 @@ I recommend lightweight planning, but I do not recommend having confidence in yo
 
 The tech industry changes quickly. Projects that were important last week may suddenly get cancelled. Priorities and teams will shift. To conquer the changing landscape, do not tie your identity or happiness to your current project, but rather the skills and passion you bring to it. Assume all the code you ship is final. Aim for simplicity and cut as much as you can. Large and complicated software changes too slowly.
 
-Write code that reveals your intentions and is easy to change. Beware of violating the [YAGNI](#yagni) principle when optimizing for change. Making code more general and adaptable makes it more complicated. Make sure you [discover abstractions instead of designing them](#discover-abstractions-instead-of-designing-them).
+Write code that reveals your intentions and is easy to change. Make sure you [discover abstractions instead of designing them](#discover-abstractions-instead-of-designing-them).
 
 ### Prefer fast decision making to perfect decisions
 
@@ -76,9 +76,9 @@ YAGNI stands for **You Aren't Going To Need It**. It is a catchy way to remember
 
 ### Discover abstractions instead of designing them
 
-In order to avoid the dangers of [YAGNI](#yagni), you should try to avoid designing abstractions. It is much better to discover them. I use a rule of 3. Do I need some code to act a lot like some other code? Great, I'll just copy and paste! Do I need some third thing to act a lot like the first two? Great, I'll just copy paste and the **pause to consider an abstraction**. 3 times does not always mean I do an abstraction, it's just an easy number to remember to check.
+In order to avoid the dangers of [YAGNI](#yagni), you should try to avoid designing abstractions. It is much better to discover them. I use a rule of 3. Do I need some code to act a lot like some other code? Great, I'll just copy and paste! Do I need some third thing to act a lot like the first two? Great, I'll just copy paste and then **pause to consider an abstraction**. 3 times does not always mean I do an abstraction, it's just an easy number to remember to check.
 
-**This might be my favourite principle of software development** when it comes to designing better code. The best way to truly this concept is to read [99 bottles of OOP by Sandi Metz][99-bottles] and to practice it every day.
+**This is my favourite principle of quality software design.** The best way to understand it is to read [99 bottles of OOP by Sandi Metz][99-bottles] and practice it every day.
 
 ## Mental Models
 
@@ -90,7 +90,7 @@ This concept has served me again and again and again. You can try applying it in
 
 - Who are the 20% of people you spend time with that take 80% of your energy away?
 - What are the 20% of things you spend time on that produce 80% of your output?
-- What is the 80% of features you can build quickly vs the last 20% which will extend the deadline by double?
+- What is the 80% of features you can build quickly vs the last 20% which will take as long as the first 80%?
 
 ### The Sociotechnical system
 
@@ -112,7 +112,7 @@ The 5 states are as follows:
 4. Error state - When something has gone wrong.
 5. Ideal state - When there is lots of data and the product's full potential is on display. This is the state you want people to see most often.
 
-Scott Hurff wrote the definitive guide to on the UI Stack in his essay ["How to fix a bad user interface"](ui-stack). All thanks to him for teaching me about this.
+Scott Hurff wrote the definitive guide to the UI Stack in his essay ["How to fix a bad user interface"](ui-stack). All thanks to him for teaching me.
 
 ### Hill Chart
 
