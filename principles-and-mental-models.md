@@ -22,7 +22,7 @@ I have divided the concepts into three sections: Principles, Mental Models, and 
 - [Principles](#principles)
   - [You are bad at predicting the future](#you-are-bad-at-predicting-the-future)
   - [Optimize for change](#optimize-for-change)
-  - [Prefer fast decision making to perfect decisions](#prefer-fast-decision-making-to-perfect-decisions)
+  - [Prefer fast decision making to perfect decisions](#prefer-fast-decisions-to-perfect-decisions)
   - [Writing software is like writing french poetry](#writing-software-is-like-writing-french-poetry)
   - [YAGNI](#YAGNI)
   - [Discover abstractions instead of designing them](#discover-distractions-instead-of-designing-them)
@@ -32,7 +32,10 @@ I have divided the concepts into three sections: Principles, Mental Models, and 
   - [The UI stack](#the-ui-stack)
   - [Hill chart](#hill-chart)
   - [Omega Mess](#omega-mess)
-- [Cookbook (WIP)](#cookbook)
+  - [Parkinson's Law](#parkinsons-law)
+  - [Type 1 vs Type 2 decisions](#type-1-vs-type-2-decisions)
+  - [Stakeholder Matrix](#stakeholder-matrix)
+- [Cookbook](#cookbook)
   - [My project is not progressing. We keep having meetings instead of shipping anything useful.](#my-project-is-not-progressing-we-keep-having-meetings-instead-of-shipping-anything-useful)
   - [My UI is ugly or feels awkward.](#my-ui-is-ugly-or-feels-awkward)
 
@@ -50,7 +53,7 @@ The tech industry changes quickly. Projects that were important last week may su
 
 Write code that reveals your intentions and is easy to change. Make sure you [discover abstractions instead of designing them](#discover-abstractions-instead-of-designing-them).
 
-### Prefer fast decision making to perfect decisions
+### Prefer fast decisions to perfect decisions
 
 Making a perfect decision is unreasonable because the world is complicated and [you are bad at predicting the future](#you-are-bad-at-predicting-the-future). One of the best things you can do to become a better decision maker is to practice making decisions faster.
 
@@ -92,6 +95,8 @@ This concept has served me again and again and again. You can try applying it in
 - What are the 20% of things you spend time on that produce 80% of your output?
 - What is the 80% of features you can build quickly vs the last 20% which will take as long as the first 80%?
 
+You have limited time, energy, and attention. Apply this principle to understand where you should direct these precious resources.
+
 ### The Sociotechnical system
 
 I first heard this term from [Avdi Grimm.][avdi] The truth is that, as a software developer in the tech industry, you don't work on technical systems – you work on sociotechnical systems.
@@ -132,11 +137,59 @@ You _should_ worry about the messes that fall into the opposite category (Alpha 
 
 Sandi Metz taught me this concept in her talk: ['Go ahead, make a mess'.][omega-mess]
 
+### Parkinson's Law
+
+Work expands to fill the time available for its completion. This was noted by the twentieth British scholar C. Northcote Parkinson.
+
+Having deadlines, even imperfect ones, produces a great focusing effect for teams who build software. Smart teams will always produce more questions, refactors, and tweaks if given infinite time. Set a deadline with the team and hit it.
+
+### Type 1 vs Type 2 decisions
+
+Type 1 decisions are difficult or impossible to reverse. They represent a large amount of risk. You should invest in a thorough decision making process and proceed carefully.
+
+Type 2 decisions are reversible. If they don't work out, you can always go back or quickly adjust course.
+
+Don't confuse these two types of decisions. Don't apply Type 1 decision making process to Type 2 decisions. Most decisions are Type 2.
+
+### Stakeholder Matrix
+
+Most projects have stakeholders. Start by making sure you have identified all of them. A stakeholder is anyone who may have influence over the direction of your project or interest in its success.
+
+To understand how you should manage these stakeholders, place them into 4 quadrants on a simple grid. On the X axis you have Interest and on the Y axis you have Influence.
+
+<table style="width: 100%; border: 1px solid #ccc;">
+  <tr>
+    <td style="text-align: center; height: 80px; width: 20%; background-color: #eee;"></td>
+    <td style="text-align: center; height: 80px; width: 40%; background-color: #8afacf;">Keep Informed</td>
+    <td style="text-align: center; height: 80px; width: 40%; background-color: #ffa278;">Manage Actively</td>
+  </tr>
+  <tr>
+    <th style="text-align: center; height: 80px; width: 20%; background-color: #eee;">Influence</th>
+    <td style="text-align: center; height: 80px; width: 40%; background-color: #b5ffe5;">Monitor</td>
+    <td style="text-align: center; height: 80px; width: 40%; background-color: #8afacf;">Keep Satisfied</td>
+  </tr>
+  <tr>
+    <td style="height: 80px; width: 20%; background-color: #eee;"></td>
+    <th colspan="2" style="height: 80px; text-align: left; width: 40%; background-color: #eee;">Interest</th>
+  </tr>
+</table>
+
+You should then manage them as follows:
+
+1. Low Interest, Low Influence - Spend little effort here. Monitor them to see if they change interest or influence levels.
+2. Low Interest, High Influence - Keep them satisfied. It is unlikely they will bring issues but they have enough influence to derail the project over minor issues.
+3. High Interest, Low Influence - Keep them informed. These people are very interested in the project outcomes and deserve to have a clear way to follow its progress.
+4. High Interest, High Influence - Manage them actively. These are the key stakeholders for the project and should be close collaborators.
+
 ## Cookbook
 
 ### My project is not progressing. We keep having meetings instead of shipping anything useful.
 
-Coming soon
+Do you have [deadlines](#parkinsons-law) in place? Deadlines, even imperfect ones, have a great focusing effect. Remember [Parkinson's Law](#parkinsons-law).
+
+Remind your team that you should [prefer fast decision making to perfect decision making](#prefer-fast-decisions-to-perfect-decisions). If you are hesitant, try dividing the decisions blocking progress into [Type 1 vs Type 2 decisions](#type-1-vs-type-2-decisions). You should discover that almost all decisions are Type 2.
+
+Sometimes projects are slowed down by stakeholders. Build a [stakeholder matrix](#stakeholder-matrix) to classify everyone weighing in on the project and then act accordingly.
 
 ### My UI is ugly or feels awkward
 
