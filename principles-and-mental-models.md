@@ -17,6 +17,8 @@ Some of these tools and approaches have stayed with me and become a critical par
 
 I have divided the concepts into three sections: Principles, Mental Models, and Cookbook. You can think of the [Principles](#principles) as guides for action when faced with a problem. [Mental Models](#mental-models) are simplified models of reality that work well as lenses to apply to your thinking. [The Cookbook](#cookbook) is filled with recipes you can follow to debug problems common to developers.
 
+{% include mental_models_signup_form.html %}
+
 ## Table of contents
 
 - [Principles](#principles)
@@ -216,3 +218,5 @@ I stand on the shoulders of giants. Thank you to all of my amazing teachers, whe
 [avdi]: https://avdi.codes/
 [ui-stack]: https://www.scotthurff.com/posts/why-your-user-interface-is-awkward-youre-ignoring-the-ui-stack/
 [hill-charts]: https://basecamp.com/features/hill-charts
+
+{% include mental_models_signup_form.html %}

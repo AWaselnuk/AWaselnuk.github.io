@@ -1,7 +1,6 @@
 // Styling Posts
 
 .posts {
-
 }
 
 .date {
@@ -41,20 +40,48 @@
 }
 
 .media {
-  @media(min-width: $screen-sm) {
+  @media (min-width: $screen-sm) {
     .media-left {
       max-width: 60%;
       // float: left;
     }
     .media-right {
-
     }
   }
 }
 
 .cover-mask {
   margin-bottom: $lHeight;
-  @media(min-width: $screen-md) {
+  @media (min-width: $screen-md) {
     margin-bottom: 0;
   }
+}
+
+.mental-models-callout {
+  padding: $lHeight;
+  border: 1px solid $dark-gray;
+  background-color: $white-gray;
+
+  p:first-child {
+    margin-top: 0;
+  }
+}
+
+.mc-email,
+.mc-submit {
+  padding: 10px;
+  min-height: 44px;
+}
+
+.mc-email {
+  margin-right: 10px;
+}
+
+.mc-submit {
+  border: none;
+  border: 1px solid $black;
+  background-color: teal;
+  border-radius: 2px;
+  color: white;
+  min-height: 44px;
 }

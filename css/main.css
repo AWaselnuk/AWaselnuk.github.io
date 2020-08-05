@@ -450,6 +450,9 @@ main {
   .view-sm-up {
     display: none !important; } }
 
+.flex-container {
+  display: flex; }
+
 /* ==========================================================================
    TYPE
 
@@ -821,6 +824,29 @@ footer {
   @media (min-width: 800px) {
     .cover-mask {
       margin-bottom: 0; } }
+
+.mental-models-callout {
+  padding: 25.6px;
+  border: 1px solid #868686;
+  background-color: #eee; }
+  .mental-models-callout p:first-child {
+    margin-top: 0; }
+
+.mc-email,
+.mc-submit {
+  padding: 10px;
+  min-height: 44px; }
+
+.mc-email {
+  margin-right: 10px; }
+
+.mc-submit {
+  border: none;
+  border: 1px solid #444;
+  background-color: teal;
+  border-radius: 2px;
+  color: white;
+  min-height: 44px; }
 
 /* Solarized Light
 

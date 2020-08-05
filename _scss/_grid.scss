@@ -8,7 +8,7 @@ $gutter: $lHeight / 2;
 
 .row {
   margin-bottom: $lHeight;
-  @media (min-width: $screen-md){
+  @media (min-width: $screen-md) {
     margin-left: -$gutter;
     margin-right: -$gutter;
   }
@@ -61,4 +61,8 @@ main {
   @media (max-width: $screen-sm) {
     display: none !important;
   }
+}
+
+.flex-container {
+  display: flex;
 }
