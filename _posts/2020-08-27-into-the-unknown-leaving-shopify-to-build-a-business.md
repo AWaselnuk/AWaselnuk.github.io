@@ -7,12 +7,21 @@ tags:
   - startup
   - shopify
 readings:
-  - title: "Domain-Driven Design"
-    author: "Eric Evans"
-    url: "http://www.amazon.com/exec/obidos/ASIN/0321125215/domainlanguag-20"
-  - title: "DDD Reference"
-    author: "Eric Evans"
-    url: "http://domainlanguage.com/ddd/reference/"
+  - title: "Only Intrinsic Motivation Lasts"
+    author: "Daniel Vassallo"
+    url: "https://medium.com/@dvassallo/only-intrinsic-motivation-lasts-92c0497cf97c"
+  - title: "The Four Hour Work Week"
+    author: "Tim Ferriss"
+    url: "https://fourhourworkweek.com/"
+  - title: "What To Work On"
+    author: "Julian Shapiro"
+    url: "https://www.julian.com/blog/life-planning"
+  - title: "The Problem With A Comfortable Career"
+    author: "Cory Zue"
+    url: "https://www.coryzue.com/writing/the-crisis-of-comfort/"
+  - title: "The Art of Product Podcast"
+    author: "Ben Orenstein & Derek Reimer"
+    url: "https://artofproductpodcast.com/"
 ---
 
 **I'm leaving Shopify today. I'm saying farewell to an amazing job, a known career path, and a constant paycheque. I want to build my own business.**
@@ -102,3 +111,5 @@ I expect that this will be difficult. Very difficult. But through difficulty I w
 Thank you for sharing in this small part of my journey. I will be writing about it a lot more.
 
 {% include article_signup_form.html %}
+
+{% include further_reading.html %}
