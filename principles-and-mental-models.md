@@ -10,8 +10,6 @@ description: >
 
 # Principles and Mental Models for Software Developers
 
-_Last updated: August 1, 2020_
-
 As my career in the tech industry has progressed, I have tried out many different systems and ideas to continuously improve myself and my craft.
 Some of these tools and approaches have stayed with me and become a critical part of my success. On this page, I will be assembling my favourite ideas for quick reference. This will be a living document, updated constantly as I continue to learn, reflect, and grow.
 
@@ -258,3 +256,5 @@ I stand on the shoulders of giants. Thank you to all of my amazing teachers, whe
 [ddd]: https://en.wikipedia.org/wiki/Domain-driven_design
 
 {% include mental_models_signup_form.html %}
+
+_Last updated: September 22, 2020_
