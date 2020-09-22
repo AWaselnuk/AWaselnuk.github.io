@@ -37,6 +37,7 @@ I have divided the concepts into three sections: Principles, Mental Models, and 
   - [Parkinson's Law](#parkinsons-law)
   - [Type 1 vs Type 2 decisions](#type-1-vs-type-2-decisions)
   - [Stakeholder Matrix](#stakeholder-matrix)
+  - [Ubiquitous Language](#ubiquitous-language)
 - [Cookbook](#cookbook)
   - [My project is not progressing. We keep having meetings instead of shipping anything useful.](#my-project-is-not-progressing-we-keep-having-meetings-instead-of-shipping-anything-useful)
   - [My UI is ugly or feels awkward.](#my-ui-is-ugly-or-feels-awkward)
@@ -183,6 +184,14 @@ You should then manage them as follows:
 3. High Interest, Low Influence - Keep them informed. These people are very interested in the project outcomes and deserve to have a clear way to follow its progress.
 4. High Interest, High Influence - Manage them actively. These are the key stakeholders for the project and should be close collaborators.
 
+### Ubiquitous Language
+
+Programmers, content strategists, and the wizards of Earthsea share a common understanding. They know that to discover something's name is to have power over it.
+
+[Ubiquitous Language](https://blog.carbonfive.com/ubiquitous-language-the-joy-of-naming/) is the language you actively and continously build with all contributors to a software project. Customers should also be counted as contributors. You can think of it as a glossary of names that everyone agrees on. You would not believe how much time has been lost in software projects on account of people having a different working definition of the word "User".
+
+This concept goes much deeper than the power of good names. It is too deep for this article, but luckily [Eric Evans wrote a whole book on it][ddd].
+
 ## Cookbook
 
 ### My project is not progressing. We keep having meetings instead of shipping anything useful.
@@ -209,6 +218,7 @@ I stand on the shoulders of giants. Thank you to all of my amazing teachers, whe
 1. [Avid Grimm][avdi]
 1. [How to fix a bad user interface by Scott Hurff][ui-stack]
 1. [Hill Charts: see where projects really stand by Basecamp][hill-charts]
+1. [Domain Driven Design by Eric Evans][ddd]
 
 [superforecasting]: https://www.penguinrandomhouse.com/books/227815/superforecasting-by-philip-e-tetlock-and-dan-gardner/
 [99-bottles]: https://www.sandimetz.com/99bottles
@@ -218,5 +228,6 @@ I stand on the shoulders of giants. Thank you to all of my amazing teachers, whe
 [avdi]: https://avdi.codes/
 [ui-stack]: https://www.scotthurff.com/posts/why-your-user-interface-is-awkward-youre-ignoring-the-ui-stack/
 [hill-charts]: https://basecamp.com/features/hill-charts
+[ddd]: https://en.wikipedia.org/wiki/Domain-driven_design
 
 {% include mental_models_signup_form.html %}
