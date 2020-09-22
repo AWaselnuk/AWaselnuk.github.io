@@ -28,6 +28,8 @@ I have divided the concepts into three sections: Principles, Mental Models, and 
   - [Writing software is like writing french poetry](#writing-software-is-like-writing-french-poetry)
   - [YAGNI](#YAGNI)
   - [Discover abstractions instead of designing them](#discover-distractions-instead-of-designing-them)
+  - [Seek feedback early and often](#seek-feedback-early-and-often)
+  - [Prototypes are magic](#prototypes-are-magic)
 - [Mental Models](#mental-models)
   - [Pareto principle](#pareto-principle)
   - [The Sociotechnical system](#the-sociotechnical-system)
@@ -41,6 +43,7 @@ I have divided the concepts into three sections: Principles, Mental Models, and 
 - [Cookbook](#cookbook)
   - [My project is not progressing. We keep having meetings instead of shipping anything useful.](#my-project-is-not-progressing-we-keep-having-meetings-instead-of-shipping-anything-useful)
   - [My UI is ugly or feels awkward.](#my-ui-is-ugly-or-feels-awkward)
+  - [The UX team and the Dev team are debating a lot.](#the-ux-team-and-the-dev-team-are-debating-a-lot)
 
 ## Principles
 
@@ -85,6 +88,24 @@ YAGNI stands for **You Aren't Going To Need It**. It is a catchy way to remember
 In order to avoid the dangers of [YAGNI](#yagni), you should try to avoid designing abstractions. It is much better to discover them. I use a rule of 3. Do I need some code to act a lot like some other code? Great, I'll just copy and paste! Do I need some third thing to act a lot like the first two? Great, I'll just copy paste and then **pause to consider an abstraction**. 3 times does not always mean I do an abstraction, it's just an easy number to remember to check.
 
 **This is my favourite principle of quality software design.** The best way to understand it is to read [99 bottles of OOP by Sandi Metz][99-bottles] and practice it every day.
+
+### Seek feedback early and often
+
+You may have seen this before:
+
+A developer disappears for a few weeks. In daily standup meetings they always say the same thing: "I am working on X feature". Eventually they emerge from their self-imposed solitude and show the finished feature. The UX team wants to try it out and suggests several changes but the developer feels resentment because those changes should have been in the "spec". Or worse, the feature isn't actually that interesting once the team sees it working. 80% of the time was wasted on 10% of the value.
+
+Don't be that developer.
+
+Consider building a prototype, because [prototypes are magic](#prototypes-are-magic). Describe your progress in a Pull Request. Show the badly working code with none of the edge cases figured out. Sketch out the technical design on a whiteboard. Do SOMETHING to tell the story of your progress every day.
+
+Ask for feedback from the team as soon as you can.
+
+### Prototypes are magic
+
+As a developer, one of the most effective ways you can convince other people to build what you want is to build a prototype. **Prototypes are magic.** I have seen a simple prototype that took 2 days to build trump a well researched project brief that took 4 weeks. Prototypes make abstract arguments concrete and exciting. People light up when they see a real thing working. They can't help it. It seems so _real_.
+
+Develop this skill. Use your super power with caution because it will work.
 
 ## Mental Models
 
@@ -205,6 +226,12 @@ Sometimes projects are slowed down by stakeholders. Build a [stakeholder matrix]
 ### My UI is ugly or feels awkward
 
 Have you considered [the UI Stack?](#the-ui-stack)
+
+### The UX team and the Dev team are debating a lot.
+
+Develop a [Ubiquitous Language.][#ubiquitous-language] Seriously it works.
+
+Make sure you [seek feedback early and often](#seek-feedback-early-and-often). Developers are not a production line to be handed "finished designs". Designers are perfectly capable of understanding technical constraints. [Prototypes are magic](#prototypes-are-magic). You should be working together in the early stages and sharing rough works in progress regularly.
 
 ## Just the links please
 
