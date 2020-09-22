@@ -227,7 +227,7 @@ Have you considered [the UI Stack?](#the-ui-stack)
 
 ### The UX team and the Dev team are debating a lot.
 
-Develop a [Ubiquitous Language.][#ubiquitous-language] Seriously it works.
+Develop a [Ubiquitous Language.](#ubiquitous-language) Seriously it works.
 
 Make sure you [seek feedback early and often](#seek-feedback-early-and-often). Developers are not a production line to be handed "finished designs". Designers are perfectly capable of understanding technical constraints. [Prototypes are magic](#prototypes-are-magic). You should be working together in the early stages and sharing rough works in progress regularly.
 
