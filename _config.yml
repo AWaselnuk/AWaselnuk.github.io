@@ -1,8 +1,8 @@
-name: Adam Waselnuk - Web Developer
-url: http://www.adamwaselnuk.com
+name: Adam Waselnuk
+url: https://www.adamwaselnuk.com
 author: Adam Waselnuk
 description: >
-    Articles about web development and working in the tech industry by Adam Waselnuk.
-    I’m a web developer who cares deeply about interaction design, writing software, and programming literacy for everyone.
+  Articles about bootstrapping a business in tech and web development by Adam Waselnuk.
+  I’m a first-time founder who is bootstrapping a software business. Follow along as I learn!
 highlighter: rouge
 exclude: ["node_modules", "package.json"]
