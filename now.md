@@ -3,7 +3,7 @@ layout: default
 title: Now
 ---
 
-[back to articles](/)
+[← back to articles](/)
 
 # What I am up to right now
 

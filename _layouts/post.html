@@ -1,15 +1,15 @@
 ---
 layout: default
 ---
+
 <div class="post">
+  <p><a href="/">← back to articles</a></p>
   <h2 class="post-title random-color">{{ page.title }}</h2>
   <p class="date">{{ page.date | date_to_string }}</p>
-  <hr>
-  <div class="post-content">
-  {{ content }}
-  </div>
+  <hr />
+  <div class="post-content">{{ content }}</div>
+</div>
+<!-- .post -->
 
-</div><!-- .post -->
-
-<hr>
-<a href="{{ site.url }}">Back to all posts</a>
+<hr />
+<p><a href="/">← back to articles</a></p>
