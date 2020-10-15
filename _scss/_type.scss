@@ -191,9 +191,9 @@ p code {
 *******************************************************************************/
 
 a {
-  color: teal;
+  color: $blue;
   &:visited {
-    color: darken(teal, 15%);
+    color: $dark-blue;
   }
 }
 

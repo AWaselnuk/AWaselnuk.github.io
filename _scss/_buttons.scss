@@ -17,9 +17,9 @@
     transform: scale(1.02);
   }
   &.btn-primary {
-    background-color: teal;
+    background-color: $blue;
     &:hover {
-      background-color: darken(teal, 10%);
+      background-color: $dark-blue;
     }
   }
 }

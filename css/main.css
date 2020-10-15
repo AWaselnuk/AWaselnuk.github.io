@@ -609,20 +609,20 @@ p code {
   LINKS
 *******************************************************************************/
 a {
-  color: teal; }
+  color: #058ed9; }
   a:visited {
-    color: #003434; }
+    color: #036299; }
 
 /*******************************************************************************
   Figures
 *******************************************************************************/
 figcaption {
-  color: #AAAAAA; }
+  color: #aaaaaa; }
 
 .btn {
   display: inline-block;
   padding: 0.5em 0.75em;
-  background-color: #AAAAAA;
+  background-color: #aaaaaa;
   color: white;
   text-decoration: none;
   text-transform: uppercase;
@@ -636,9 +636,9 @@ figcaption {
     background-color: #919191;
     transform: scale(1.02); }
   .btn.btn-primary {
-    background-color: teal; }
+    background-color: #058ed9; }
     .btn.btn-primary:hover {
-      background-color: #004d4d; }
+      background-color: #036299; }
 
 * {
   box-sizing: border-box; }
@@ -777,7 +777,7 @@ footer {
     margin-top: 0; } }
 .layout-home .read-all a {
   padding: 0.75em 1em;
-  background: #AAAAAA;
+  background: #aaaaaa;
   text-decoration: none; }
   @media (min-width: 800px) {
     .layout-home .read-all a {
@@ -789,7 +789,7 @@ footer {
 
 .date {
   margin-top: -1em;
-  color: #AAAAAA;
+  color: #aaaaaa;
   font-size: 0.9em;
   text-transform: uppercase;
   letter-spacing: 1px; }
@@ -843,7 +843,7 @@ footer {
 .mc-submit {
   border: none;
   border: 1px solid #444;
-  background-color: teal;
+  background-color: #058ed9;
   border-radius: 2px;
   color: white;
   min-height: 44px; }
