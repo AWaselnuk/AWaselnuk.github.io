@@ -71,6 +71,20 @@ This type of self-directed learning is not only a natural advantage for kids, it
 
 ## economic factors
 
+Once you realize homeschooling is a compelling option, you bump up against one of the biggest challenges. A family's financial situation can often kill the idea before you ever get a chance to try it out. Choosing to homeschool, means choosing to have your kids at home all day. Instead of state-funded childcare, you have to be the primary guardian of your kids during regular business hours.
+
+I acknowledge this is a _serious_ challenge. Many families simply cannot afford to go from two incomes down to one. Many people have jobs that won't offer the flexibility needed to make this happen. It's an incredibly difficult situation. My wife and I were lucky enough to completely sidestep this problem. I had moved into the tech industry and secured a long-term job that paid very well. Amanda had never found a fulfilling career and had been wasting her time doing crappy jobs that paid poorly. The choice was clear: Amanda would stay at home and become the primary caregiver of our children.
+
+In some cases, it's not a matter of money but personal goals. Many people _do_ have careers they like and they imagine themselves going far. Our culture still has a ridiculous pattern of equating income level with overall success. It is a tough pill to swallow. Walking away from your hard-earned career goals to do something as humble as teaching and raising your kids every day.
+
+I often think about what we would have done if the financial situation had not been so clearly solvable. Would one of us have dropped our career goals to pursue homeschooling? I like to think I would have done it if necessary. What could be more important than my children's daily education and quality of life? What could be more important than spending the most time possible with my children during there most formative years? If I'm being completely honest, I don't know if I would have done it. Looking back I have rose-coloured glasses. Knowing what I now know about homeschooling, I believe I would have dropped everything in an instant. But the truth is that we had much less conviction at the time we made the decision. The truth is I seek status just like everybody else. I take pride in appearing successful. I am selfish.
+
+Public school is like a jobs program for adults.
+
 ## reversibility of the decision
+
+When deciding whether to homeschool your kids, it can feel like a life-altering decision. It feels _heavy_, as if you are deciding their entire fate. This is a trap. Homeschooling is something you can simply _try_. It's not a lifelong commitment. Public school makes it very simple to enroll your kids at any age. If you try homeschooling, and it doesn't work for your family, you can stop doing it. It's a reversible decision.
+
+Your employer will probably be happy to have you back. There will always be other job opportunities. Your children might need an adjustment period, but you know as well as I do that they adapt quickly to changing circumstances.
 
 {% include article_signup_form.html %}
