@@ -100,7 +100,7 @@ I imagine myself beginning as a bootstrapped solopreneur who is aiming for a lif
 
 ## Fantasy RPGs and Homeschooling
 
-There are two areas of interest I will focus on to bound myself. I will start with tabletop roleplaying games like Dungeons & Dragons. Fantasy has always been an important part of my life. I see a real opportunity to bring the Old Magic you find in the books into online products. I have already begun under the name [Sword & Source](https://twitter.com/swordnsource).
+There are two areas of interest I will focus on to bound myself. I will start with tabletop roleplaying games like Dungeons & Dragons. Fantasy has always been an important part of my life. I see a real opportunity to bring the Old Magic you find in the books into online products. I have already begun under the name [Sword & Source](https://swordandsource.ca).
 
 My second area of interest is homeschooling and future models of education. It was clear to me and my wife years ago that the current public education system does not make sense for a lot of kids. It does not fit in our modern context. COVID19 has made that clear to many other people. If I can think of some way to help in this area, I will.
 
