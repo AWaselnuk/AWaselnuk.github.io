@@ -20,12 +20,12 @@ I love to play table top games. Role playing games and board games have been a m
 
 Here Be Taverns generates random content for fantasy role playing games based on a mood and a locale. You can roll a completely random tavern or you can select a mood or locale of your choice. The mood and locale will influence the results of the generator. When your tavern is generated you get:
 
-* A name for the tavern
-* A mood and locale (i.e. 'horrifying' and 'mountains')
-* A description of the inns appearance
-* A menu item
-* Characters with name, race, job, quirk, and quote. (i.e. Loroz Stonefist the dwarf paladin)
-* Some story hooks and interactions between the characters to inspire your own tale!
+- A name for the tavern
+- A mood and locale (i.e. 'horrifying' and 'mountains')
+- A description of the inns appearance
+- A menu item
+- Characters with name, race, job, quirk, and quote. (i.e. Loroz Stonefist the dwarf paladin)
+- Some story hooks and interactions between the characters to inspire your own tale!
 
 ## Built on Rails
 
@@ -47,7 +47,7 @@ Each month I would come back to the project having learned a ton on the job. I w
 
 In the end, I finally got the things fixed that I wanted to fix and the app is live. Is it still in need of refactoring work? Of course it is. There is always refactoring to do.
 
-The key lesson here is to launch earlier and think about refactoring as a long term activity rather than something that *has* to be done before launch. For all I know I have refactored a bunch I things I am about to rip out once real people tell me about the features they actually want.
+The key lesson here is to launch earlier and think about refactoring as a long term activity rather than something that _has_ to be done before launch. For all I know I have refactored a bunch I things I am about to rip out once real people tell me about the features they actually want.
 
 ### Randomness
 
@@ -58,16 +58,18 @@ The whole point of Here Be Taverns is to generate random content. The way I appr
 def initialize(attributes = {})
   @mood = attributes[:mood]
 
-  roll = rand(4) + 1
-  @variation = roll
+roll = rand(4) + 1
+@variation = roll
 
-  # Assign Adjectives, Nouns, Character Name based on random chance
-  @adjective = Adjective.random(mood: @mood).name.capitalize if roll.odd?
-  @first_noun = Noun.random.name.capitalize if roll < 4
-  @second_noun = Noun.random.name.capitalize if roll == 2
-  @character_name = attributes[:character_name][/(\S+)/, 1] if roll == 4
+# Assign Adjectives, Nouns, Character Name based on random chance
+
+@adjective = Adjective.random(mood: @mood).name.capitalize if roll.odd?
+@first_noun = Noun.random.name.capitalize if roll < 4
+@second_noun = Noun.random.name.capitalize if roll == 2
+@character_name = attributes[:character_name][/(\s+)/, 1] if roll == 4
 end
 {% endhighlight %}
+
 </div>
 
 #### Pulling Random Rows
@@ -137,5 +139,3 @@ Something else I am interested in doing, is designing a simple backend API for g
 I am a fan of some of the new tools in the Javascript MV\* world so you can expect to see some aspects of those work there way in when I revisit the interface design.
 
 Thanks so much for reading this far. This was a long one!
-
-{% include external_links.html %}

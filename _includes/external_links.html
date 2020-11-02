@@ -1,7 +1,9 @@
+{% if page.live or page.github %}
 
 <hr>
 
 <div>
+  <h3>Links to project</h3>
   {% if page.live %}
   <a class="btn btn-primary random-color" href="{{ page.live }}">View Live</a>
   {% endif %}
@@ -9,3 +11,7 @@
   <a class="btn btn-primary random-color" href="{{ page.github }}">View On Github</a>
   {% endif %}
 </div>
+
+<hr>
+
+{% endif %}

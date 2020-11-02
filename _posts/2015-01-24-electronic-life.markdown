@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Experiment: Electronic Life"
-date:   2015-01-24 13:31:00
+title: "Experiment: Electronic Life"
+date: 2015-01-24 13:31:00
 categories: experiments
 tags: experiments javascript
 live: "//awaselnuk.github.io/electronic-life/"
@@ -39,16 +39,17 @@ var directions = {
 var directionNames = "n ne e se s sw w nw".split(" ");
 
 function BouncingCritter() {
-  this.direction = randomElement(directionNames);
+this.direction = randomElement(directionNames);
 };
 
 BouncingCritter.prototype.act = function(view) {
-  if (view.look(this.direction) != " ") {
-    this.direction = view.find(" ") || "s";
-  }
-  return { type: "move", direction: this.direction };
+if (view.look(this.direction) != " ") {
+this.direction = view.find(" ") || "s";
+}
+return { type: "move", direction: this.direction };
 };
 {% endhighlight %}
+
 </div>
 
 There is quite a bit missing from this snippet but hopefully you can get a feel for the style of the code.
@@ -65,8 +66,3 @@ I highly recommend the book and this exercise for anyone trying to get their hea
 ## On a related topic...
 
 This exercise sparked my interest in exploring natural simulations in the browser. It turns out I'm not the only one interested in this. I found an incredibly fun looking library that provides tools for doing this easily. It's called [FloraJS](https://github.com/vinceallenvince/FloraJS). If Electronic Life seems fun, just wait until you see what FloraJS can do!
-
-{% include further_reading.html %}
-
-{% include external_links.html %}
-

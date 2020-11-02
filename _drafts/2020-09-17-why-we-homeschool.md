@@ -86,5 +86,3 @@ Public school is like a jobs program for adults.
 When deciding whether to homeschool your kids, it can feel like a life-altering decision. It feels _heavy_, as if you are deciding their entire fate. This is a trap. Homeschooling is something you can simply _try_. It's not a lifelong commitment. Public school makes it very simple to enroll your kids at any age. If you try homeschooling, and it doesn't work for your family, you can stop doing it. It's a reversible decision.
 
 Your employer will probably be happy to have you back. There will always be other job opportunities. Your children might need an adjustment period, but you know as well as I do that they adapt quickly to changing circumstances.
-
-{% include article_signup_form.html %}

@@ -57,10 +57,10 @@ A side effect is when a function affects the world outside of itself. A pure fun
 
 Pure functions also come along with some useful properties. If a function doesn't fit any one of these properties it probably is not a pure a function. Pure functions are:
 
-* **Testable** - They are easy to test without creating mocks or fixtures.
-* **Portable** - They can be used in any context and still behave the way you expect them to.
-* **Memoizable** - They can be [memoized](http://www.sitepoint.com/implementing-memoization-in-javascript/).
-* **Parallelizable** - They can be run in parallel without causing mischief.
+- **Testable** - They are easy to test without creating mocks or fixtures.
+- **Portable** - They can be used in any context and still behave the way you expect them to.
+- **Memoizable** - They can be [memoized](http://www.sitepoint.com/implementing-memoization-in-javascript/).
+- **Parallelizable** - They can be run in parallel without causing mischief.
 
 ### Examples
 
@@ -72,15 +72,16 @@ function handleErrors ($form) {
   let $submitButton = $form.find('.submit-button');
   $submitButton.prop('disabled', false);
 
-  // ... print error messages
+// ... print error messages
 }
 {% endhighlight %}
+
 </div>
 
 This function:
 
-* Would need a fixture in order to test it.
-* Can't guarantee the same result if it was run in a different context.
+- Would need a fixture in order to test it.
+- Can't guarantee the same result if it was run in a different context.
 
 Basically any DOM mutation is a side effect. This function is not pure.
 
@@ -101,13 +102,14 @@ function pluralize (pluralDictionary, quantity, word) {
     return word;
   }
 
-  return pluralDictionary[word] ||
-    word + 's';
+return pluralDictionary[word] ||
+word + 's';
 }
 {% endhighlight %}
+
 </div>
 
-This function will always return the same result when given the same inputs. Note that if the dictionary had *not* been passed in we wouldn't be able to guarantee that. Since we did pass in the dictionary this function is pure.
+This function will always return the same result when given the same inputs. Note that if the dictionary had _not_ been passed in we wouldn't be able to guarantee that. Since we did pass in the dictionary this function is pure.
 
 ## Avoiding Side Effects
 
@@ -127,9 +129,9 @@ Currying is a tool that let's you pass arguments to a function one at a time. Th
 
 // Here is a function that is curried
 let add = function (x) {
-  return function (y) {
-    return x + y;
-  };
+return function (y) {
+return x + y;
+};
 };
 
 let increment = add(1);
@@ -149,6 +151,7 @@ let match = curry((what, str) => str.match(what));
 let hasSpaces = match(/\s+/g);
 // function (x) { return x.match(/\s+/g) }
 {% endhighlight %}
+
 </div>
 
 Notice that when creating curried functions, you should always put the data to operate on as the last function parameter.
@@ -173,6 +176,7 @@ let shoutTwice = compose(duplicate, shout);
 shoutTwice("huzzah");
 // "HUZZAH! HUZZAH!"
 {% endhighlight %}
+
 </div>
 
 In the examples, `compose` is a function that creates the pipeline. The pipeline sends the data through the functions from the rightmost function to the left.
@@ -183,7 +187,7 @@ Notice how easy it was to add to the pipeline and create `shoutTwice`? Reconfigu
 
 Monads are yet another magical item used in the quest to eliminate side effects. Going through the details would make this already long article ridiculously long so I will just briefly mention them as one of the cornerstones of the functional programming style.
 
-Monads are a construct that have to follow a bunch of rules but they are essentially containers around data. You access the data by *mapping* over the container, otherwise you work with the container when doing function composition and building up your program. There are a whole bunch of different Monads that give you various magical powers. I urge you to read [Chapter 8 of the Mostly Adequate Guide](https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch8.html) if you want to learn more about them.
+Monads are a construct that have to follow a bunch of rules but they are essentially containers around data. You access the data by _mapping_ over the container, otherwise you work with the container when doing function composition and building up your program. There are a whole bunch of different Monads that give you various magical powers. I urge you to read [Chapter 8 of the Mostly Adequate Guide](https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch8.html) if you want to learn more about them.
 
 ### Example Apps
 
@@ -191,7 +195,7 @@ Here is an example app written in JavaScript using the functional style. There m
 
 ## Next Steps
 
-At this point I am just beginning to understand why this style of programming would be a benefit. With more practice, I hope to move towards a place where I really *feel* the advantages.
+At this point I am just beginning to understand why this style of programming would be a benefit. With more practice, I hope to move towards a place where I really _feel_ the advantages.
 
 Although I don't follow the functional style in my daily work, some of the ideas have started to stick and are influencing the way I write code. I am starting to really notice hidden inputs and side effects. Whenever possible I take steps to make them more explicit even if I can't figure out how to eliminate them.
 
@@ -200,7 +204,3 @@ The goal all along has been to learn and practice a style of programming that wo
 ## Thanks
 
 I want to give special thanks to [Joe Nelson](https://twitter.com/begriffs) and [Brian Lonsdorf](https://twitter.com/drboolean) who did an amazing job of unpacking these ideas in the [Front End Masters course](https://frontendmasters.com/courses/functional-javascript/). Brian has also created an amazing online book called "Professor Frisby's Mostly Adequate Guide to Functional Programming". Check it out!
-
-{% include further_reading.html %}
-
-

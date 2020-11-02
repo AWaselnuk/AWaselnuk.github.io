@@ -55,5 +55,3 @@ How can this plan fail?
 If there is little response to these projects, I will not have failed, I will have learned something. I will have developed skills I need. I will have learned more about what people like. I will have developed relationships with my audience. In every future I will continue to learn and build.
 
 These are failproof projects.
-
-{% include article_signup_form.html %}

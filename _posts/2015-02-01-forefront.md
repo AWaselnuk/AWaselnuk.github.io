@@ -45,5 +45,3 @@ The project is incomplete, but what I currently have is already miles ahead of t
 I wanted to create something that was less heavy than Yeoman and not tied to any specific other framework. The Forefront interface asks me what I want and only builds what I agree to. I could, for example, use it to quickly install a package.json file and nothing more. I was inspired to follow this approach from a thread surrounding another JS tool coming out in the future called [Cloverfield](https://github.com/ericelliott/cloverfield/issues/2) by Eric Elliot. Cloverfield will end up being a much more thorough implementation for scaffolding JavaScript stuff.
 
 I can't rightfully call Forefront thorough. It is not. The other reason I created it was simply to create. Selfish I know, but there is no better way to learn. Ultimately I think that, although it may only be useful for me right now, it provides a proof of concept for a front end command line workflow that could really go somewhere.
-
-{% include external_links.html %}

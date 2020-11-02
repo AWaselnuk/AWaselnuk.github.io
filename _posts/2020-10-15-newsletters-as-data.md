@@ -49,5 +49,3 @@ Powering the system are a handful of NodeJS scripts. I'll highlight the two I us
 Text files organized in folders are a fantastic data source. They are completely transparent so you can see exacty what's in them. They are trackable in Git. They are highly portable. They require no fancy dependencies. Using markdown allows for a nice writing process and the ability to adapt the content to any HTML-based platform.
 
 By thinking of your newsletters as data, you can incrementally build up a large body of reusable content and apply it in different ways.
-
-{% include article_signup_form.html %}

@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "10 things I learned in my transition from web designer to developer"
-date:   2015-01-28 18:00:00
+title: "10 things I learned in my transition from web designer to developer"
+date: 2015-01-28 18:00:00
 categories: miscellaneous
 tags: oodesign design programming ruby
 cover: "console.gif"
@@ -63,12 +63,15 @@ This is an Object Oriented way of thinking. To sum it up: who cares what a thing
 {% highlight ruby %}
 
 'adam'.nil?
+
 # => false
 
 nil.nil?
+
 # => true
 
 {% endhighlight %}
+
 </div>
 
 Even a nil value responds to the message .nil? This is by design.
@@ -88,7 +91,3 @@ In addition, you avoid using libraries that offer features your language already
 ## 10. Don't be self-conscious about your code. Show it to people!
 
 This can be daunting, but it is essential that you conquer your shyness when it comes to sharing code. There is no faster way to learn!
-
-{% include further_reading.html %}
-
-

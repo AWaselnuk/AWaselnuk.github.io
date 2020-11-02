@@ -109,7 +109,3 @@ My second area of interest is homeschooling and future models of education. It w
 I expect that this will be difficult. Very difficult. But through difficulty I will experience radical personal growth. I want to develop my character, test my mettle, and find my life's work.
 
 Thank you for sharing in this small part of my journey. I will be writing about it a lot more.
-
-{% include article_signup_form.html %}
-
-{% include further_reading.html %}

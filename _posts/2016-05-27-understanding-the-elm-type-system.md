@@ -75,7 +75,7 @@ There are two things that stand out in this example: the use of parentheses, and
 
 `map` is a function that accepts a function and a `List` and returns a `List`
 
-`a` and `b` are what's known as *type variables*. They are placeholders for any type. So in this example, a function that accepts a value of type `a` really means a function that accepts a value of *any* type. The important thing is that type `a` stays the same and type `b` stays the same. Here are some possiblities for the `map` function:
+`a` and `b` are what's known as _type variables_. They are placeholders for any type. So in this example, a function that accepts a value of type `a` really means a function that accepts a value of _any_ type. The important thing is that type `a` stays the same and type `b` stays the same. Here are some possiblities for the `map` function:
 
 <div>
 {% highlight haskell %}
@@ -93,9 +93,10 @@ map : (Int -> String) -> List Int -> List String
 -- a List of Booleans
 map : (String -> Bool) -> List String -> List Bool
 {% endhighlight %}
+
 </div>
 
-Here is an example that would violate the type annotation (think of it as the *contract*) for the `map` function:
+Here is an example that would violate the type annotation (think of it as the _contract_) for the `map` function:
 
 <div>
 {% highlight haskell %}
@@ -118,7 +119,7 @@ connectWords : String -> String -> String
 {% endhighlight %}
 </div>
 
-The key to understanding is to realize that every function is Elm is *curried* by default. You may sometimes hear this idea referred to as *partial application*. The two concepts are closely related but not exactly the same thing.
+The key to understanding is to realize that every function is Elm is _curried_ by default. You may sometimes hear this idea referred to as _partial application_. The two concepts are closely related but not exactly the same thing.
 
 Partial application means that you can pass any number of arguments on the left side of an arrow and receive the right side of the arrow. So if I have a type annotation of `a -> b -> c`, I can pass `a` into the function and it will return a function `b -> c`. Or I can pass `a` and `b` into the function and it will return the value `c`.
 [Professor Frisby's Mostly Adequate Guide to Functional Programming](https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch4.html) describes it as follows: "You can call a function with fewer arguments than it expects. It returns a function that takes the remaining arguments."
@@ -127,7 +128,7 @@ What helped me a lot here was to read up on the concept of partial function appl
 
 ## Unlock the power of defining types
 
-Let's look at some more practical examples of how powerful the Elm type system can be. Elm has a data type called *records* which are very similar to JavaScript objects. The type system allows you to ask for a certain thing to exist in a record.
+Let's look at some more practical examples of how powerful the Elm type system can be. Elm has a data type called _records_ which are very similar to JavaScript objects. The type system allows you to ask for a certain thing to exist in a record.
 
 <div>
 {% highlight haskell %}
@@ -170,8 +171,9 @@ type alias User =
 
 userView : User -> Html
 userView user =
-  -- code that renders a view for user ...
+-- code that renders a view for user ...
 {% endhighlight %}
+
 </div>
 
 Using a type alias we can describe the exact shape of what a user record should be. Our Elm app won't compile if a user record is missing one of these entries, has an extra entry, or an entry is not the correct type. This ensures that any bugs are caught long before a customer ever sees them.
@@ -192,16 +194,18 @@ type User = SuperAdmin | Admin | Basic
 
 userPhoto : User -> String
 userPhoto user =
-  case user of
-    SuperAdmin ->
-      "thassa.png"
+case user of
+SuperAdmin ->
+"thassa.png"
 
     Admin ->
       "jace.png"
 
     Basic ->
       "merfolk.png"
+
 {% endhighlight %}
+
 </div>
 
 This basic example only scratches the surface of how helpful these types can be. The Elm compiler is there to guide you towards accounting for every scenario so that your customers won't encounter errors at runtime. Watch what happens when you remove one of the branches from the case statment and try to compile:
@@ -212,15 +216,16 @@ type User = SuperAdmin | Admin | Basic
 
 userPhoto : User -> String
 userPhoto user =
-  case user of
-    Admin ->
-      "jace.png"
+case user of
+Admin ->
+"jace.png"
 
     Basic ->
       "merfolk.png"
-{% endhighlight %}
-</div>
 
+{% endhighlight %}
+
+</div>
 
 <figure>
   <img alt="The Elm compiler highlighting a type error" src="/img/posts/elm-compiler-case-branch-error.png">
@@ -234,5 +239,3 @@ Imagine the power of this when you are working on a code base with multiple modu
 By paying attention to Type annotations and understanding their syntax, you will write programs that are reliable, scalable, and easy to understand. When you hit tough spots while learning, don’t be shy about exploring functional programming concepts (like partial application and currying) to help unlock the bigger picture behind Elm’s design.
 
 You should explore the [Elm Todo MVC](https://github.com/evancz/elm-todomvc) example sometime this week to see how the type system works in a real app. Don’t be afraid to break it … Elm types have got your back!
-
-{% include further_reading.html %}

@@ -24,13 +24,14 @@ update action model =
 
 -- VIEW
 input
-  [
-    class "character-level"
-  , type' "number"
-  , value (toString character.level)
-  , on "input" targetValue (\level -> Signal.message context.actions (ModifyLevel (safeStrToLevel level)))
-  ] []
+[
+class "character-level"
+, type' "number"
+, value (toString character.level)
+, on "input" targetValue (\level -> Signal.message context.actions (ModifyLevel (safeStrToLevel level)))
+] []
 {% endhighlight %}
+
 </div>
 
 In this example, whenever the user types a level into the character-level input, the program sends a message tagged with the `ModifyLevel` action and the level to the `update` function. The program restricts the level by calling `restrictLevel` on the data passed to the `update` function.
@@ -61,5 +62,3 @@ restrictLevel level =
 </div>
 
 <small>\*Note that at the time of this writing, I was using Elm core v3.0.0</small>
-
-{% include further_reading.html %}
