@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Adam Waselnuk's jekyll blog.",
   "scripts": {
-    "default": "npm run build:assets && npm run server & npm run watch:sass",
+    "start": "npm run build:assets && npm run server & npm run watch:sass",
     "build": "npm run build:sass && npm run build:jekyll",
     "build:assets": "npm run build:sass",
     "build:jekyll": "bundle exec jekyll build --drafts",
