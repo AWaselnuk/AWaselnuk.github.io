@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /articles/:title
-title: "Introducing the wbb.fm podcast"
+title: "Introducing the Wazel Brothers Build (wbb.fm) podcast"
 ---
 
 After going out on my own to build a business, I started doing a weekly call with my brother [Brandon](). I noticed that every time we spoke I got a ton of value out of the conversations. Brandon knows a lot about building businesses and possesses many strengths that I am lacking. We compliment each other very well.
