@@ -5,6 +5,8 @@ description: >
   The best music, books, movies, tv shows, and ideas that Adam has ever come across.
 ---
 
+# My top recommendations
+
 I have done a tremendous amount of reading, watching, and listening over the years. This page curates the best of the best. When people ask "What would you recommend?", these are the things that jump to the top. They are listed in no particular order.
 
 ## Public Thinkers
