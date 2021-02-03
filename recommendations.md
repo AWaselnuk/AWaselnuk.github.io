@@ -43,6 +43,7 @@ I have done a tremendous amount of reading, watching, and listening over the yea
 
 - [Designing the Ideal Bootstrapped Business by Jason Cohen](https://vimeo.com/743382720)
 - [This is Water by David Foster Wallace](https://fs.blog/2012/04/david-foster-wallace-this-is-water/)
+- [Simplicity Matters by Rich Hickey](https://www.youtube.com/watch?v=rI8tNMsozo0)
 
 ## TV Shows
 
