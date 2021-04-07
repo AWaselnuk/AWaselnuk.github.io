@@ -12,7 +12,7 @@ But when my friend asked me the question, I was in a different context. The Twit
 
 _There is a long list of reasons so I'll just give you the most important one._
 
-_Amanda and I believe that our daughters will have a better life if they have more control over their own education. They will learn more, learn more deeply, and experience more of the world._
+_Amanda and I believe that our daughters will have a better life if they have more control over their own education. They will learn more, learn deeply, and experience more of the world._
 
 _It all started with some reflection on our own education experiences. Both of us spent unbelievable amounts of time essentially just sitting there. My lack of engagement went so far that I eventually just "checked out" sometime around grade 10. I didn't become interested in learning again until part way through university, and that's when my whole life changed. The amount of time wasted is incredible when you add it up._
 
