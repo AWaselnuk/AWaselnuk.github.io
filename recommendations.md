@@ -51,3 +51,13 @@ I have done a tremendous amount of reading, watching, and listening over the yea
 - True Detective
 - Fleabag
 - Breaking Bad
+
+## Movies
+
+- Parasite (2019)
+- Oldboy (2003)
+- Kill Bill: Vol. 1 (2003)
+- John Wick (2014)
+- Soul (2020)
+- Spirited Away (2001)
+- Midsommar (2019)
