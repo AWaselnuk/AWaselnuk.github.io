@@ -7,16 +7,17 @@ title: Now
 
 # What I am up to right now
 
-_Last updated December, 2020_
+_Last updated April, 2020_
+
+I'm always happy to take meetings with people to discuss entrepreneurship, products, partnerships, and the TTRPG/Gaming industry. [Send me an email if you want to chat.](mailto:adam.waselnuk@gmail.com)
 
 - Recently [left my job at Shopify](https://www.adamwaselnuk.com/2020/08/27/into-the-unknown-leaving-shopify-to-build-a-business.html) to pursue entrepreneurship.
-- Happy to take meetings with people in the Tabletop Roleplaying Game industry or to discuss entrepreneurship, products, and ideas.
-- Studying mythology and growing my audience [Novus Bestiary](https://www.novusbestiary.com).
-- Building version 2 of [Here Be Taverns](http://www.herebetaverns.com).
-- Writing [The Quickstart Guide to Game Mastering](https://howtogm.guide)
-- Advising [mighty.business](mighty.business), a startup that empowers kids to make their own business.
-- Practicing longsword at [Ottawa Swordplay](https://ottawaswordplay.com/) based on the [Liechtenauer](https://en.wikipedia.org/wiki/Johannes_Liechtenauer) tradition.
-
-[Please send me an email if you want to chat.](mailto:adam.waselnuk@gmail.com)
+- Building a business called [Sword & Source](https://swordandsource.ca) in the Tabletop Roleplaying Game industry.
+- Building a premium version of [Here Be Taverns](http://www.herebetaverns.com/premium).
+- Preparing final touches for launching [The Quickstart Guide to Game Mastering](https://howtogm.guide)
+- Adding stat blocks for 5e to [Novus Bestiary](https://www.novusbestiary.com).
+- Learning about [publishing indie RPG products](https://swordandsource.ca/blogs/for-ttrpg-content-creators/the-path-to-published-part-i-introduction) on various marketplaces.
+- Cutting a network of trails in the woods on my property.
+- Going through a major kitchen renovation and repairing a flooded basement.
 
 _Part of the [Now Page Movement](https://sivers.org/nowff) from Derek Sivers_
