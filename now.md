@@ -20,4 +20,6 @@ I'm always happy to take meetings with people to discuss entrepreneurship, produ
 - Cutting a network of trails in the woods on my property.
 - Going through a major kitchen renovation and repairing a flooded basement.
 
+Bonus: [See all my bootstrapper milestones here](/milestones)
+
 _Part of the [Now Page Movement](https://sivers.org/nowff) from Derek Sivers_
