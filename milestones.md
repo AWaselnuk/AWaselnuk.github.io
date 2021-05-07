@@ -13,11 +13,13 @@ I'll keep track of my milestones here:
 
 ## Up Next
 
-- Sell my first digital product
-- Achieve "break-even MRR (~$100)". This is enough monthly revenue to pay for the costs of the services I use to run the business.
+- Achieve "break-even MRR" (~$100). This is enough monthly revenue to pay for the costs of the services I use to run the business.
+- Launch [The Quickstart Guide to Game Mastering](https://howtogm.guide)
 
 ## Done!
 
+- May 6, 2021 - Made my first software sale. I sold a [Premium Pass for Here Be Taverns](https://www.herebetaverns.com/premium).
+- May 6, 2021 - Launched [Here Be Taverns Premium Pass](https://www.herebetaverns.com/premium) with the first premium generator – Factions.
 - Apr. 26, 2021 - Turn off new subscriber notifications from Mailchimp because there are too many coming in every day.
 - Mar. 29, 2021 - Launch [Crash the System](https://swordandsource.ca/blogs/news/crash-the-system-a-rules-lite-cyberpunk-rpg-designed-for-one-shots-or-short-campaigns), a rules-lite cyberpunk RPG. This is my first time ever being involved in a published RPG.
 - Jan. 30, 2021 - [I make my first $1 on the internet.](/articles/i-made-my-first-dollar-on-the-internet)
