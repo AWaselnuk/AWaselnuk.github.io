@@ -18,6 +18,7 @@ I have done a tremendous amount of reading, watching, and listening over the yea
 ## Articles
 
 - [Meditations on Moloch](https://slatestarcodex.com/2014/07/30/meditations-on-moloch/)
+- [The Gervais Principle, Or The Office According to 'The Office'](https://www.ribbonfarm.com/2009/10/07/the-gervais-principle-or-the-office-according-to-the-office/)
 
 ## Books, Fiction
 
@@ -25,7 +26,16 @@ I have done a tremendous amount of reading, watching, and listening over the yea
 - The Count of Monte Cristo by Alexander Dumas
 - The Graveyard Book by Neil Gaiman
 - The Hobbit by J.R.R. Tolkien
+- Dune by Frank Herbert
+- A Wizard of Earthsea by Ursula K. LeGuin
+- The Golden Compass by Philip Pullman
+- A Game of Thrones by George R.R. Martin
 - Harry Potter series by J.K. Rowling
+- The Road by Cormac McCarthy
+- 1984 by George Orwell
+- The Girl With The Dragon Tattoo by Stieg Larsson
+- Frankenstein by Mary Shelley
+- Brave New World by Aldous Huxley
 
 ## Books, Non-Fiction
 
@@ -33,11 +43,15 @@ I have done a tremendous amount of reading, watching, and listening over the yea
 - Sapiens by Yuval Noah Harari
 - Risk by Dan Gardner
 - The Life Changing Magic of Tidying Up by Marie Kondo
+- The 4-Hour Workweek by Timothy Ferriss
+- Essentialism by Greg McKeown
+- Rework by Jason Freid & DHH
 
 ## Books, Technical
 
 - Practical Object Oriented Design in Ruby by Sandi Metz
 - The Elements of Typographic Style by Robert Bringhurst
+- Domain Driven Design by Eric Evans
 
 ## Talks
 
