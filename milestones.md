@@ -13,11 +13,12 @@ I'll keep track of my milestones here:
 
 ## Up Next
 
-- Achieve "break-even MRR" (~$100). This is enough monthly revenue to pay for the costs of the services I use to run the business.
-- Launch [The Quickstart Guide to Game Mastering](https://howtogm.guide)
+- Double the ARR of [LegendKeeper](https://legendkeeper.com).
 
 ## Done!
 
+- Aug 4, 2021 - Joined [LegendKeeper](https://legendkeeper.com) as a partner to help with growth.
+- May 14, 2021 - Launched [The Quickstart Guide to Game Mastering](https://howtogm.guide)
 - May 6, 2021 - Made my first software sale. I sold a [Premium Pass for Here Be Taverns](https://www.herebetaverns.com/premium).
 - May 6, 2021 - Launched [Here Be Taverns Premium Pass](https://www.herebetaverns.com/premium) with the first premium generator – Factions.
 - Apr. 26, 2021 - Turn off new subscriber notifications from Mailchimp because there are too many coming in every day.
