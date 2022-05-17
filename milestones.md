@@ -11,12 +11,7 @@ Bootstrapped founders hit many milestones on their journey towards a sustainable
 
 I'll keep track of my milestones here:
 
-## Up Next
-
-- Double the ARR of [LegendKeeper](https://legendkeeper.com).
-
-## Done!
-
+- May 16, 2022 - Moved to an advisory role for [LegendKeeper](https://www.legendkeeper.com/changes-to-the-lk-team/).
 - Aug 4, 2021 - Joined [LegendKeeper](https://legendkeeper.com) as a partner to help with growth.
 - May 14, 2021 - Launched [The Quickstart Guide to Game Mastering](https://howtogm.guide)
 - May 6, 2021 - Made my first software sale. I sold a [Premium Pass for Here Be Taverns](https://www.herebetaverns.com/premium).

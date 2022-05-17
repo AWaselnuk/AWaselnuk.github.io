@@ -35,4 +35,3 @@ Here's a picture:
 <img alt="Example of fetching Stripe subscriptions by date range from Zapier" src="/img/posts/stripe-zapier-example.jpg">
 
 Hope I saved you some time :)
-

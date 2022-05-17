@@ -7,14 +7,14 @@ title: Now
 
 # What I am up to right now
 
-_Last updated April, 2020_
+_Last updated May, 2022_
 
 I'm always happy to take meetings with people to discuss entrepreneurship, products, partnerships, and the TTRPG/Gaming industry. [Send me an email if you want to chat.](mailto:adam.waselnuk@gmail.com)
 
-- Leading Growth at [LegendKeeper](https://legendkeeper.com) - the best app for Game Masters and Worldbuilders.
+- Looking for my next thing. [Let's collaborate.](/collaborate)
 - Running some Tabletop RPG websites from [Sword & Source](https://swordandsource.ca), a company I created.
-- Reading some Ursula K. LeGuin books.
-- Getting into [rucking](https://www.goruck.com/pages/what-is-rucking).
+- Reading Storyworthy and some H.G. Wells.
+- Hiking as much as possible.
 - Studying marketing and the business side of Saas.
 
 Bonus: [See all my bootstrapper milestones here](/milestones)
