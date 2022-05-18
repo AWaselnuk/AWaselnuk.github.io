@@ -8,7 +8,7 @@ tags: presentations prioritization ux product
 <section>
   <h2>Prioritizing UX work:<br>a set of lenses</h2>
   <p>
-    Adam Waselnuk (<a href="https://twitter.com/awazels">@AWaselnuk</a>)
+    Adam Waselnuk (<a href="https://twitter.com/awazels">@awazels</a>)
     <br>
     Front End Developer Lead at <a href="https://ux.shopify.com/">Shopify</a>
   </p>

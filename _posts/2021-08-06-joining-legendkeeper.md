@@ -16,7 +16,7 @@ As you can imagine, this is a big bet for me. I'm thrilled to be focusing and do
 
 ## Step changes
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A big rush for me today on this entrepreneurial rollercoaster ride.<br><br>Step changes:<br>* Solo founder -&gt; Founding team<br>* Exploring projects -&gt; Scaling a SaaS with traction<br>* Many small bets -&gt; FOCUS<br>* Writing code -&gt; Growth and marketing <br><br>I&#39;ll need your help with that last one :) <a href="https://t.co/aevv3Dti9g">https://t.co/aevv3Dti9g</a></p>&mdash; Adam Waselnuk (@AWaselnuk) <a href="https://twitter.com/awazels/status/1423652860412239886?ref_src=twsrc%5Etfw">August 6, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A big rush for me today on this entrepreneurial rollercoaster ride.<br><br>Step changes:<br>* Solo founder -&gt; Founding team<br>* Exploring projects -&gt; Scaling a SaaS with traction<br>* Many small bets -&gt; FOCUS<br>* Writing code -&gt; Growth and marketing <br><br>I&#39;ll need your help with that last one :) <a href="https://t.co/aevv3Dti9g">https://t.co/aevv3Dti9g</a></p>&mdash; Adam Waselnuk (@awazels) <a href="https://twitter.com/awazels/status/1423652860412239886?ref_src=twsrc%5Etfw">August 6, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 This move is further proof that the entrepreneurial journey is anything but linear. With this change I have adopted more risk, but potentially accelerated my progress by years.
 
