@@ -8,7 +8,7 @@ tags: presentations javascript oop design
 <section>
   <h2>Practical Object-Oriented Design in JavaScript</h2>
   <p>
-    Adam Waselnuk (<a href="https://twitter.com/AWaselnuk">@AWaselnuk</a>)
+    Adam Waselnuk (<a href="https://twitter.com/awazels">@AWaselnuk</a>)
     <br>
     Technical Lead at <a href="https://www.shopify.com/careers">Shopify</a>
   </p>

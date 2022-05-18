@@ -30,7 +30,7 @@ I'm turning my eye towards a wide and uncharted path before me. I want to welcom
 
 ## The Shopify arc
 
-I began working at Shopify as a front end developer in 2015, 3 months before the company went public. I became a lead in my first year. Since then I've been managing dev teams and experiencing rapid personal growth. I had to sharpen my skills as the company scaled around me. I was learning to perform at an amazing tech company filled with high performers. In addition to those demands, I became a father and experienced the [beautiful, painful transformation that comes along with that](https://twitter.com/AWaselnuk/status/1297307744614199308?s=20).
+I began working at Shopify as a front end developer in 2015, 3 months before the company went public. I became a lead in my first year. Since then I've been managing dev teams and experiencing rapid personal growth. I had to sharpen my skills as the company scaled around me. I was learning to perform at an amazing tech company filled with high performers. In addition to those demands, I became a father and experienced the [beautiful, painful transformation that comes along with that](https://twitter.com/awazels/status/1297307744614199308?s=20).
 
 It is safe to say that my time at Shopify was not just another job. It was a phase of my life. A major arc of my story. It provided me with the skills, the confidence, and the financial leverage to try something bigger.
 
