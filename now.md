@@ -17,6 +17,7 @@ I'm always happy to take meetings with people to discuss tech entrepreneurship, 
 - Studying game design, especially in relation to collaborative virtual worlds.
 - Reading books on game design, narrative system design, and story structure.
 - Watching What we do in the shadows on Disney+.
+- Testing [CODEOWNERS.com](https://codeowners.com)
 
 Bonus: [See all my bootstrapper milestones here](/milestones)
 
