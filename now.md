@@ -11,7 +11,7 @@ _Last updated Aug, 2022_
 
 I'm always happy to take meetings with people to discuss tech entrepreneurship, products, partnerships, and the TTRPG/Gaming industry. [Send me an email if you want to chat.](mailto:adam.waselnuk@gmail.com)
 
-- Thinking about what's next. [Should we collaborate?](/collaborate)
+- Thinking about what's next. [Should we collaborate?](/profile)
 - Running some Tabletop RPG websites from [Sword & Source](https://swordandsource.ca), a company I created.
 - Hiking as much as possible.
 - Studying game design, especially in relation to collaborative virtual worlds.
