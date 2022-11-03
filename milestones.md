@@ -1,18 +1,22 @@
 ---
 layout: default
-title: Bootstrapper Milestones
+title: Founder Milestones
 ---
 
 [back to articles](/)
 
-# Bootstrapper Milestones
+# Founder Milestones
 
-Bootstrapped founders hit many milestones on their journey towards a sustainable business. It's important to remember and celebrate them because the road is long and interesting.
+Founders hit many milestones on their journey towards a sustainable business. It's important to remember and celebrate them because the road is long and interesting.
 
 I'll keep track of my milestones here:
 
+- Oct. 17, 2022 - First full work day on MUSE, a platform to create, play, and share mobile RPGs.
+- Oct. 14, 2022 - Launched [The Oracle](https://swordandsource.ca/the-oracle-is-live-today/), a feature in Here Be Taverns that lets Game Masters generate artwork with Stable Diffusion. My beta testers had already burned through 4000 credits. The feature gets great user feedback and causes revenue to jump up.
+- Oct. 4, 2022 - I have an epiphany: A complete vision for a product that could address my Core Problem and be commercially viable. I make the decision to pursue it full time after I launch The Oracle.
+- May 31, 2022 - Began work on a project with Meta as a product design consultant. This turns out to be a transformative project and team for my career.
 - May 16, 2022 - Moved to an advisory role for [LegendKeeper](https://www.legendkeeper.com/changes-to-the-lk-team/).
-- Aug 4, 2021 - Joined [LegendKeeper](https://legendkeeper.com) as a partner to help with growth.
+- Aug. 4, 2021 - Joined [LegendKeeper](https://legendkeeper.com) as a partner to help with growth.
 - May 14, 2021 - Launched [The Quickstart Guide to Game Mastering](https://howtogm.guide)
 - May 6, 2021 - Made my first software sale. I sold a [Premium Pass for Here Be Taverns](https://www.herebetaverns.com/premium).
 - May 6, 2021 - Launched [Here Be Taverns Premium Pass](https://www.herebetaverns.com/premium) with the first premium generator – Factions.
