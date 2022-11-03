@@ -617,7 +617,12 @@ a {
   Figures
 *******************************************************************************/
 figcaption {
+  text-align: center;
   color: #aaaaaa; }
+  figcaption a {
+    color: #aaaaaa; }
+    figcaption a:visited {
+      color: #aaaaaa; }
 
 .btn {
   display: inline-block;

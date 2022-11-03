@@ -202,5 +202,12 @@ a {
 *******************************************************************************/
 
 figcaption {
+  text-align: center;
   color: $gray;
+  a {
+    color: $gray;
+    &:visited {
+      color: $gray;
+    }
+  }
 }
