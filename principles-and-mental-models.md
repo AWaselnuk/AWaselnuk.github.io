@@ -182,13 +182,13 @@ To understand how you should manage these stakeholders, place them into 4 quadra
 <table style="width: 100%; border: 1px solid #ccc;">
   <tr>
     <td style="text-align: center; height: 80px; width: 20%; background-color: #eee;"></td>
-    <td style="text-align: center; height: 80px; width: 40%; background-color: #8afacf;">Keep Informed</td>
+    <td style="text-align: center; height: 80px; width: 40%; background-color: #8afacf;">Keep Satisfied</td>
     <td style="text-align: center; height: 80px; width: 40%; background-color: #ffa278;">Manage Actively</td>
   </tr>
   <tr>
     <th style="text-align: center; height: 80px; width: 20%; background-color: #eee;">Influence</th>
     <td style="text-align: center; height: 80px; width: 40%; background-color: #b5ffe5;">Monitor</td>
-    <td style="text-align: center; height: 80px; width: 40%; background-color: #8afacf;">Keep Satisfied</td>
+    <td style="text-align: center; height: 80px; width: 40%; background-color: #8afacf;">Keep Informed</td>
   </tr>
   <tr>
     <td style="height: 80px; width: 20%; background-color: #eee;"></td>
