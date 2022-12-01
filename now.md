@@ -11,7 +11,7 @@ _Last updated Nov, 2022_
 
 I'm always happy to take meetings with people to discuss tech entrepreneurship, product, or the gaming industry. [Send me an email if you want to chat.](mailto:adam.waselnuk@gmail.com)
 
-- Building a platform to help people create, play, and share mobile RPGs. Currently in the early design and research phase.
+- Building [MUSE: a platform to help people create, play, and share RPGs](https://www.musemakesgames.com). Currently in the early design and research phase.
 - Learning about fundraising which I've never done before but now need to do to build my vision.
 - Running tabletop RPG websites from my company [Sword & Source](https://swordandsource.ca). The most popular one is [Here Be Taverns](https://herebetaverns.com) which generates content for Game Masters using generative AI, markov chains, and simple array shuffling.
 - Studying game design, especially in relation to collaborative virtual worlds, tabletop RPGs, and mobile gaming.
