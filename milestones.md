@@ -11,6 +11,9 @@ Founders hit many milestones on their journey towards a sustainable business. It
 
 I'll keep track of my milestones here:
 
+- Apr. 20, 2023 - Receive my first paycheque from Storycraft.
+- Mar. 21, 2023 - My co-founder Andy sends me a picture from the Supercell office at GDC because he verbally closed our pre-seed round with LVP as our co-lead investor.
+- Mar. 13, 2023 - [Storycraft Games](https://storycraft.gg) is officially incorporated. MUSE had to become bigger - now it's called Storycraft.
 - Oct. 17, 2022 - First full work day on MUSE, a platform to create, play, and share mobile RPGs.
 - Oct. 14, 2022 - Launched [The Oracle](https://swordandsource.ca/the-oracle-is-live-today/), a feature in Here Be Taverns that lets Game Masters generate artwork with Stable Diffusion. My beta testers had already burned through 4000 credits. The feature gets great user feedback and causes revenue to jump up.
 - Oct. 4, 2022 - I have an epiphany: A complete vision for a product that could address my Core Problem and be commercially viable. I make the decision to pursue it full time after I launch The Oracle.
